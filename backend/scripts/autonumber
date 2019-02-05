@@ -1,0 +1,42 @@
+#!/bin/sh
+
+# A POSIX variable
+OPTIND=1         # Reset in case getopts has been used previously in the shell.
+
+# Initialize our own variables:
+initial_id=""
+
+while getopts "i:" opt; do
+    case "$opt" in
+    i)  initial_id=$OPTARG
+        ;;
+    esac
+done
+
+shift $((OPTIND-1))
+
+[ "$1" = "--" ] && shift
+
+if [ -z $initial_id ]
+then
+  echo "You need to specify an initial ID with the -i option"
+  exit 1
+fi
+
+if [ -z $1 ]
+then
+  echo "You must specify a file to autonumber"
+  exit 1
+fi
+
+if [ ! -r $1 ]
+then
+  echo "Cannot read the file you're trying to autonumber"
+  exit 1
+fi
+
+data=`jq '.' $1`
+hashes=`jq -r '.[] | .text' $1 | while read text; do echo $text | shasum - | awk '{print $1}'; done | jq --raw-input -nc '[inputs] | map({questionID: .})'`
+ids=`jq "[range($initial_id;$initial_id + length) | tostring] | map({_id: .})" $1`
+
+(echo "$data"; echo "$hashes"; echo "$ids") | jq -n '[inputs] | transpose | map(.[0] + .[1] + .[2])'

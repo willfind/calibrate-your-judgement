@@ -1,0 +1,16 @@
+#!/bin/sh
+
+if [ -z $1 ]
+then
+  echo "You must specify a file to timestamp"
+  exit 1
+fi
+
+if [ ! -r $1 ]
+then
+  echo "Cannot read the file you're trying to timestamp"
+  exit 1
+fi
+
+timestamp=`TZ=UTC date "+%H:%M, %b %d, %Y"`
+jq "map(. + {timeWhenAdded: \"$timestamp\"})" $1

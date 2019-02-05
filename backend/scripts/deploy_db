@@ -1,0 +1,5 @@
+deploy_db() {
+  questions=`curl -s -u fcc0cde8-43fc-4fee-9f30-a9144e600b73-bluemix:$2 https://fcc0cde8-43fc-4fee-9f30-a9144e600b73-bluemix.cloudant.com/$1/_design/bloom_filter/_view/number_of_questions | jq -r '.rows[0].value'`
+  echo "module.exports = $questions" > views/lib/number_of_questions.js
+  couchapp push . https://fcc0cde8-43fc-4fee-9f30-a9144e600b73-bluemix:$2@fcc0cde8-43fc-4fee-9f30-a9144e600b73-bluemix.cloudant.com/$1
+}

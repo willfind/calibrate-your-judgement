@@ -1,0 +1,11 @@
+#!/bin/sh
+
+source scripts/deploy_db
+
+read -s -p 'Cloudant password: ' pass
+echo
+
+for db in city_population confidence_interval irc_trivia politifact scatterplot_correlation simple_math
+do
+  deploy_db $db $pass
+done

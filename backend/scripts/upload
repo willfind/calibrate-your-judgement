@@ -1,0 +1,36 @@
+#!/bin/sh
+
+source scripts/deploy_db
+
+# A POSIX variable
+OPTIND=1         # Reset in case getopts has been used previously in the shell.
+
+# Initialize our own variables:
+question_set=""
+
+while getopts "s:" opt; do
+    case "$opt" in
+    s)  question_set=$OPTARG
+        ;;
+    esac
+done
+
+shift $((OPTIND-1))
+
+[ "$1" = "--" ] && shift
+
+if [ -z $question_set ]
+then
+  echo "You need to specify the question set using the -s option"
+  exit 1
+fi
+
+echo "Adding questions from $1 to $question_set"
+
+read -s -p 'Cloudant password: ' pass
+echo
+
+cat $1 | jq '{docs: .}' | \
+  curl -u fcc0cde8-43fc-4fee-9f30-a9144e600b73-bluemix:$pass -X POST -H 'Content-Type: application/json' -d @- https://fcc0cde8-43fc-4fee-9f30-a9144e600b73-bluemix.cloudant.com/$question_set/_bulk_docs
+
+deploy_db $question_set $pass
