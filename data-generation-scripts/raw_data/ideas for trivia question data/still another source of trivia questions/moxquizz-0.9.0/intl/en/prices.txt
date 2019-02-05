@@ -1,0 +1,19 @@
+#
+# This file contains a list of prices the user can win.  Check your
+# moxquizz.rc to enable/disable prices.
+#
+# Make sure to let your prices end the sentence:
+#   NickName wins ...
+#
+# As for most other files, empty lines and lines starting with # are
+# ignored.
+#
+
+an already scratched-off lottery ticket (it was a loser too)!
+a shiny new Corvette! (Hot Wheel)
+a big kiss from me! *SMOOOOOOOOOOOCH*
+a cute, soft, and cuddly teddy bear with big brown eyes.
+a $200 gift certificate at Toys B Us.
+a free massage from our swedish specialist Sven.
+a months supply of freshy, minty Pepsodent (hint).
+a trip around the room.

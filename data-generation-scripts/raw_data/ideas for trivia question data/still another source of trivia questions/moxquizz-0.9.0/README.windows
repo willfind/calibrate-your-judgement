@@ -1,0 +1,27 @@
+			   README for Win*
+			   ---------------
+
+
+Though I don't use Win*, there are numerous people who wish to run
+MoxQuizz from a Win* based host.  Well, I can't stop people from
+hurting themself, so I'll try to support them by providing this
+hopefully useful file *g*
+
+1. First of all you have to get an eggdrop compiled for Win*.
+   Windrop is a project on sourceforge which ports eggdrops to
+   windows.  Check it's site for downloads:
+
+   http://windrop.sourceforge.net/
+
+2. Afterwards, install eggdrop to a directory of you choice.
+
+3. Extraxt the MoxQuizz the directory you installed eggdrop in.  There
+   should be a directory named moxquiz-<version>.  Rename it to
+   moxquizz.
+
+4. Well, you almost did it.  Now read the INSTALL from the moxquizz
+   directory.  Read all except section 3.  Take special attention to
+   the 2nd IF of section 4, it is important for you!
+
+5. Follow the INSTALL instructions from section 5 and 6 and 7 (7 is of
+   extreme importance)

@@ -1,0 +1,757 @@
+# ------------------------------------------------------------------------------
+#
+#  Author:  	Users
+#  Editor:  	Viper, irc.fisi-base.net
+#  Last edited: 2002/02/09 03:42:45
+#
+#  Comment:     imported Vipers version from Dienstag 21.01.2002 21:35 v.1
+#
+# ------------------------------------------------------------------------------
+
+## Demo-Entry:
+#  ----------
+#  Category: History
+#  Question: Chinese philosopher (um 500 v. Chr.) ?
+#  Answer: Konfuzius
+#  Regexp: [ck]onfu(ts|z)ius
+#  Author: anonymous
+#  Level: hard
+#  Comment: demo-entry, ÄÖÜäöüß ^° !"§$%&/()=? `´
+#  Score: 5
+#  Tip: Kon......
+#  Tip: ...fuz...
+#  Tip: ......ius
+
+## valid keys:
+#  ----------
+#  Category?                              (should always be on top!)
+#  Question                               (should always stand after Category)
+#  Answer                                 (will be matched if no regexp is provided)
+#  Regexp?                                (use UNIX-style expressions)
+#  Author?                                (the brain behind this question)
+#  Level? [baby|easy|normal|hard|extreme] (difficulty)
+#  Comment?                               (comment line)
+#  Score? [#]                             (credits for answering this question)
+#  Tip*                                   (provide one or more hints)
+#  TipCycle? [#]                          (Specify number of generated tips)
+
+## WARNING:
+#  -------
+#  DO NOT ADD COMMENTS BEYOND THIS LINE, since they might get lost.
+#  you may add as much comments as you want into the part above
+#  <!========================================================!>
+
+Category: Allgemeinwissen
+Question: Wenn mann eine Frau im 17. Jahrhundert Magdalene nannte war sie eine?
+Answer: Nutte
+Level: Normal
+
+Category: Allgemeinwissen
+Question: Wann wurde die Diät Coke erfunden?
+Answer: 1982
+
+Category: Sternenzeichen
+Question: Wenn du am 23. März geboren wurdest, welches Sternenzeichen bist du?
+Answer: Widder
+
+Category: Sternenzeichen
+Question: Wenn du am 26. July geboren wurdest, welches Sternenzeichen bist du?
+Answer: Löwe
+
+Category: Musik
+Question: 60'ger Nennt die Sänger des Liedes "I Want You Back."
+Answer: The Jackson 5
+
+Category: Film & Fernsehn
+Question: In 1937 wurde Morgan ······· Schauspieler "Driving Mrs Daisy", geboren.
+Answer: Freeman
+
+Category: Film & Fernsehn
+Question: In welchen Film Spielten Dennis Quaid und Louis Gossett Jr mit?
+Answer: Enemy Mine
+
+Category: Allgemeinwissen
+Question: Der Name welcher Sudanesischen Stadt bedeutet so viel wie "Elefanten Rüssel"?
+Answer: Khartoum
+
+Category: Film & Fernsehn
+Question: Wie heisst der Erste Teil der Star Wars saga?
+Answer: Die Dunkle Bedrohung
+
+Category: Wissenschaft
+Question: Dieser russische Wissenschaftler gebrauchte Hunde, um bedingte Reflexe zu studieren.  
+Answer: Ivan #Pavlov#
+
+Category: Wissenschaft
+Question: Was "erfand" Alexander Fleming im Jahre 1928?
+Answer: Antibiotika
+Regexp: (Antibioti[kc]a)
+Level: Easy
+
+Category: Geschichte
+Question: Wann wurde die Berliner Mauer gebaut?
+Answer: 1961
+Level: normal
+
+Category: Allgemeinwissen
+Question: Nennen Sie die längste giftige Schlange.
+Answer: King Cobra
+
+Category: Wissenschaft
+Question: Während einer Schwangerschaft, um das wievielfache dehnt sich der menschliche Uterus aus?
+Answer: Fünf Hundertfache
+
+Category: Sex & Wissen
+Question: Das Wegschneiden der Hoden.
+Answer: Orchidectomy
+
+Category: Film & Fernsehn
+Question: Gebore am 16. April 1889, Er war der Star im Film "City Lights" · 1931.
+Answer: Charlie #Chaplin#
+
+Category: Film & Fernsehn
+Question: Vor welchem Tier hat der Vatter von Indiana Jones Angst?
+Answer: Ratten
+
+Category: Sport
+Question: Ski-spring meister 2002
+Answer: Sven Hannawald
+
+Category: Geographie
+Question: Die Hauptstadt von Swaziland
+Answer: Mbabane
+
+Category: Film & Fernsehn
+Question: Wo ging Clark Kent zur Universität?
+Answer: Metropolis University
+
+Category: Abkürzungen
+Question: Wofür steht S.O.S.?
+Answer: Save Our Souls
+
+Category: Abkürzungen
+Question: Wofür steht N.A.S.A?
+Answer: National Aeronautics and Space Administration
+
+Category: Allgemeinwissen
+Question: Wieviele Motoren hat ein B52 bomber?
+Answer: acht
+Regexp: (acht|8)
+
+Category: Allgemeinwissen
+Question: Was für ein Flugzeug ist die Airforce One?
+Answer: Boeing 747
+
+Category: Alcohol
+Question: Aus welcher Pflanze wird Tequila gemacht?
+Answer: Kaktus
+Regexp: ([KC]a[kc]tus)
+
+
+Category: Allgemeinwissen
+Question: Am 11. September 2001 sind 2 Flugzeuge in das World Trade Center geflogen, wer ist dafür Verantwortlich?
+Answer: #Osama# Ibn Ladin
+
+Category: Wissenschaft
+Question: Wieviele Liter Luft enthält eine Erwachsene Lunge?
+Answer: Fünf
+Regexp: (fuenf|5)
+
+Category: Allgemeinwissen
+Question: Wo ist das Guggenheim Museum?
+Answer: New York
+
+Category: Allgemeinwissen
+Question: Traumatophobie- ist die Angst vor ······
+Answer: Verletzungen
+
+Category: Sport
+Question: Seit wann gehoert Reiten zu den olympischen Disziplinen?
+Answer: 1900
+
+Category: Film & Fernsehn
+Question: Wie heisst die kleine Landpomeranze, die fuer viel Trubel in dem Film "My Girl 2 - Meine grosse Liebe" sorgt?
+Answer: Vada
+
+Category: Sport
+Question: Wie heisst die Baseball-Liga in der USA?
+Answer: Major Baseball League
+
+Category: Computer
+Question: Wer war der antike Vorlaeufer unserer Computer Hacker? (oder so aehnlich jedenfalls ;)
+Answer: Odysseus
+
+Category: Wissenschaft
+Question: Sprengkoerper, dessen Explosionsenergie hpts. durch Kernfusion erzeugt wird?
+Answer: Wasserstoffbombe
+
+Category: Politik
+Question: Wie nennt man ein Einspruchsrecht noch?
+Answer: Veto
+
+Category: Geographie
+Question: Zu welchem Land gehoert Kap Horn?
+Answer: Chile
+
+Category: Geschichte
+Question: Diese Französische Königin wurde im Jahre 1793 Geköpft
+Answer: Marie Antoinette
+
+Category: Geschichte
+Question: 3. amerikanische Praesident? (von 1801-1809)
+Answer: Thomas #Jefferson#
+
+Category: Allgemeinwissen
+Question: Welches europaeische Land fuehrte im August 1983 sein erstes Steuergesetz ein?
+Answer: Andorra
+
+Category: Geographie
+Question: Wie heisst die politische Hauptstadt von Groenland?
+Answer: Kopenhagen
+Regexp: ([KC]openhagen)
+
+Category: Film & Fernsehn
+Question: Eine Serie in der Will Smith mitspielte
+Answer: Der Prinz von Bel Air
+
+Category: Politik
+Question: Am 31.12.2001 um 00:00:00 verliess uns die Deutsch Mark, was hat die Ersetzt?
+Answer: Der Euro
+
+Category: Wissenschaft
+Question: In 3 Phasen verlaufende Ausstossung des Fetus aus dem Mutterleib durch rhythmische, schmerzhafte Kontraktionen der Gebaermuttermuskulatur (Wehen): a) Erweiterung des Muttermundes und Sprung der Fruchtblase; b) Ausstossung der Frucht, normalerweise mit dem Hinterkopf voran; c) Ausstossung von Mutterkuchen und Eihaeuten. Unmittelbar nach der ......(?) wird dem Kind die Nabelschnur durchtrennt.
+Answer: Geburt
+
+Category: Geschichte
+Question: Welches gefaehrliche Umweltgift verursachte im Juli 1976 die "Seveso-Katastrophe"?
+Answer: Dioxin
+
+Category: Film & Fernsehn
+Question: Wie heisst das Schiff der Commonwealth (Captain: Dillan Hunt)?
+Answer: #Andromeda# Ascendent
+
+Category: Film & Fernsehn
+Question: Wie heisst der Erste Offizier der Andromeda?
+Answer: Bekka Valentine
+
+Category: Film & Fernsehn
+Question: Wie heisst der Medizinische Offizier anboard der Andromeda
+Answer: Trance Gemini
+
+Category: Geschichte
+Question: Welches Buch schrieb Adolf Hitler?
+Answer: Mein Kampf
+
+Category: Musik
+Question: Woran starb der Komponist Peter Iljitsch Tschaikowsky (1840-1893)?
+Answer: Cholera
+
+Category: Film & Fernsehn
+Question: Wie heisst der Erfinder der Star Trek Serien
+Answer: Gene Roddenberry
+
+Category: Allgemeinwissen
+Question: Wie ist die inoffizielle Bezeichnung fuer die amerikanischen Unterseeboot-Streitkraefte?
+Answer: Silent Service
+
+Category: Geschichte
+Question: Wie nennt man die koeniglose Zeit in Deutschland 1257-1273?
+Answer: Interregnum
+
+Category: Allgemeinwissen
+Question: Woraus werden mongolische Zelte gemacht?
+Answer: Filz
+
+Category: Musik
+Question: Welcher Saenger wurde als einziger sowohl in die Rock & Roll- als auch in die Country-Hall of Fame aufgenommen?
+Answer: Johnny #Cash#
+
+Category: Religion
+Question: Wie heisst die heiligste Stadt der Hindus?
+Answer: Benares
+
+Category: Religion
+Question: Wie heisst die heiligste Stadt der Moslems?
+Answer: Mekka
+Regexp: (Me[ck][ck]a)
+
+Category: Geographie
+Question: Was zum raten: Europaeisches Land?
+Answer: Luxemburg 
+
+Category: Film & Fernsehen
+Question: Wie heisst die Freundin von Eric Draven "The Crow"?
+Answer: Shelly #Webster#
+
+Category: Film & Fernsehen
+Question: Wie heisst der Hauptdarsteller in dem Film "The Crow 2"?
+Answer: Ashe
+
+Category: Computer
+Question: JunITS (Junior IT Systemhaus der DB) Computer Lieferrant?
+Answer: Maxdata
+
+Category: Computer
+Question: Welche Firma entwickelte den MP3 Codec?
+Answer: Fraunhofer #Institut#
+
+Category: Computer
+Question: Rechnen sie die Zahl 16 in Hexadezimal um .....
+Answer: 10
+
+Category: Politik
+Question: 1 Euro = ... DM (Januar 2002)?
+Answer: 1,95583 
+
+Category: Computer
+Question: Welches 3d Animations tool hat eine der Schnellsten Rendet Engines?
+Answer: Cinema 4d
+
+Category: Computer
+Question: Erfinder von Quake (Die Firma)?
+Answer: id #software#
+
+Category: Film & Fernsehen
+Question: Wie heisst der Captain der NCC 74656?
+Answer: Cathryn #Janeway#
+
+Category: Film & Fernsehen
+Question: Der koch dessen Essen keiner auf der Voyager mag heisst?
+Answer: Neelix
+
+Category: Film & Fernsehen
+Question: Laurence Fishburne spielte die Rolle des ...... im Film "Die Matrix"
+Answer: Morpheus
+
+Category: Film & Fernsehen
+Question: Womit haben se die Aliens in "Evolution" bezwungen?
+Answer: Head & Shoulders #Shampoo#
+
+Category: Computer
+Question: Erfinder von Daikatana (ehemals bei id)
+Answer: John #Romero#
+
+Category: Computer
+Question: Wie hiess der Erste Wegweisende 3D Shooter?
+Answer: Doom
+
+Category: Computer
+Question: Welcher Hersteller von Grafiksoftware wurde von Corel übernommen?
+Answer: Micrografx
+
+Category: Allgemeinwissen
+Question: Wie lautet die Telefon vorwahl für Leipzig?
+Answer: 0341
+
+Category: Sport
+Question: Wenn du beim Bowling alle Pins umschmeisst nennt sich das .....
+Answer: Strike
+
+Category: Sport
+Question: Wieviele Pins gibt es beim Bowling (ausgeschrieben)?
+Answer: Zehn
+
+Category: Allgemeinwissen
+Question: Welche Augenzahl ist gegenüber der Fünf auf einem Standard Würfel (Ausgeschrieben)?
+Answer: Zwei 
+
+Category: Computer
+Question: Was bedeutet SGML?
+Answer: Standard Generalized Markup Language
+
+Category: Allgemeinwissen
+Question: Wieviele Ecken hat ein Würfel?
+Answer: Acht 
+
+Category: Allgemeinwissen
+Question: Wieviele Ecken hat ein Oktaeder?
+Answer: Sechs
+
+Category: Allgemeinwissen
+Question: Was ist Natriumchlorid?
+Answer: Salz
+
+Category: Musik
+Question: Wer Schrieb dieses lied "United We Stand - What More Can I Give"
+Answer: Michael #Jackson#
+
+Category: Allgemeinwissen
+Question: Der Brechungsindex eines Diamanten ist?
+Answer: 2.4 
+
+Category: Wissenschaft
+Question: Was ist HNO3?
+Answer: Salpetersäure
+Regexp: (Salpetersaeure)
+
+Category: Allgemeinwissen
+Question: Säurungsmittel in Cola?
+Answer: Phosphorsäure
+Regexp: (Phosphorsaeure)
+
+Category: Allgemeinwissen
+Question: Größter Konkurennt von Coka Cola
+Answer: Pepsi
+
+Category: Quiz
+Question: Mit Welchem Befehl stelle ich in diesem Quiz Benutzerfragen?
+Answer: !userquest
+
+Category: Allgemeinwisse
+Question: Seit wann gab es die Deutsch Mark?
+Answer: 1948
+
+Category: Allgemeinwissen
+Question: An der Küste Australiens gibt es ein Weltbekanntes Riff, Wie Heisst es?
+Answer: Großes #Barriereriff#
+
+Category: Allgemeinwissen
+Question: Sonstige Bezeichnung von Micro-Batterien/Accus
+Answer: AAA #Triple A#
+
+Category: Natur
+Question: Welche Gorillaforscherin wurde 1985 ermordet?
+Answer: Dian #Fossey#
+
+Category: Allgemeinwissen
+Question: Was bedeutet das Russische wort "Sputnik" auf Deutsch übersetzt?
+Answer: Reisegefährte
+
+Category: Allgemeinwissen
+Question: Wie heisst das Schiff von Charles Darwin?
+Answer: Beagle
+
+Category: Film & Fernsehen
+Question: Wer spielt Rose in Titanic
+Answer: Kate Winslet
+
+Category: Geschichte
+Question: Das Legendäre Goldland Südamerikas
+Answer: Eldorado
+
+Category: Geschichte
+Question: Welche deutsche Insel wurde in der Kolonialzeit für Zanzibar getauscht?
+Answer: Helgoland
+
+Category: Astronomie
+Question: Welcher Planet wird der Gasriese genannt?
+Answer: Jupiter
+
+Category: Astronomie
+Question: Ein Bekannter Mond des Jupiter
+Answer: Europa
+
+Category: Computer
+Question: ActiveX war die Antwort von Microsoft auf?
+Answer: Java
+
+Category: Computer
+Question: Wer ist im Cyber Zeitalter als Dr. Jekyll und Mr. Hyde bekannt?
+Answer: System #Administratoren#
+
+Category: Computer
+Question: Wofür steht die Kürzung ARPAnet?
+Answer: Advanced Research Projects Agency Network
+
+Category: Computer 
+Question: Wofür steht die Kürzung ASCII?
+Answer: American Standard for Information Exchange
+
+Category: Film & Fernsehen
+Question: Welchen Beruf hat Bender aus der Trickserie "Futurama"?
+Answer: Eisenbieger
+
+Category: Film & Fernsehen
+Question: Wer spielt die Rolle des Duncan McLeoud in der Serie "Highlander"? 
+Answer: Adrian Paul
+
+Category: Allgemeinwissen
+Question: Das Jahr 2002 in Römischen Zahlen ist? 
+Answer: MMII
+
+Category: Wissenschaft
+Question: Was ist Leitfähig und wird in zusammenhang mit EKG und EEG verwendet?
+Answer: Elektroden #Leitgel#
+
+Category: Film & Fernsehen 
+Question: Wie heisst der Held aus der Anime serie "DragonballZ"?
+Answer: Son #Gokku#
+
+Category: Film & Fernsehen
+Question: Welcher James Bond schauspieler spielte auch im Film "Mars Attacks" mit?
+Answer: Pierce Brosnan
+
+Catergory: Computer
+Question: Was bedeutet IDE?
+Answer: Integrated Drive Electronics
+
+Catergory: Wissenschaft
+Question: Was fuer eine Pflanze ist die Totentrompete?
+Answer: Pilz
+
+Catergory: Geschichte
+Question: Wer verkuendete am 9. November 1989 (mehr oder weniger aus Versehen) die Maueroeffnung?
+Answer: Guenter #Schabowski#
+Level: Hard
+
+Catergory: Wissenschaft
+Question: Zu welchem Gelenktyp gehoert das Schultergelenk (erlaubt Bewegungen in allen Ebenen)?
+Answer: Kugelgelenk
+Level: Easy
+
+Catergory: Geographie
+Question: An welchem Fluss liegt Heidelberg?
+Answer: Neckar
+
+Catergory: Geschichte
+Question: Woher stammt der Abakus?
+Answer: Ägypten
+Regexp: (AEgypten)
+
+Catergory: Allgemeinwissen
+Question: Wie hiess die plutoniumhaltige Raumsonde, die im Jahr 1997 startete?
+Answer: Cassini
+Level: Normal
+
+Catergory: Wissenschaft
+Question: Auf welchem Element basiert Silikon?
+Answer: Silizium
+Level: Baby
+
+Catergory: Wissenschaft
+Question: Wie nennt man Oxidation und Reduktion in einer Gleichung?
+Answer: Redox-Reaktion
+Level: Normal
+
+Catergory: Geschichte
+Question: Wer leitete 1989 die Montags Demos in Leipzig?
+Answer: Pfarrer #Führer#
+
+Catergory: Musik
+Question: (nach dem indischen Bundesstaat), spirituelle Form der Techno-Musik, gespielt u.a. mit fernoestlichen Instrumenten?
+Answer: Goa-Trance
+Level: Easy
+
+Catergory: Computer
+Question: Fuer welchen Variablentyp ist das Zeichen "@" ein Vorzeichen in der Programmiersprache PERL?
+Answer: Array
+Level: Normal
+
+Catergory: Allgemeinwissen
+Question: Ein Strom der von Florida bis nach Europa reicht?
+Answer: Golfstrom
+
+Catergory: Geschichte
+Question: Wo (Stadt) wurde Karl der Grosse zum Kaiser gekroent?
+Answer: Rom
+
+Catergory: Allgemeinwissen
+Question: Wie heissen die Eckzaehne eines Jagdhundes?
+Answer: Faenge
+
+Category: Geographie
+Question: In welchem Gebiet lebt das Alpaka?
+Answer: Anden
+
+Category: Scherzfrage
+Question: Was hat Fluegel und kann nicht Fliegen, einen Ruecken und kann nicht darauf liegen, nur ein Bein und kann doch laufen?
+Answer: Nase
+
+Category: Wissenschaft
+Question: Wie nennt man einen blassblauen Edelstein?
+Answer: Aquamarin
+
+Category: Film & Fernsehen
+Question: Wie heisst der bekannte Film mit J. Travolta, der schnell zum Kultfilm aufstieg?
+Answer: Pulp Fiction
+
+Category: Allgemeinwissen
+Question: Wie nennen die Pfadfinder ein internationales Treffen?
+Answer: Jamboree
+
+Category: Scherzfrage
+Question: Wer frisst in der Not Fliegen?
+Answer: Teufel
+
+Category: Geschichte
+Question: Wie hiess die von den Etruskern angelegte grosse Rennbahn fuer Festspiele in Rom?
+Answer: Maximus
+
+Category: Geschichte
+Question: Wie hiess Hitlers Leib-Architekt (spaeter Ruestungsminister)?
+Answer: Albert #Speer#
+
+Category: Allgemeinwissen
+Question: Was fressen Pandas?
+Answer: #Bambus#sprossen
+
+Category: Film & Fernsehen
+Question: Fuer welche Straftat kam Sophia Loren ins Gefaengnis?
+Answer: Steuerhinterziehung
+
+Category: Allgemeinwissen
+Question: Wieviele Schleusen verschliessen den Suezkanal? (ausschreiben!)
+Answer: Null
+
+Category: Technik
+Question: Mit was misst man die Reinheit der Luft?
+Answer: Eudiometer
+
+Category: Allgemeinwissen
+Question: Wie nennt man ein freistehendes, kleines Gebaeude in einem Garten (frz.)?
+Answer: Pavillon
+
+Category: Musik
+Question: Welcher Saenger hat fuer Peter, Paul and Mary das Lied "Leavin' on a jet plane" geschrieben?
+Answer: John #Denver#
+
+Category: Musik
+Question: Wer komponierte den Liederzyklus "Frauenlieb' und -leben"?
+Answer: Robert #Schumann#
+
+Category: Mythologie
+Question: Merriese der Nordischen Mythologie?
+Answer: Aegir
+
+Category: Sport
+Question: Fussball - Wie hiess die deutsche Torschuetzenkoenigin 2000 (33 Tore)? (voller Name)?
+Answer: Inka Grings
+
+Category: Musik
+Question: Wie viele Klavierkonzerte schrieb Beethoven?
+Answer: Fünf
+Regexp: (fuenf|5)
+
+
+Category: Religion
+Question: Wie nennt man die Religion von Voelkern, die an seelische Maechte in allen Naturgewalten und Naturvorkommnissen glauben?
+Answer: Animismus
+Level: Hard
+
+Category: Allgemeinwissen
+Question: Die groesste Primzahl vor 50?
+Answer: 47
+
+Category: Allgemeinwissen
+Question: Wie viele Kinder sterben alljaehrlich an Mangelernaehrung (in Millionen)?
+Answer: Sieben
+
+Category: Sport
+Question: Aus wievielen Feldspielern besteht eine Basketball-Mannschaft? (ausschreiben)
+Answer: Fünf
+Regexp: (fuenf|5)
+
+Category: Geographie
+Question: Wo befindet sich der groesste Bahnhof der Welt?
+Answer: New York
+
+Category: Allgemeinwissen
+Question: Bei welcher Stadt muendet der Main in den Rhein?
+Answer: Mainz
+
+Category: Wissenschaft
+Question: Wie heissen die groessten noch lebenden Landechsen?
+Answer: Komodo #Warane#
+
+Category: Technik
+Question: Reaktortyp, der nicht spaltbares Uran in spaltbares Plutonium fuer Kernkraftwerke umwandelt?
+Answer: Schneller Brueter
+Level: Hard
+
+Category: Film & Fernsehen
+Question: Werbung: Wie heisst eine Katze aus der Whiskas Werbung, wo alte Ausschnitte gezeigt werden?
+Answer: Muschi
+
+Category: Geographie
+Question: Wie heisst der Noerdlicheste Ort Deutschlands mit Festlandverbindung?
+Answer: List
+
+Category: Sport
+Question: Wie nennt man im Rudersport die Person, die Tempo und Rhytmus der Schlaege im Boot bestimmt?
+Answer: Schlagmann
+
+Category: Geschichte
+Question: "Hier stehe ich nun, ich kann nicht anders", wer soll das gesagt haben? (Vor- und Nachname!)
+Answer: Martin #Luther#
+
+Category: Allgemeinwissen
+Question: Welcher Marder unterscheidet sich im Namen nur in einem Buchstaben vom groessten Affen?
+Answer: Zorilla
+
+Category: Wissenschaft
+Question: Welches Tier hat im Verhaeltnis zur Koerpergroesse das groesste Gehirn?
+Answer: Ameise
+
+Category: Wissenschaft
+Question: Was ist ein "Prolaps" medizinisch gesehen?
+Answer: Vorfall
+
+Category: Film & Fernsehen + Literatur
+Question: Wie hiess Tarzans Lieblings-Schimpansin?
+Answer: Judy
+
+Category: Religion
+Question: Wie nennt man die Gegensteuerung der katholischen Kirche gegen den Protestantismus?
+Answer: Gegenreformation
+
+Category: Wissenschaft
+Question: Wichtiges Teil eines ganzen, ohne welches die lebenswichtige Fluessigkeit nicht in den vorgesehenen Leitungswegen zirkuliert.
+Answer: Herz
+
+Category: Allgemeinwissen
+Question: Wo befanden sich die "haengenden Gaerten der Semiramis"?
+Answer: Babylon
+
+Category: Allgemeinwissen
+Question: Wie viel kg Papier pro Kopf verbrauchen Schweizer jaehrlich ca.?
+Answer: 200
+
+Category: Sport
+Question: In welcher Sportart verwendet man die Begriffe "Double In", "Double Bull" und "Check"?
+Answer: Dart
+
+Category: Sport
+Question: Wo sollten 1940 die Olympischen Spiele stattfinden?
+Answer: Tokio
+
+Category: Geographie
+Question: Heute nennt sich dieser Staat "Demokratische Republik Kongo", wobei das "Demokratisch" wohl nur zur Unterscheidung von der "Republik Kongo" dient. Und wie hiess der Staat davor?
+Answer: Zaire
+
+Category: Allgemeinwissen
+Question: Was ist ein "Hasardeur"?
+Answer: Glücksspieler
+Regexp: (gluecksspieler)
+
+Category: Allgemeinwissen
+Question: Wie heisst die groesste Wueste Asiens?
+Answer: Gobi
+
+Category: Astronomie
+Question: Wie gross ist die Milchstrasse?
+Answer: Lichtjahre
+
+Category: Film & Fernsehen
+Question: Mal ne (leichte) Simpsons-Frage: Wie heisst der Clown bei den Simpsons?
+Answer: Krusty
+Regexp: ([KC]rusty)
+
+Category: Allgemeinwissen
+Question: Welches war das groesste Passagierschiff der Welt?
+Answer: Queen Elisabeth
+
+Category: Computer
+Question: Bekannter TV-Karten Hersteller
+Answer: Hauppauge
+
+Category: Religion
+Question: In welchem Land steht das Rila-Kloster?
+Answer: Bulgarien
+
+Category: Allgemeinwissen
+Question: Wie lange braucht ein Space Shuttle ca. um die Erde zu Umkreisen (in Minuten)?
+Answer: 90
+
+Category: Film & Fernsehen
+Question: Wie heisst die Neue Serie (2002) von James Cammeron "Titanic"?
+Answer: Dark Angel

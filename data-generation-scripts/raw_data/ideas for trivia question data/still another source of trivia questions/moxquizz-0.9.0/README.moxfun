@@ -1,0 +1,136 @@
+                          README for moxfun
+                          -----------------
+
+
+         * This text corresponds to version 0.9.3 of MoxFun *
+
+
+[NOTE: As of MoxQuizz version 0.8.0 MoxFun is not available as an own
+       package. Besides that, the documentation found here is up to
+       date.]
+
+0. Introduction
+1. User Commands
+2. Commands to control the funstuff
+3. Installation/Configuration
+4. Contact
+
+
+
+0. Introduction
+---------------
+
+All the funny commands like !bow and !roll have been extracted from
+MoxQuizz into this standalone package.  This file describes all known
+commands and configuration.  Mere mortals just need to read section 1
+and 4, whilst immortal eggdrop masters are interested in section 2
+and 3, too.
+
+
+
+1. User Commands
+----------------
+
+Well, no time to loose:
+
+   !applause <nick>
+                 - fun command.  Give applause to the channel or to
+                   an optional nick.
+
+   !assimilate <nick>
+                 - fun command.  Assimilates you or the optional nick.
+
+   !amok <nick> - fun command.  The user or an optional other nick
+                                will be hold by the bot.
+
+   !blush <nick> - fun command. The user or an optional other nick blushes.
+
+   !bow <nick>  - fun command.  Bow deeply before the optional nick.
+
+   !cry         - fun command.  It's a bad bad world.
+
+   !damn        - fun command.  Damn the world for beeing bad.
+
+   !fast        - fun command.  Wow, someone was really fast.
+
+   !hartei <n>  - fun command.  Same as !weichei, the reaction on it.
+
+   !hossa       - fun command.  Jump around happily.
+
+   !hug <n>     - fun command.  Hug optional nick or get hugged:)
+
+   !miss        - fun command.  Says, that the user missed, the
+                                counterpart to !strike.
+
+   !order <thg> - fun command.  Order some drinks, or what you specify.
+
+   !phrase      - fun command.  Let the bot tell some phrases
+
+   !roll        - fun command.  Rolls two dices for a nick
+
+   !relax       - fun command.  Sit back and relax.
+
+   !smoke       - fun command.  Prints a random text.
+
+   !steal <n>   - fun command.  Brag about a stolen point.
+
+   !strike      - fun command.  Says, that the user really hit it.
+
+   !weichei <n> - fun command.  The user or an optional nick will be
+                                called a synonym of weichei (a german
+                                running gag).
+
+
+You're a mortal?  Skip to section 4.
+
+
+
+2. Commands to control the funstuff
+-----------------------------------
+
+Well, though you are immortal, read carefully.  The bot is controlled
+by sending commands via /msg and dcc.  All fun control commands can be
+invoked by users known to the bot as quizmaster (flag P).  Note that
+all commands must be invoked over a dcc chat session like this: .!tip
+or . !tip The "!" is there because of historical reasons and to avoid
+clashes with other dcc commands.
+
+  P   !roll (on|off) - switch !roll on or off
+  P   !fun (on|off)  - switch all fun commands on or off (including roll)
+
+
+
+
+3. Installation/Configuration
+-----------------------------
+
+Installation is quite easy, just source the moxfun.tcl from your
+favorite eggdrop.conf.
+
+If you wear hard hats, then you can play around with some
+configuration variables:
+
+   funstuff_enabled 1      include the funstuff.  This can be changed
+                           by !fun (on|off).
+   roll_allowed 1          allow !roll.  This can be affected by
+                           !roll (on|off)
+
+If you want to change places, adjust the following:
+
+   datadir        moxquizz/quizdata
+
+   harteierfile   $datadir/harteier.txt
+   weicheierfile  $datadir/weicheier.txt
+   phrasefile     $datadir/phrases.txt
+
+
+
+4. Contact
+----------
+
+You like this?  You hate it?  Tell me about!
+
+Author: Moxon AKA Sascha Lüdecke
+IRC:    #quiz and #quiz.de on irc.dal.net
+EMail:  moxon@meta-x.de
+WWW:    http://meta-x.de/software

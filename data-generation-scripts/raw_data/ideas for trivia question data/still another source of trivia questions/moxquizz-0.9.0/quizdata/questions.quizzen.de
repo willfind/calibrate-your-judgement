@@ -1,0 +1,850 @@
+# ------------------------------------------------------------------------------
+#
+#  Author:      Codey
+#  Editor:  	Moxon
+#  Last edited: 2001/08/16 13:59:12
+#
+#  Comment:     These questions were provided by the ppl on #quizzen in IRCnet,
+#               a german quizchannel.
+#
+# ------------------------------------------------------------------------------
+
+## Demo-Entry:
+#  ----------
+#  Category: Geschichte
+#  Question: Chinesischer Philosoph (um 500 v. Chr.) ?
+#  Answer: Konfuzius
+#  Regexp: [ck]onfu(ts|z)ius
+#  Author: anonymous
+#  Level: hard
+#  Comment: demo-entry, ÄÖÜäöüß ^° !"§$%&/()=? `´
+#  Score: 5
+#  Tip: Kon......
+#  Tip: ...fuz...
+#  Tip: ......ius
+
+## valid keys:
+#  ----------
+#  Category?                              (should always be on top!)
+#  Question                               (should always stand after Category)
+#  Answer                                 (will be matched if no regexp is provided)
+#  Regexp?                                (use UNIX-style expressions)
+#  Author?                                (the brain behind this question)
+#  Level? [baby|easy|normal|hard|extreme] (difficulty)
+#  Comment?                               (comment line)
+#  Score? [#]                             (credits for answering this question)
+#  Tip*                                   (provide one or more hints)
+#  TipCycle? [#]                          (Specify number of generated tips)
+
+## WARNING:
+#  -------
+#  DO NOT ADD COMMENTS BEYOND THIS LINE 
+#  you may add as much comments as you want into the part above
+#  <!========================================================!>
+
+Category: Allgemein
+Question: Was bedeutet "Patient" im eigentlich Sinne?
+Answer: Erleidend
+Regexp: (Erleidend|Erduldend)
+Level: normal
+
+Category: Allgemein
+Question: Was bedeutet Guerilla wortwörtlich übersetzt?
+Answer: kleiner Krieg
+Level: hard
+
+Category: Allgemein
+Question: Was bedeutet auf italienischen Wasserhähnen das Wort "caldo"?
+Answer: heiss
+Regexp: (heiss|warm)
+Level: normal
+
+Category: Allgemein
+Question: Was bedeutet die geheimnisvolle Abkürzung "MAD"?
+Answer: Militärischer Abschirmdienst
+Level: normal
+
+Category: Allgemein
+Question: Was dreht sich am Tag zweimal im Kreis?
+Answer: Stundenzeiger
+Level: easy
+
+Category: Allgemein
+Question: Was gelang Christiaan Barnard am 4.12.1967?
+Answer: Die 1. #Herztransplantation#
+Regexp: Herz[- ]?transplantation
+Level: hard
+
+Category: Allgemein
+Question: Was meint man, wenn man eine Nonne "Spinner" nennt?
+Answer: Schmetterling
+Level: normal
+
+Category: Allgemein
+Question: Welche Farbe hat Vino Bianco?
+Answer: weiss
+Level: easy
+
+Category: Allgemein
+Question: Welche Zutat gibt dem Bier seinen herben Geschmack?
+Answer: Hopfen
+Level: easy
+
+Category: Allgemein
+Question: Welcher Feldherr sagte "Soldaten gewinnen die Schlacht, Generäle den Ruhm"?
+Answer: Napoleon
+Level: normal
+
+Category: Allgemein
+Question: Welches Metall ist seltener als Uran oder Platin und doch in fast jedem Haushalt zu finden?
+Answer: Quecksilber
+Level: normal
+
+Category: Allgemein
+Question: Welches berühmte Produkt kommt aus Meissen?
+Answer: Porzellan
+Level: normal
+
+Category: Allgemein
+Question: Welches europäische Land führte im August 1983 sein erstes Steuergesetz ein?
+Answer: Andorra
+Level: normal
+
+Category: Allgemein
+Question: Welches obergärige Bier wird bevorzugt im Kölner Raum getrunken?
+Answer: Kölsch
+Level: easy
+
+Category: Allgemein
+Question: Wen feiert das englische Stratford-upon-Avon als seinen berühmtesten Sohn?
+Answer: William #Shakespeare#
+Level: hard
+
+Category: Allgemein
+Question: Wie heissen die Pferde der spanischen Hofreitschule in Wien?
+Answer: Lipizzaner
+Regexp: Lipp?izz?aner
+Level: normal
+
+Category: Allgemein
+Question: Wie nennt man Flugzeuge mit zwei Tragflächen?
+Answer: Doppeldecker
+Level: easy
+
+Category: Allgemein
+Question: Wie nennt man einen Stall für Hunde?
+Answer: Zwinger
+Level: easy
+
+Category: Allgemein
+Question: Wieviele Mühlesteine braucht man für eine Zwickmühle? (Ausschreiben)
+Answer: Fünf
+Level: normal
+
+Category: Allgemein
+Question: Wieviele engl. Zoll gehen auf einen engl. Fuss?
+Answer: 12
+Level: normal
+
+Category: Allgemein
+Question: Wo klingelte das Telefon, wenn man 0228-561 wählte?
+Answer: Im #Bundeskanzleramt#
+Level: hard
+
+Category: Allgemein
+Question: Wo wurde der bislang grösste Canyon entdeckt?
+Answer: Auf dem #Mars#
+Regexp: Mars
+Level: normal
+
+Category: Allgemein
+Question: Wofür steht das Kürzel "OK" ?
+Answer: All correct
+Level: normal
+
+Category: Allgemein
+Question: Woraus bestehen die Särge Ferdinands und Isabellas von Spanien, die in der Kathedrale von Granada beigesetzt sind?
+Answer: Blei
+Level: normal
+
+Category: Allgemein
+Question: Woraus wurden die ersten Würfel hergestellt?
+Answer: Tierknöchel
+Regexp: (Tierknöchel|Tierknochen)
+Level: normal
+
+Category: Anatomie
+Question: Welcher menschliche Knochen heisst "Klavikula"?
+Answer: Schlüsselbein
+Level: normal
+
+Category: Biologie
+Question: An was für einer Pflanze wachsen Datteln?
+Answer: Palme
+Level: easy
+
+Category: Biologie
+Question: Was für eine Pflanze ist die Totentrompete?
+Answer: Pilz
+Level: normal
+
+Category: Biologie
+Question: Was ist Tetanus?
+Answer: Blutvergiftung
+Level: normal
+
+Category: Biologie
+Question: Was ist eine "Musca Domestica"?
+Answer: Fliege
+Level: normal
+
+Category: Biologie
+Question: Was nennen die Biologen "Caninae"?
+Answer: Hunde
+Level: normal
+
+Category: Biologie
+Question: Was tun weibliche Mücken, männliche aber nicht?
+Answer: Stechen
+Level: normal
+
+Category: Biologie
+Question: Welches Tier kann am längsten in Gefangenschaft überleben?
+Answer: Riesenschildkröte
+Level: normal
+
+Category: Biologie
+Question: Wieviel Volt erzeugt ein Zitteraal?
+Answer: 600
+Level: hard
+
+Category: Biologie
+Question: Wo hat ein Skorpion seine Ohren?
+Answer: In den #Beine#n
+Regexp: Beinen?
+Level: normal
+
+Category: Biologie
+Question: Woher nehmen Bäume ca. 90% ihrer Nahrung?
+Answer: Aus der #Luft#
+Regexp: Luft
+Level: normal
+
+Category: Comics
+Question: Welche Farben hat die gestreifte Hose von Obelix?
+Answer: Blau und Weiss
+Regexp: (Blau.*Weiss|Weiss.*Blau)
+Level: baby
+
+Category: Erdkunde
+Question: In welcher Stadt steht der Stephansdom?
+Answer: Wien
+Level: normal
+
+Category: Erdkunde
+Question: Was ist auf der Kuppel des Petersdoms zu sehen: Eine Kugel oder ein Kreuz?
+Answer: Beides
+Level: normal
+
+Category: Erdkunde
+Question: Welche Sprache wird in der Toskana gesprochen?
+Answer: Italienisch
+Level: normal
+
+Category: Erdkunde
+Question: Welche Stadt in den USA hat die meisten Kirchen?
+Answer: Las Vegas
+Level: normal
+
+Category: Erdkunde
+Question: Welche Stadt muss man im Dezember besuchen, um den Christkindlmarkt zu erleben?
+Answer: Nürnberg
+Level: normal
+
+Category: Erdkunde
+Question: Welche Stadt nennt ihre Altstadt "Plaka"?
+Answer: Athen
+Level: normal
+
+Category: Erdkunde
+Question: Welcher berühmte Londoner Platz mit der Nelson-Säule ist nach einer Seeschlacht benannt?
+Answer: Trafalgar Square
+Level: normal
+
+Category: Erdkunde
+Question: Welches Land ist die Heimat der Fluggesellschaft TAP?
+Answer: Portugal
+Level: normal
+
+Category: Erdkunde
+Question: Welches Land nannten die Römer "Caledonia"?
+Answer: Schottland
+Level: normal
+
+Category: Erdkunde
+Question: Welches ist das kleinste Land Mittelamerikas?
+Answer: El Salvador
+Level: normal
+
+Category: Erdkunde
+Question: Wie heisst Australiens nationale Fluggesellschaft?
+Answer: Qantas
+Regexp: (Qu?antas)
+Level: normal
+
+Category: Erdkunde
+Question: Wie heisst Siam heute?
+Answer: Thailand
+Level: normal
+
+Category: Erdkunde
+Question: Wie heisst die grösste Insel Europas?
+Answer: England
+Level: normal
+
+Category: Erdkunde
+Question: Wie nennen die Düsseldorfer ihre Königsallee?
+Answer: Kö
+Level: normal
+
+Category: Erdkunde
+Question: Wie viele Strassen führen auf den Pariser Triumphbogen zu? (ausschreiben)
+Answer: Zwoelf
+Level: normal
+
+Category: Erdkunde
+Question: Wieviele Menschen haben auf dem Nordpol Platz? (ausschreiben)
+Answer: Einer
+Level: normal
+
+Category: Erdkunde
+Question: Wo ist der Hauptsitz von Interpol?
+Answer: Paris
+Level: normal
+
+Category: Erdkunde
+Question: Wo steht die Metropolitan Opera?
+Answer: New York
+Level: normal
+
+Category: Erdkunde
+Question: Wo steht die Prachtkirche "Hagia Sophia"?
+Answer: Istanbul
+Level: normal
+
+Category: Erdkunde
+Question: Wofür steht das Nationalitätenkennzeichen "AUS"?
+Answer: Australien
+Level: normal
+
+Category: Erdkunde
+Question: Wohin fliesst die Rhone?
+Answer: Mittelmeer
+Level: normal
+
+Category: Erdkunde
+Question: Zu welchem Land gehört die Insel Gotland?
+Answer: Schweden
+Level: normal
+
+Category: Essen & Trinken
+Question: Welches Land hat den höchsten Pro-Kopf-Verbrauch an Käse?
+Answer: Frankreich
+Level: normal
+
+Category: Essen & Trinken
+Question: Welches Pfirsich-Dessert wurde nach einem Opern-Star benannt?
+Answer: Pfirsich Melba
+Level: normal
+
+Category: Film & Fernsehen
+Question: In welchem Film spielt Sylvester Stallone einen Vietnamkämpfer, der US-Soldaten befreit?
+Answer: Rambo
+Level: easy
+
+Category: Film & Fernsehen
+Question: Was hat Popeye auf seinem Arm eintätowiert?
+Answer: Anker
+Level: easy
+
+Category: Film & Fernsehen
+Question: Welche Fernsehserie spielte in dem verschlafenen Westerndorf "Walnut Grove"?
+Answer: Unsere kleine Farm
+Level: normal
+
+Category: Film & Fernsehen
+Question: Welcher polnische Regisseur entdeckte Natassja Kinski für den Film?
+Answer: Roman Polanski
+Level: normal
+
+Category: Film & Fernsehen
+Question: Welches Fest in Venedig wird in dem Film "Die nackte Frau" ausgiebig gefeiert?
+Answer: Karneval
+Regexp: ([KC]arneval|Carnvale)
+Level: normal
+
+Category: Film & Fernsehen
+Question: Wer war der Regisseur des Films "Todesmelodie"? (Vor- u. Nachname)
+Answer: Sergio Leone
+Level: hard
+
+Category: Film & Fernsehen
+Question: Wer war der Unterhalter mit "Souvenirs, Souvenirs"?
+Answer: Chris Howland
+Level: normal
+
+Category: Film & Fernsehen
+Question: Wie hiess der Durbridge-Krimi, in dem Ruth Maria Kubitschek bereits nach 5 min. als Leiche endete?
+Answer: Melissa
+Level: extreme
+
+Category: Film & Fernsehen
+Question: Wie viele Oscars bekam "Vom Winde verweht"?
+Answer: Neun
+Level: normal
+
+Category: Film & Fernsehen
+Question: Wieviele Schnurbarthaare hat Kater Tom? (ausschreiben)
+Answer: Vier
+Level: baby
+
+Category: Geschichte
+Question: In welcher Stadt fand 1939 die Weltausstellung statt?
+Answer: New York
+Level: normal
+
+Category: Geschichte
+Question: Wann begann der 2. Weltkrieg?
+Answer: 1.9.1939
+Level: normal
+
+Category: Geschichte
+Question: Wann wurde die Berliner Mauer gebaut?
+Answer: 1961
+Level: normal
+
+Category: Geschichte
+Question: Welche Muttersprache sprach Königin Viktoria?
+Answer: Deutsch
+Level: normal
+
+Category: Geschichte
+Question: Welchem Rohstoff verdankte John. D. Rockefeller sein Geld?
+Answer: Erdöl
+Regexp: (Öl)
+Level: normal
+
+Category: Geschichte
+Question: Welchen Beinamen hatte König Karl III.?
+Answer: Der Dicke
+Regexp: Dicke
+Level: hard
+
+Category: Geschichte
+Question: Welcher König des 20. Jahrhunderts herrschte nur 325 Tage?
+Answer: Eduard VIII.
+Regexp: Eduard VIII
+Level: hard
+
+Category: Geschichte
+Question: Welcher amerik. Präsident bekam den Beinamen "Cowboy-Präsident"? (Vor- u. Nachname)
+Answer: Theodore #Roosevelt#
+Regexp: Theodore? Roosevelt
+Level: hard
+
+Category: Geschichte
+Question: Welches Land wurde 1707 mit England zu Grossbritannien vereinigt?
+Answer: Schottland
+Level: normal
+
+Category: Geschichte
+Question: Welches Land wurde 1707 mit England zu Grossbritannien vereinigt?
+Answer: Schottland
+Level: normal
+
+Category: Geschichte
+Question: Welches Schreibmaterial der alten Ägypter gab dem Papier seinen Namen?
+Answer: Papyrus
+Level: easy
+
+Category: Geschichte
+Question: Wer nannte sich Duce?
+Answer: Mussolini
+Level: normal
+
+Category: Geschichte
+Question: Wer tötete 1887 fast 1 Mio. Menschen, als er in China über die Ufer trat?
+Answer: #Der gelbe Fluss# "Hwangho"
+Regexp: (Gelber? Fluss|Hwangho)
+Level: hard
+
+Category: Geschichte
+Question: Wie nannte sich Angelo Giuseppe Roncali in seinem späteren Amt?
+Answer: Papst Johannes XXIII.
+Regexp: Johannes XXIII.?
+Level: hard
+
+Category: Geschichte
+Question: Wie nannten die Römer das heutige Wien?
+Answer: Vindobona
+Level: hard
+
+Category: Geschichte
+Question: Wo spielte sich der Mau-Mau Aufstand ab?
+Answer: Kenia
+Level: normal
+
+Category: Geschichte
+Question: Wo starb Karl Marx?
+Answer: London
+Level: normal
+
+Category: Geschichte 
+Question: Was durfte als erstes Konsumprodukt der kapitalistischen Welt in Russland verkauft werden?
+Answer: Coca-Cola
+Regexp: Coca[- ]Cola
+Level: normal
+
+Category: Kultur
+Question: Welchen Tierkopf hat der Hindu-Gott der Weisheit?
+Answer: Elefantenkopf
+Level: normal
+
+Category: Kunst
+Question: Was erhält man, wenn man Schlachthofabfälle kocht und anschliessend die Brühe in Natronlauge neutralisiert?
+Answer: Suppenwürze
+Level: normal
+
+Category: Kunst
+Question: Welche Gemälde werden auf frischen, noch feuchten Putz gemalt?
+Answer: Fresken
+Regexp: (Fresken|Fresko)
+Level: normal
+
+Category: Kunst
+Question: Welcher Kunststil endstand als Reaktion auf das Rokoko?
+Answer: Klassizismus
+Level: hard
+
+Category: Kunst
+Question: Wer malte das Bild "Coca Cola grün"? (Vor- u. Nachname)
+Answer: Andy Warhol
+Level: normal
+
+Category: Kunst
+Question: Wer malte die "Maria von Medici" ?
+Answer: Peter Paul #Rubens#
+Level: normal
+
+Category: Kunst
+Question: Wie hiess die Malerin Moderson-Becker mit Vornamen?
+Answer: Paula
+Level: normal
+
+Category: Literatur
+Question: Welcher Schriftsteller trank täglich 50 Tassen Kaffee?
+Answer: Honoré de #Balzac# 
+Level: normal
+
+Category: Literatur
+Question: Wer dachte sich für einen Roman einen grünen Bogenschützen als Täter aus? (Vor- u. Nachname)
+Answer: Edgar Wallace
+Level: normal
+
+Category: Literatur
+Question: Wer gründete die russische Zeitung "Prawda"?
+Answer: Lenin
+Level: normal
+
+Category: Literatur
+Question: Wer schrieb "Die Bekenntnisse des Hochstaplers Felix Krull"? (Vor- u. Nachname)
+Answer: Thomas Mann
+Level: normal
+
+Category: Literatur
+Question: Wer schrieb 1871 das Bühnenstück "Der Meineidbauer"? (Vor- u. Nachname)
+Answer: Ludwig Anzengruber
+Level: extreme
+
+Category: Literatur
+Question: Wer schrieb 1985 den Roman "Die Zeitmaschine"?
+Answer: H. G. #Wells#
+Level: normal
+
+Category: Literatur
+Question: Wer schrieb den Roman "Die Nackten und die Toten"?
+Answer: Norman Mailer
+Regexp: Mailer
+Tip: Der Vorname ist derselbe wie der des Psychopathen in "Psycho"...
+Tip: Der Nachname hat was mit Post zu tun...
+Tip: Norman M....r
+Tip: .o.m.. .a..e.
+Tip: ...... ..il..
+Level: extreme
+
+Category: Literatur
+Question: Wer schrieb die Komödie "Achterloo"?
+Answer: Friedrich #Dürrenmatt#
+Level: normal
+
+Category: Literatur
+Question: Wer schuf das Monster in Mary Shelleys Roman "Frankenstein"?
+Answer: Dr. Frankenstein
+Regexp: Frankenstein
+Level: normal
+
+Category: Literatur
+Question: Wie heisst Hägars Sohn?
+Answer: Hamlet
+Level: normal
+
+Category: Literatur
+Question: Wie heisst Romeos Geliebte Julia mit Nachnamen?
+Answer: Capulet
+Level: normal
+
+Category: Literatur
+Question: Wie heisst das Schauspiel von Tennessee Williams, in dem ein Mädchen Tiere aus Glas sammelt?
+Answer: Die #Glasmenagerie#
+Regexp: Glasmenagerie
+Level: hard
+
+Category: Literatur
+Question: Wie nannte sich Samual Longhorne Clemens als Schriftsteller?
+Answer: Mark Twain
+Level: normal
+
+Category: Literatur
+Question: Wie starb Heinrich von Kleist?
+Answer: Selbstmord
+Level: normal
+
+Category: Literatur
+Question: Wo lebte Shakespeares "Hamlet"?
+Answer: Dänemark
+Level: normal
+
+Category: Medizin
+Question: Was bewegt sich andauernd, wenn man unter Athetose leidet?
+Answer: Finger und Zehen
+Regexp: (Finger.*Zehen|Zehen.*Finger)
+Level: normal
+
+Category: Medizin
+Question: Wie wird Chloroform in der Fachsprache genannt?
+Answer: Trichlormethan
+Tip: Tric....m.....
+Tip: ....hl.r.....n
+Tip: ......o..etha.
+Level: hard
+
+Category: Musik
+Question: In welcher Rockband spielte David Gilmoure?
+Answer: Pink Floyd
+Level: normal
+
+Category: Musik
+Question: Was für eine Kapelle begleitet einen Chor beim a-capella Gesang?
+Answer: Gar #keine#
+Regexp: keine
+Level: easy
+
+Category: Musik
+Question: Welche Popgruppe sang "Carbonara"?
+Answer: Spliff
+Level: normal
+
+Category: Musik
+Question: Welches Album der Rolling Stones war mit einem Reissverschluss verziert?
+Answer: Sticky Fingers
+Level: hard
+
+Category: Musik
+Question: Welches Monster bedroht Tamino im 1. Akt von Mozarts Zauberflöte?
+Answer: Riesenschlange
+Level: normal
+
+Category: Musik
+Question: Wer war der älteste der Beatles?
+Answer: Ringo Starr
+Level: normal
+
+Category: Musik
+Question: Wie nannte Verdi seine fünfte Oper?
+Answer: Ernani
+Level: hard
+
+Category: Musik
+Question: Wieviele Präludien und Fugen umfasst Bachs "wohltemperiertes Klavier"?
+Answer: 24
+Level: normal
+
+Category: Spiele
+Question: Nenne eine der blauen Strassen beim Monopoly!
+Answer: Badstrasse oder Turmstrasse
+Regexp: (Badstrasse|Turmstrasse)
+Level: normal
+
+Category: Spiele
+Question: Nenne eine der gelben Strassen beim Monopoly!
+Answer: Goethestrasse, Schillerstrasse oder Lessingstrasse
+Regexp: (Goethestrasse|Schillerstrasse|Lessingstrasse)
+Level: normal
+
+Category: Spiele
+Question: Nenne eine der grünen Strassen beim Monopoly!
+Answer: Rathausplatz, Hauptstrasse oder Bahnhofsstrasse
+Regexp: (Rathausplatz|Hauptstrasse|Bahnhofsstrasse)
+Level: normal
+
+Category: Spiele
+Question: Wie nennt man beim Schach ein Unentschieden?
+Answer: Remis
+Level: normal
+
+Category: Sport
+Question: In welchem Jahr fand das erste Autorennen der Welt statt?
+Answer: 1894
+Tip: Ende 19. Jahrhundert...
+Tip: 1..4
+Tip: 18.4
+Level: hard
+
+Category: Sport
+Question: In welcher Stadt findet jährlich die Weltmeisterschaft im Hundeschlittenrennen statt?
+Answer: Anchorage
+Level: hard
+
+Category: Sport
+Question: Welche Fechtwaffe wird im modernen olympischen Fünfkampf verwendet?
+Answer: Degen
+Level: normal
+
+Category: Sport
+Question: Welche Segelsportart wird ausschliesslich im Winter ausgeübt?
+Answer: Eissegeln
+Level: normal
+
+Category: Sport
+Question: Welchem Boxer gelang es als erstem, 3x Weltmeister im Schwergewicht zu werden?
+Answer: Muhammad Ali
+Regexp: M[ou]hamm?[ea]d Ali
+Level: normal
+
+Category: Sport
+Question: Welcher Stein wird bei der Herstellung von Billardtischen verwendet?
+Answer: Schiefer
+Level: normal
+
+Category: Sport
+Question: Wie viele Minuten dauert eine Halbzeit im Rasenhockey?
+Answer: 35
+Level: normal
+
+Category: Sport
+Question: Wie viele Spieler spielen beim Rasenhockey in einer Mannschaft? (ausschreiben)
+Answer: Elf
+Level: normal
+
+Category: Sport
+Question: Wieviele Kegel stehen beim Bowling in der hinteren Reihe? (ausschreiben)
+Answer: Vier
+Level: normal
+
+Category: Sport
+Question: Wieviele Sekunden muss ein Haltegriff beim Judo gehalten werden, bevor er gewertet wird?
+Answer: 30
+Level: normal
+
+Category: Sport
+Question: Wo fanden 1912 die olympischen Spiele statt?
+Answer: Stockholm
+Level: normal
+
+Category: Sprichwörter
+Question: Was ist aller Laster Anfang?
+Answer: Müssiggang
+Level: easy
+
+Category: Volkslieder
+Question: Es klappert die Mühle, .. ........... .... ?
+Answer: am rauschenden Bach
+Level: baby
+
+Category: Wissenschaft & Technik
+Question: Was essen Anthropophagen?
+Answer: Menschenfleisch
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Was ist ein Link-Trainer?
+Answer: Flugsimulator
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Was kann man trinken, es aber auch lassen?
+Answer: Wasser
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Was sieht man im Dunkeln, wenn man Tesa-Film von der Rolle abzieht?
+Answer: elektrisches Leuchten
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Was untersucht ein Speläologe?
+Answer: Höhlen
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Welchen Schmuckstein zerrieb man früher, um die Farbe Ultramarin herzustellen?
+Answer: Lapislazuli
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Welcher Pflanzensaft kann im Notfall als Ersatz für Blutplasma verwendet werden?
+Answer: Kokosnusssaft
+Regexp: Kokosnusss?aft
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Welches Instrument versagt seinen Dienst bei unter -39 Grad Celsius?
+Answer: Das #Quecksilberthermometer#
+Regexp: Quecksilber[- ]?thermometer
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Wie heisst die Mehrzahl von Lava?
+Answer: Laven
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Wie ist ein Lapislazuli meistens gefärbt?
+Answer: Blau
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Wie nennt man die Temperatur, bei der Dampf zu kondensieren beginnt?
+Answer: Taupunkt
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Wie oft umkreiste John Glenn als erster Amerikaner die Erde? (ausschreiben)
+Answer: Drei mal
+Regexp: Drei
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Wie viele Beine hat eine Zecke? (ausschreiben)
+Answer: Acht
+Level: normal
+
+Category: Wissenschaft & Technik
+Question: Wie viele Kalorien hat ein Liter Wasser?
+Answer: keine
+Level: normal
+
+Category: Wissenschaft und Technik
+Question: Wieviele Millionen Tierarten gelten bis heute als ausgestorben?
+Answer: 495 
+Level: normal

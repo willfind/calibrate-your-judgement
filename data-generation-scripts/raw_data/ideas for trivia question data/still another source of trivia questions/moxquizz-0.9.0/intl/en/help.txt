@@ -1,0 +1,65 @@
+#
+# This file contains the help texts for MoxQuizz
+#
+# Empty lines and lines starting with # will be ignored.  This file is
+# organized in sections, each starting with [TOPIC], where TOPIC can
+# be specified to !qhelp on the channel.  If !qhelp is invoked without
+# parameter, it will print the text below [idx].  You can change every
+# topic besides idx since the script explicitely uses this entry.
+#
+
+[idx]
+© by Moxon <moxon@meta-x.de>
+Most important commands are: !ask, !rank, !score and !revolt.
+To learn more, specify a topic: !qhelp <topic>
+Topics are: %s
+
+[fun]
+Known FUN commands (say them in the channel):
+  !amok, !applause, !assimilate, !blush, !bow, !damn, !order,
+  !hartei, !weichei, !hossa, !hug, !miss, !phrase, !relax, !roll,
+  !smoke, !strike - try it, some accept nicks as a parameter.
+
+[quiz]
+Known QUIZ commands (say them in the channel):
+  !allstars      - shows you the head of the allstars table.
+  !ask           - get the current question or start over.
+  !comment <txt> - report bugs, typos and other things you wish to say.
+                   If you refer to a question, include it completely!
+  !qhelp <topic> - get some help about <topic>
+  !score         - tells you your current scores.
+  !rank          - shows you the current rank list.
+  !revolt        - you may revolt against a questions.  50% of active
+                   users revolting results in automatic solving.
+
+[userquestions]
+Known commands to be given by /msg (in a query):
+  !userquest <question>::<answer>
+                 - ask a user question.  You can enclose a region in
+                   the answer with #...# to mark text for tip
+                   generation and answer match.  Your nick can then
+                   use !usertip, !usersolve and !usercancel.  If you
+                   need more expressive power, you can append
+                   ::<regexp> as a third parameter (experts only).
+                   Note that your question will be recorded and might
+                   be included in future distributions of the quiz.
+         Example:  !userquest Are you nuts?::yes
+  !usertip <tip> - gives a tip immediately while in your userquest.
+                   Without <tip>, a default tip will be given.
+  !usercancel    - cancel your question.  Use this if you typed
+                   something wrong.  Your question will be solved
+                   if asked, else skipped.
+  !usersolve     - solve your userquest
+  !qhelp <topic> - get some help about <topic>
+
+[general]
+MoxQuizz is a quizbot for IRC acting as a game master asking questions
+on a quizchannel.  Answers can be given by any user.  The bot looks
+for substrings in all spoken sentences.  The game is won at (by
+default) 30 points and the winner receives a certain amount of points
+for the allstars table which is calculated from the total amount of
+points, the winners points and the duration of the won game. (check
+http://meta-x.de/moxquizz/README for the formula).  MoxQuizz was
+written from scratch and is © by Moxon <moxon@meta-x.de>.
+
+

@@ -1,0 +1,23 @@
+# This is a cahnnel rules file.  If you set the config option
+# quizchannelrules to yes, this file will be displayed whenever a user
+# says !rules in your quizchannel.
+#
+# Don't let it grow too large, up to ten lines are good.  More take
+# more time to be displayed.
+#
+# Lines starting with "#" are treated as comments and simply ignored,
+# just as empty lines are.
+
+1. No excessive flooding and scripting
+
+2. Please remove any script-advertisements from your quit and part messages
+
+3. No offending, racism, harassments, impersonation, abuse of nicknames or discrimination.  Restrict you curses to the minimum and use the !damn command.
+
+4. No clones, cheating, exploiting of known weaknesses.
+
+5. If you post questions, post useful ones only.
+
+6. It's a privilege, not a right to quiz.
+
+Check the #quiz homepage http://meta-x.de/quiz for more info.

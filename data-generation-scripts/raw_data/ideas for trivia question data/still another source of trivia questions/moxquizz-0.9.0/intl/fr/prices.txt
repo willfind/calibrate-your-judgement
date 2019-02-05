@@ -1,0 +1,19 @@
+#
+# This file contains a list of prices the user can win.  Check your
+# moxquizz.rc to enable/disable prices.
+#
+# Make sure to let your prices end the sentence:
+#   NickName wins ...
+#
+# As for most other files, empty lines and lines starting with # are
+# ignored.
+#
+# Translator:  "Gun@gnoo.org" <Gunslinger@ifrance.com>
+
+un billet de lotterie déjà gratté (un perdant en plus) !
+un gros baiser de mooouuuaaaa ! *SMAAAAAACKKKKKK*
+un ours mauve.
+une o-line sur les serveurs entrechat.
+un admin en plastique qui fait "pouet".
+un plat de charcuterie.
+un strip tease d'IriX.

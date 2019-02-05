@@ -1,0 +1,343 @@
+				 NEWS
+				 ----
+
+This files gives a rough overview about what has changed in each
+version since the first public release (0.5.23).  For a more detailed
+view check the CHANGES file, but be aware that it might be too
+detailed.  I have worked hard to change err fix bugs in each new
+versions.
+
+               - 0.8.x version are dedicated to Lefty -
+
+See CHANGES file for recent changes in the beta versions.  Beta
+versions are named -alpha, -beta, -gamma, -delta, ... . 
+
+Version 0.8.1 (2003-07-20)
+--------------------------
+
+  - NEW: moxtools: added code to enable users with flag Q to use a
+         .!jump command similiar to the .jump for bot masters
+  - NEW: added three new question files with english questions (+788
+         questions)
+  - NEW: added option to prevent overruns (expert players entering a
+         game at a late state and overrun the others to gain a high
+         allstars score).  When enabled, MoxQuizz does not accept new
+         players as soon as one player reached a certain threshold in
+         point (defaults to 15 points)
+  - NEW: added !antispam command to moxtools.  Sends a antispam.txt
+         file (if available and enabled) from the intl dir.
+  - NEW: public commands for quizmasters (flag P): !nuq, !uq, !listnuq
+         for placing users in ignore for userquestsions (for 45 minutes) 
+  - NEW: added .!identify to moxtools.tcl to manually force the script
+         to identify to a nickserv (flag P)
+  - NEW: added another 185 german questions (thanks to "Said Nasser"
+         <viper5539@web.de> and his users)
+  - NEW: MoxQuizz will purr if it gets patted (sometimes)
+
+  - FIX: dcc "!say !hug FOO" works again
+
+  - CHG: randomization of questions changed: same algorithm, just
+         distributed over the time, i.e. randomization is done bit
+         by bit whenever a question is asked.  This speeds up all
+         operations which caused a read of the database (.!rehash,
+         .reload and initial start of the bot)
+  - CHG: renamed !saveuserquestions to !qsave
+  - CHG: renamed !configload to !load
+  - CHG: renamed !configsave to !save
+  - CHG: rank_reset deletes rankfile (done at end of game or on .!rankreset)
+  - CHG: changed bantime for badwords in moxtools from 5 to 30 minutes
+
+
+
+Version 0.8.0 (2002/02/02)
+--------------------------
+
+  - SECURITY HOLE FIXED: eval was available to all ppl havon the P
+         flag through mxirc_say.  It was exploitable by saying
+         .!say !order [ANY TCL COMMAND]
+
+  - NEW: the script is now able to speak several languages.  Added
+         english phrases and such. Funstuff is still english only.  As
+         a consequence, MoxQuizz now requires eggdrop version 1.6.6
+         and TCL 8.1.
+
+         Available messages: english, german, french, greek
+         Available question sets: english, german, malaysian, spanish,
+         norwegian
+
+         Future version will catch up.
+
+  - NEW: malaysian (3444 questions, thanks to Damanhuri), norwegian
+         question sets (566 question, thanks to Julia33 and BriZen) as
+         well as 850 new english questions (thanks to Magic2000,
+         Julika and Stan) and 570 more german questions (thanks
+         Quakenet) and 1048 spanish questions (thanks to ^MaKaM^)
+
+  - NEW: funcmds !steal, !fast !cry (suggestions from ILoveJackDaniels)
+  - NEW: !version command to report version and number of questions
+         loaded
+  - NEW: !reset as shortcut for .!stop .!rankreset .!init will reset a
+         game
+  - NEW: option to define default aftergameaction (former always
+         newgame), check moxquizz.rc for aftergameaction (suggested by
+         fizboy <fizboy@yahoo.com>)
+
+  - CHG: some, see CHANGES for a list
+
+  - FIX: many fixes, see CHANGES for a list
+
+
+
+Version 0.7.3 (2001/06/26)
+--------------------------
+  - NEW: new configuration value: channelrules (yes/no) and new
+         command: !rules to show the contents of rule file if
+         channelrules set to yes (check quizdata/channelrules.txt)
+  - NEW: option prices: prices can be given at game end (check
+         quizdata/prices.txt)
+  - NEW: option stripumlauts: replaces umlauts in userquestions with
+         their transscription.  Temporal option until eggdrop fixes
+         unicode support.  Disabled by default, enabled in nounicode
+         distribution.
+
+  - CHG: number protection improved in regexp.  All numbers which the
+         regexp matches, will be be protected automatically
+  - CHG: config option pausemoderated by default no (former yes)
+  - CHG: help improved
+
+
+
+Version 0.7.2 (2001/04/17)
+--------------------------
+  - NEW: OPTION to make botmsgs to users as PRIVMSG or NOTICE (msgwhisper)
+         Default: NOTICE.
+  
+  - CHG: badwords script now optional (as vhost code is) and disabled
+         by default
+  - CHG: ranks will be saved over a rehash.  The game is halted
+         automatically and logfiles will be reopened afterwards.
+  - CHG: !part and !join now have access Q as !quizto has.
+  
+  - FIX: desert detection produced open questions with number 0 and
+	 large open times.
+  - FIX: nicks like {lala}_away posting userquestions caused the quiz to
+         choke.  The "_away" after the closing } confused it.
+
+
+
+Version 0.7.1 (2001/04/06)
+--------------------------
+  - NEW: added badwords script to moxtools.
+  - NEW: saves ranks, config and userquest before rehashing.  If you want to
+	 reload a changed quizconfig, use !configload
+  - NEW: option to disable/enable userquestions: .!set userquestions (yes/no)
+  
+  - CHG: !set with no parameter lists all available options
+  - CHG: add some more texts to fun cmd !damn
+  
+  - FIX: check hostmask on userquestions, not only nick (could be changed to
+	 get points from own q's)
+  - FIX: nickserv identification didn't work with eggdrop 1.6.3
+
+
+
+Version 0.7.0 (2001/03/28)
+--------------------------
+  - NEW: The user- and channelfilename for eggdrop has was changed
+         from Moxon-bot.user to QuizBot.user and from Moxon-bot.chan
+	 to QuizBot.chan.  Rename them if you use the included eggdrop
+	 configuration file.
+  - NEW: Many more questions are included:  now 5955 (+2486) german
+         and 3812 (+1723) english ones.
+  - NEW: Default eggdrop configuration changed for eggdrop version
+         1.6.x.  The old file still is available as moxquizz.conf-1.4.x
+  - NEW: master command !set replaces !tipdelay, !askdelay, !tipdelay,
+	 !setwinscore and !restrict and is a generic interface to all
+	 variables in moxquizz.rc
+  - NEW: Configuration is saved on bot exit
+  - NEW: option to automatic pause on +m
+  - NEW: periodically print some helpful texts after a question was solved
+  - NEW: colors are removed from userquestions
+  - NEW: added support for monthly allstars
+  - NEW: new option colorize to tell the bot if it may use colors or
+         not
+  - NEW: all configuration kept in an own data structure.  It is now
+         stored in a file (moxquizz.rc).  Use DCC !configload and
+	 !configsave to load and save it.
+  - NEW: To stop answer bots and too elite ppl, the bot can restrict win rows.
+  	 After winning $lastwinner_max_games, a user is ignored for the next
+  	 game.  This behaviour can be toggled with !restrict win_rows
+  	 (on|off|number) (default on).
+  - NEW: new quizmaster command !restrict to control several security features
+  	 of the bot (only win_rows for now).
+  - NEW: help topic GENERAL
+  - NEW: new command !hi which welcomes known users
+
+  - FIX: serious bug when allstars list was empty
+  - FIX: aftergame exit doesn't work
+  - FIX: !rankset now works on ppl not in userlist, e.g. ppl who didn't say a
+  	 word since they joined or since last rank reset
+  - FIX: When someone joined with "stolen" nick, hostmask is now
+	 checked, too.
+  - FIX: various bugs removed
+
+  - CHG: !quizto no longer leaves the current channel, it only moves the quiz
+  - CHG: renamed topic QUERY to USERQUESTIONS
+  - CHG: tip generation no longer masks the characters .-,'`"
+  - CHG: !revolt with 2 active players now needs 2 revolters, not one.
+
+
+
+
+Version 0.6.1 (2000/12/09)
+--------------------------
+  - NEW: moved the whole bot to a separate directory, just copy rank*
+         from quizdata to the new location
+  - NEW: !comment both as dcc and public command, saved in 
+         quizdata/comments.txt
+  - NEW: !score can now accepts a nick as parameter
+
+  - FIX: desert detection fired when nobody spoke after the first
+         question, now at least two questions are posted
+  - FIX: !allstars printed a wrong sum of games (summed only over listed ranks)
+  - FIX: time of rankreset now set to time of first question asked in the game
+  - FIX: all (including unasked) user questions are saved on bot exit
+
+  - CHG: renamed !loadallstars to !allstarsload
+  - CHG: changed . in tips to ·
+  - CHG: 20 in a row make 5 extra points
+  - CHG: time for desert detection increased to 2 cycles
+  - CHG: time to automatic solve after last tip reduced from 20 to 15 seconds
+  - CHG: set tipdelay from 40 to 30 seconds
+  - CHG: access level for !reload set from m to Q
+  - CHG: default quizchannel set from #quizz to #quiz.de
+  - CHG: show number of games won in !score
+  - CHG: !revolt as first word of a user entering the channel is now
+         recognized counted for desert detection
+  - CHG: tip generation resets to word start in multiword answers
+  - CHG: !userquest and !usertip requires the user to be in the quizchannel
+  - CHG: !score now tells how much points are needed to win
+  - CHG: extracted funstuff to a separate file (moxfun.tcl), also
+         available as a separate tarball
+
+
+
+Version 0.6.0 (2000/10/21)
+--------------------------
+  - NEW: supplemental/setup.sh -- sets up certain variables for you
+         (IRC Server, bot owner etc etc)
+  - NEW: supplemental/allstars.pl  -- prettyprint the allstars table
+         for MoxQuizz inHTML or ASCII
+  - NEW: uses own loglevel (1) to log quiz stuff
+  - NEW: !aftergame (halt|stop|exit|newgame) to specify what the bot
+         shall do after the current or next (if none running) game.
+	 Is only considered when game is won or stopped by desert
+	 detection.
+  - NEW: !halt replaces !stop state.  !stop now really stops the quiz and must
+  	 be continued with !init or !halt
+  - NEW: question list can be choosen on from the bot inside now.  A
+         filename suffix is used for that, see README.database for more.
+  - NEW: changed needed access flags from f and o to P and Q
+  - NEW: changed access style of everything (P, Q and m) to DCC
+         instead of MSG.  Exception: user commands for questions are
+	 still msgs.
+         Note that DCC commands are invoked as:  .!tip  
+  - NEW: own questions are now be solveable, but give no points
+  - NEW: all !rank and !allstars now accept an optional number of
+         places to show (can be restricted, default max is 25)
+  - NEW: !allstars as public user command.  Lists allstars table by notice.
+  - NEW: !score as public user command.  Lists your own scores.
+  - NEW: !rank as public user command.  Shows you the current rank list.
+  - NEW: moxtools.tcl -- !announcement, per channel logfile and
+         nickserv identification.  Used by default.
+  - NEW: The bot can sit on more than one channel now.  This is a step
+         towards a real eggdrop module:
+	 . !say and !act recognize a channel as first word.
+	 . !allsay and !allact to speak and act on all channels the bot
+	   is on
+	 . changed funstuff, such that it can be executed on any channel
+	   the bot is in.
+         . see CHG on !join and !part below
+  - NEW: new command !allstarssend to retrieve the allstars file by
+         DCC, iff module filesys was loaded
+  - NEW: new keyword Tipcycle in database format to specify
+         nonstandard tipcycles.
+
+  - FIX: ranksave now record the time of save so that the "pause" can
+         be added to each players starting time.
+  - FIX: channel name comparison was done with case, though it should
+         ignore case
+  - FIX: uppercase german umlauts were not expanded internally
+
+  - CHG: reduced default tipdelay to 40 seconds
+  - CHG: dropped !userhelp and !help, use !qhelp instead.  Help text
+         was split into topics, readable with !help topic.
+  - CHG: no own questions will be asked when 5 points to go
+  - CHG: changed semantic of !join and !part.  Is now used to hop
+         around in channels to watch.  Use !quizto and !quizleave for
+	 old behaviour of moving the quiz around.
+  - CHG: removed disabled !transfer
+  - CHG: default channel changed from #moxon to #quizz
+  - CHG: rank of player always shown whe he/she scores
+
+
+Version 0.5.29 (2000/08/23)
+---------------------------
+  - NEW: bot is able to use fun commands by !say-ing them
+  - NEW: added !help and !userhelp als public commands
+
+
+Version 0.5.28 (2000/08/10)
+---------------------------
+  - FIX: changed some access levels (see CHANGES or README for details)
+  - FIX: fixed revolt code
+  - CHG: rename !die to !exit
+
+
+Version 0.5.27 (2000/08/07)
+---------------------------
+  - FIX: friend msg !roll did not work, because no fct moxquiz_fun_rollonoff
+  	 exists.  I hate TCL for not mentioning that.
+  - NEW: position in allstars is told, when a user wins a game
+  - NEW: fun command !assimilate
+  - CHG: changed usage fo output buffers slightly, so that fun
+         commands less interfere with the questions
+
+
+Version 0.5.26 (2000/08/02)
+---------------------------
+  - NEW: answer can contain #...# to mark the area used for tipgeneration
+  	 and default regexp
+  - NEW: new fun command: !phrase
+  - CHG: renamed !drink to !order
+
+
+Version 0.5.25 (2000/07/31)
+---------------------------
+  - FIX: show ranks only after each third of winscore, thus only between questions
+  - FIX: when no regexp given, mask characters all except "." regexp
+         special chars from answer.
+  - NEW: new fun cmd: !bow, !hossa, !damn, !drink
+  - NEW: new fun command: !hug
+  - CHG: enhanced !status output
+  - CHG: removed fun cmd !sleep
+
+
+Version 0.5.24 (2000/07/28)
+---------------------------
+  - FIX: author of questions is ignored always, former only in
+  	 userquestions
+  - FIX: log userquestions _after_ beeing asked (in mx_answered).  Makes cheating
+  	 for botops harder
+  - NEW: time of rankset saved in rankfile
+  - NEW: new fun comands: !relax and !sleep
+  - NEW: !usercancel to cancel a userquestion
+  - NEW: new Keyword "Comment" for questions
+  - CHG: if some people share a rank, print some character instead of a space
+  - CHG: change !rolldeny and !rollallow to !roll (on|off)
+  - CHG: userquestions are now saved in "newquestions.data"
+
+
+Version 0.5.23 (2000/07/24)
+---------------------------
+  *FIRST PUBLIC RELEASE*

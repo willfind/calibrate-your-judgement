@@ -1,0 +1,42 @@
+                              UPGRADING
+                              ---------
+
+If you have an older installation of eggdrop, here are some notes on
+how to upgrade.
+
+anything to 0.8.0
+-----------------
+
+  0.8.0 requires eggdrop 1.6.8 together with a TCL 8.x installation.
+  Make sure you have it, else MoxQuizz probably won't work. 
+
+  Upgrading is easy: You just have to move some files and make minor
+  adjustments to your moxquizz.rc.  Existing eggdrop configurations
+  can safely be reused.
+
+  . REQUIRED: Unpack the new version in parallel to your current
+    installation.
+
+  . OPTIONAL: If you changed channelrules.txt or channeltips.txt, move
+    them to the corresponding moxquizz-0.8.0/intl/<language>
+    directory.
+
+  . OPTIONAL: If you made any changes to the script setting (like
+    quizchannel and stuff), manually transfer them from your
+    moxquizz.rc to the new one (though it is safe to simply copy the
+    old over the new.  The script will add the new keywords
+    automagically [though without nice comments]).
+
+  . REQUIRED and IMPORTANT: Copy quizdata/rankallstars.data to the new
+    installation.
+
+  . OPTIONAL: Copy quizdata/comments.txt and
+    quizdata/questions.users.new, if you have them.
+
+  . REQUIRED: Rename the new directory to moxquizz (or make a link)
+    and restart your bot, using your existing eggdrop configuration.
+    Thats it.
+
+  . VOLUNTARY: If you happen to speak a language besides english, feel
+    free to create a translation, see README.translation for some info
+    on how to do this.

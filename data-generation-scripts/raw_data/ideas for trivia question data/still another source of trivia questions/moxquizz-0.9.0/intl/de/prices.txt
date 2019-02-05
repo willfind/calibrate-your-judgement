@@ -1,0 +1,17 @@
+#
+# This file contains a list of prices the user can win.  Check your
+# moxquizz.rc to enable/disable prices.
+#
+# Make sure to let your prices end the sentence:
+#   NickName wins ...
+#
+# As for most other files, empty lines and lines starting with # are
+# ignored.
+
+ein verbrauchtes Loterielos (war sogar eine Niete).
+eine glänzende neue Corvette (Hot Wheel)
+einen dicken Kuss.
+einen süßen, knuddeligen Teddy mit großen braunen Augen.
+eine kostenlose Massage.
+eine Sightseing-Tour durch den Channel.
+

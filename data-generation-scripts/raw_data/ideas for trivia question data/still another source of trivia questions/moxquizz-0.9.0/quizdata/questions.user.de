@@ -1,0 +1,7015 @@
+## last modified:
+#  -------------
+#  2000-Oktober-01 at 18:52, v1.8
+#  by Micheee
+#  implements questions.user.de,v 1.19
+
+## Questions collected from users
+
+## Demo-Entry:
+#  ----------
+#  Category: Geschichte
+#  Question: Chinesischer Philosoph (um 500 v. Chr.)?
+#  Answer: Konfuzius
+#  Regexp: [ck]onfu(ts|z)ius
+#  Author: anonymous
+#  Level: hard
+#  Comment: demo-entry, ÄÖÜäöüß ^° !"§$%&/()=? `´
+#  Score: 5
+#  Tip: Kon......
+#  Tip: ...fuz...
+#  Tip: ......ius
+
+## valid keys:
+#  ----------
+#  Category?                              (should always be on top!)
+#  Question                               (should always stand after Category)
+#  Answer                                 (will be matched if no regexp is provided)
+#  Regexp?                                (use UNIX-style expressions)
+#  Author?                                (the brain behind this question)
+#  Level? [baby|easy|normal|hard|extreme] (difficulty)
+#  Comment?                               (comment line)
+#  Score? [#]                             (credits for answering this question)
+#  Tip*                                   (provide one or more hints)
+#  TipCycle? [#]                          (Specify number of generated tips)
+
+## WARNING:
+#  -------
+#  DO NOT ADD COMMENTS BEYOND THIS LINE
+#  you may add as much comments as you want into the part above
+#  <!========================================================!>
+
+Category: Astronomie
+Question: Die Anfangsbuchstaben aller Planeten in der richtigen Reihenfolge und zusammengeschrieben
+Answer: MVEMJSUNP
+Author: Ansgar
+Level: hard
+
+Category: Astronomie
+Question: In welchem Monat ist die Entfernung zwischen der Erde und der Sonne am geringsten?
+Answer: Januar
+Author: Andee
+
+Category: Astronomie
+Question: Welcher Planet braucht 248 Jahr für einen Umlauf um die Sonne?
+Answer: Pluto
+Author: [ZSF]Duke
+
+Category: Astronomie
+Question: Welcher dt. Astronom fand die "Gesetze der Planetenbewegung"?
+Answer: Johannes #Kepler#
+Regexp: kepp?ler
+Author: Micheee
+Level: hard
+
+Category: Astronomie
+Question: Wie heißt unser Trabant auf spanisch und italienisch?
+Answer: Luna
+Author: HenB
+
+Category: Astronomie
+Question: Wie nennt man das Siebengestirn noch?
+Answer: Plejaden
+Regexp: Ple[jy]aden
+Author: Julika
+Level: hard
+
+Category: Astronomie
+Question: Wofuer steht das Kurzwort "Quasar"?
+Answer: #quasistellar#e Radioquelle
+Regexp: quasistell?ar
+Author: Micheee
+Level: extreme
+Score: 2
+
+Category: Astronomie
+Question: Zu welchem System gehoert die Erde?
+Answer: Sonnensystem
+Regexp: sonnen[- ]?system
+Author: Julika
+Level: easy
+
+Category: Biologie
+Question: Als was diente Guano?
+Answer: Duenger
+Author: Micheee
+Level: hard
+
+Category: Biologie
+Question: Auf welchem Kontinent leben Dingos?
+Answer: Australien
+Author: Julika
+
+Category: Biologie
+Question: Aus welchem Material bestehen Korallen?
+Answer: Kalk
+Author: Micheee
+
+Category: Biologie
+Question: Aus welchem Material bestehen Vogelfedern?
+Answer: Horn
+Author: Julika
+
+Category: Biologie
+Question: Aus wieviel Zellen besteht eine Bakterie? (ausschreiben!)
+Answer: aus #einer#
+Regexp: eine
+Author: Tobac
+
+Category: Biologie
+Question: Bakterien in der Einzahl?
+Answer: Bakterium
+Author: Julika
+
+Category: Biologie
+Question: Das groesste Nagetier Europas?
+Answer: Biber
+Author: Micheee
+
+Category: Biologie
+Question: Der kleinste Hund der Welt?
+Answer: Chihuahua
+Author: adrenalin
+
+Category: Biologie
+Question: Durch Eindunsten und Einkochen von Solen erhaltenes Salzgemisch, welches in der Medizin als Blutersatz verwendet wird.
+Answer: Kochsalz
+Author: Micheee
+
+Category: Biologie
+Question: Ein anderer Name fuer "Kamel" ist ...?
+Answer: Trampeltier
+Regexp: trampel[- ]?tier
+Author: Micheee
+Tip: sagt man auch manchmal zu jemandem, der nicht aufpasst, wo er hinlaeuft
+Tip: T...p...i..
+Tip: .r...e...e.
+Tip: ..a...l...r
+Tip: ...m...t...
+
+Category: Biologie
+Question: Ein anderer Name fuer Amoeben ist ...?
+Answer: Wechseltierchen
+Regexp: wechsel[- ]?tierchen
+Author: Micheee
+Level: hard
+
+Category: Biologie
+Question: Ein nachtaktiver Raubvogel
+Answer: Uhu
+Author: Sonnja
+Level: easy
+
+Category: Biologie
+Question: Ergebnis einer asexuellen Reproduktion?
+Answer: Klon
+Author: Andee
+
+Category: Biologie
+Question: Es gibt Wale mit Zaehnen und Wale mit ...?
+Answer: Barten
+Author: Julika
+Level: hard
+
+Category: Biologie
+Question: Fische schwimmen in Schwaermen, Wale schwimmen in ...?
+Answer: Herden
+Author: Micheee
+
+Category: Biologie
+Question: In welchem Magen gelangt die Nahrung bei einem Wiederkaeuer zuerst?
+Answer: Pansen
+Author: Angel_HH
+Level: hard
+
+Category: Biologie
+Question: Mit welchem Gift einer Wüstenpflanze berauschen sich Mexikaner?
+Answer: Mescalin
+Regexp: mes[ck]alin
+Author: Dreamteam
+Level: hard
+
+Category: Biologie
+Question: Mit welchen Hunden werden Wettrennen veranstaltet?
+Answer: #Windhund#en
+Author: Micheee
+
+Category: Biologie
+Question: Mit welchen Tieren, bei denen er das Phaenomen der Praegung entdeckte, hat Konrad Lorenz zusammengelebt?
+Answer: Mit Grau#gaense#n
+Regexp: (gans|gaense)
+Author: Micheee
+
+Category: Biologie
+Question: Was entsteht, wenn Fremdkoerper (z.B. Sandkoerner) in bestimmte Muschelarten hineingelangen?
+Answer: #Perle#n
+Author: Micheee
+Level: easy
+
+Category: Biologie
+Question: Was fuer Tiere sind Meerkatzen?
+Answer: Affen
+Author: Micheee
+
+Category: Biologie
+Question: Was für ein Tier ist die Hofdame?
+Answer: Schmetterling
+Author: [ZSF]Duke
+Level: hard
+
+Category: Biologie
+Question: Was für ein Vogel ist die "Wehklagemutter"?
+Answer: Steinkauz
+Regexp: stein-?kauz
+Author: Julika
+Level: hard
+Tip: S..i..a..
+Tip: .t..n..u.
+Tip: ..e..k..z
+
+Category: Biologie
+Question: Was ist Ornithologie?
+Answer: Vogelkunde
+Author: Micheee
+Level: hard
+
+Category: Biologie
+Question: Was ist ein Frauenlori?
+Answer: Papagei
+Author: Angel_HH
+
+Category: Biologie
+Question: Was ist ein Kalvill?
+Answer: Tafelapfel
+Author: aaliyah
+
+Category: Biologie
+Question: Was ist ein Ziegenbart?
+Answer: Pilz
+Author: Julika
+
+Category: Biologie
+Question: Was ist nur der Eindruck von dem, was bestimmte magnetische Wellen auf der Netzhaut hervorrufen?
+Answer: Farbe
+Author: Julika
+
+Category: Biologie
+Question: Was muß ein Braunbaer nicht hinter sich herschleppen?
+Answer: Einen #Schwanz#
+Author: Julika
+
+Category: Biologie
+Question: Was richtet ein Kakadu auf, wenn er aufgeschreckt oder erregt ist?
+Answer: Seinen #Schopf#
+Author: Julika
+
+Category: Biologie
+Question: Was speichert ein Kamel in seinen Hoeckern?
+Answer: Fett
+Author: Micheee
+
+Category: Biologie
+Question: Welche "Haustiere" halten sich die Ameisen, um den von ihnen ausgeschiedenen suessen Honigtau zu "melken"?
+Answer: Blattlaeuse
+Regexp: blatt-?(laus|laeuse)
+Author: Micheee
+
+Category: Biologie
+Question: Welche Farbe hat das Fohlen eines Schimmels IMMER?
+Answer: schwarz
+Author: Julika
+
+Category: Biologie
+Question: Welche Krankheit überträgt die Tze-Tze-Fliege?
+Answer: Schlafkrankheit
+Author: Julika
+
+Category: Biologie
+Question: Welche Tiergruppe gehört zu den Meeresvoegeln hat aber nur zwei flache ausfaltbare Flossen?
+Answer: #Pinguin#e
+Author: Angel_HH
+Tip: sie leben am Suedpol
+Tip: sie koennen nicht fliegen
+Tip: Nonnen nennt man auch so...:-)
+Tip: sie sehen aus, als haetten sie einen Frack an
+
+Category: Biologie
+Question: Welche Zaehne sind beim Menschen die Mahlzaehne?
+Answer: Backenzaehne
+Author: Angel_HH
+
+Category: Biologie
+Question: Welchen Freizeitsport der Menschen beherrscht der Jaguar mit seinem Schwanz ausgesprochen gut?
+Answer: Angeln
+Author: Julika
+Level: hard
+
+Category: Biologie
+Question: Welcher Baum mit bis zu 10m dickem Stamm ist fuer die afrikanische Savanne charakteristisch?
+Answer: Affenbrotbaum
+Regexp: affenbrot[- ]?baum
+Author: Micheee
+Level: hard
+
+Category: Biologie
+Question: Welcher Darmparasit kann über 15m lang werden?
+Answer: Bandwurm
+Author: [ZSF]Duke
+Level: easy
+
+Category: Biologie
+Question: Welcher Vogel kann schneller laufen als ein Rennpferd?
+Answer: Strauss
+Author: Tobac
+
+Category: Biologie
+Question: Welcher österreichische Mönch machte unzählige Kreuzungsversuche mit Erbsen und Bohnen?
+Answer: Mendel
+Author: Micheee
+Level: hard
+
+Category: Biologie
+Question: Welches Insekt uebertraegt die Beulenpest?
+Answer: Floh
+Author: Micheee
+
+Category: Biologie
+Question: Welches Landtier kann am schnellsten Laufen?
+Answer: Gepard
+Author: Micheee
+
+Category: Biologie
+Question: Welches Meerestier sieht, fuehlt und schmeckt mit nur einem Organ?
+Answer: Tintenfisch
+Author: Micheee
+
+Category: Biologie
+Question: Welches Saeugetier legt Eier?
+Answer: Schnabeltier
+Author: Micheee
+Level: hard
+
+Category: Biologie
+Question: Welches Tier hoert die hoechsten Frequenzen?
+Answer: Fledermaus
+Author: HenB
+
+Category: Biologie
+Question: Welches bekannte Gewuerz wird aus einer Orchideenart gewonnen?
+Answer: Vanille
+Regexp: vanilli?e
+Author: Micheee
+Level: hard
+
+Category: Biologie
+Question: Welches ist das groesste lebende Reptil?
+Answer: Nil-#Krokodil#
+Author: Micheee
+
+Category: Biologie
+Question: Welches ist das größte pflanzenfressenden Landsäugetier?
+Answer: Elefant
+Author: Julika
+Level: easy
+
+Category: Biologie
+Question: Welches ist der groesste Meeresvogel?
+Answer: Albatros
+Author: Micheee
+
+Category: Biologie
+Question: Wer hat höchstens 350 Beinpaare?
+Answer: Tausendfüssler
+Author: Julika
+
+Category: Biologie
+Question: Wie heissen die aus vielen hundert Einzelaugen bestehenden, nach aussen gewoelbten Augen der Insekten?
+Answer: Facettenaugen
+Regexp: fa[cs]etten[- ]?auge
+Author: Micheee
+
+Category: Biologie
+Question: Wie heissen junge Ziegen?
+Answer: Zicklein
+Author: Micheee
+Level: easy
+
+Category: Biologie
+Question: Wie heißen die Eckzaehne eines Jagdhundes?
+Answer: Faenge
+Author: Julika
+
+Category: Biologie
+Question: Wie heißt die in Afrika und Asien lebende Riesenschlange?
+Answer: Python
+Author: Micheee
+
+Category: Biologie
+Question: Wie heißt jede einzelne Spitze eines Hirschgeweihs?
+Answer: Ende
+Author: [ZSF]Duke
+
+Category: Biologie
+Question: Wie lange leben Spermien eines Mannes in einer Frau nach der Ejakulation (durchschnittlich)?
+Answer: 48 Stunden
+Author: Clown
+Level: hard
+
+Category: Biologie
+Question: Wie lautet der Sammelbegriff für Dill, Estragon und Thymian?
+Answer: Kraeuter
+Author: Micheee
+
+Category: Biologie
+Question: Wie nennt man alle natuerl. gebildeten chem. Substanzen der Erdkruste, die eine charakteristische Kristallstruktur aufweisen?
+Answer: Mineralien
+Author: Micheee
+
+Category: Biologie
+Question: Wie nennt man bestimmte Fangheuschrecken aufgrund ihrer Koerperhaltung?
+Answer: #Gottesanbeterin#nen
+Author: Micheee
+Level: easy
+
+Category: Biologie
+Question: Wie nennt man die Hautoeffnung?
+Answer: Pore
+Author: Angel_HH
+
+Category: Biologie
+Question: Wie nennt man die Jahre in denen sich die Wuehlmaeuse explosionsartig vermehren?
+Answer: Lemmingjahre
+Regexp: lemming[- ]?jahre
+Author: Angel_HH
+Level: hard
+
+Category: Biologie
+Question: Wie nennt man die Kreuzung aus Pferdestute und Eselshengst?
+Answer: Maultier
+Author: Micheee
+
+Category: Biologie
+Question: Wie nennt man die Paarungszeit der Füchse?
+Answer: Ranzzeit
+Author: Julika
+Level: hard
+
+Category: Biologie
+Question: Wie nennt man die Verwandlung einer Raupe in einen Schmetterling?
+Answer: Metamorphose
+Author: Micheee
+Level: easy
+
+Category: Biologie
+Question: Wie nennt man die sprunghaft Veränderung von Erbanlagen?
+Answer: Mutation
+Author: [ZSF]Duke
+
+Category: Biologie
+Question: Wie nennt man die verdrehte Leiter-Struktur eines DNS-Strangs?
+Answer: Doppelhelix
+Regexp: doppel[- ]?helix
+Author: Micheee
+Level: hard
+
+Category: Biologie
+Question: Wie nennt man eine maennliche Giraffe?
+Answer: Giraffen-#Bulle#
+Author: Julika
+
+Category: Biologie
+Question: Wie nennt man einen kastrierten Hahn?
+Answer: Kapaun
+Author: Julika
+Level: hard
+
+Category: Biologie
+Question: Wieviele Arme besitzt ein Seestern? (ausschreiben!)
+Answer: fünf
+Author: Julika
+
+Category: Biologie
+Question: Wieviele Arme hat ein Oktopus? (ausschreiben!)
+Answer: acht
+Author: Micheee
+
+Category: Biologie
+Question: Wieviele Beine haben Insekten? (ausschreiben!)
+Answer: sechs
+Author: Micheee
+
+Category: Biologie
+Question: Wieviele Maegen hat das Rind? (ausschreiben!)
+Answer: vier
+Author: Micheee
+
+Category: Biologie
+Question: Wieviele Zähne hat ein erwachsener gesunder Mensch?
+Answer: 32
+Author: Dreamteam
+Level: easy
+
+Category: Biologie
+Question: Wo legen Meeresschildkroeten ihre Eier ab?
+Answer: Strand
+Author: Micheee
+Level: easy
+
+Category: Biologie
+Question: Wodurch macht ein Murmeltier seine Artgenossen auf Gefahr aufmerksam?
+Answer: durch schrilles #Pfeifen#
+Author: Julika
+
+Category: Biologie
+Question: Woraus besteht der Panzer eines Kaefers?
+Answer: Chitin
+Author: Micheee
+Level: hard
+
+Category: Biologie
+Question: Zu welcher Familie gehoert der Fuchs?
+Answer: Familie der #Hund#e
+Author: Micheee
+
+Category: Chemie
+Question: "TNT" steht für ...?
+Answer: TriNitroToluol
+Regexp: tri[- ]?nitro[- ]?toluol
+Author: Micheee
+Level: hard
+Tip: Tri...........
+Tip: ...nitro......
+Tip: ........toluol
+
+Category: Chemie
+Question: Chem. Bezeichnung fuer: reaktionsträge, -unfähig
+Answer: inert
+Author: Micheee
+
+Category: Chemie
+Question: Das einzige in der Natur vorkommende Element, das die Ausloesung einer gesteuerten Kettenreaktion im Kernreaktor ermoeglicht?
+Answer: Uran
+Author: HenB
+
+Category: Chemie
+Question: Ein Pflanzenfarbstoff, der als Indikator verwendet wird und sich bei alkalischen Stoffen blau, bei neutralen violett und bei sauren rot faerbt.
+Answer: Lackmus
+Regexp: Lac?kmus
+Author: Micheee
+Level: hard
+
+Category: Chemie
+Question: Für welches chem. Element steht die Abkürzung "Sn"?
+Answer: Zinn
+Author: Micheee
+
+Category: Chemie
+Question: Für welches chem. Element steht die Abkürzung "Zn"?
+Answer: Zink
+Author: Micheee
+
+Category: Chemie
+Question: In der Natur nicht vorkommendes radioaktives Element?
+Answer: Plutonium
+Author: HenB
+
+Category: Chemie
+Question: Nenne eine Bereich der Chemie (...-Chemie)
+Answer: Organische
+Author: Clown
+
+Category: Chemie
+Question: Und was ist HCl fuer eine Saeure?
+Answer: Salzsaeure
+Regexp: salz-?saeure
+Author: Micheee
+
+Category: Chemie
+Question: Was ist die chemische Bezeichnung für Teflon?
+Answer: PolyTetraFluorEthylen
+Regexp: poly[- ]?tetra[- ]?fluor[- ]?ethylen
+Author: Gizzi
+Level: hard
+Tip: PolyT....F....E......
+Tip: P...TetraF....E......
+Tip: P...T....FluorE......
+Tip: P...T....F....Ethylen
+Score: 2
+
+Category: Chemie
+Question: Welcher russische Chemiker stellte 1869 das "Periodenssystem der Elemente" (PSE) auf?
+Answer: Dimitrij #Mendelejew#
+Regexp: m[ae]ndele?je[vw]
+Author: Micheee
+Level: hard
+Score: 2
+
+Category: Chemie
+Question: Welches Gas ist leichter als Helium? (ausschreiben!)
+Answer: Wasserstoff
+Author: Micheee
+
+Category: Chemie
+Question: Welches chemische Element hat die Ordnungszahl 79?
+Answer: Gold
+Author: Julika
+Level: hard
+
+Category: Chemie
+Question: Welches seltene Element hat das Zeichen Tb?
+Answer: Terbium
+Author: Julika
+Level: hard
+
+Category: Chemie
+Question: Wenn sich ein Stoff in einer Flüssigkeit NICHT völlständig löst, spricht man von einer ...?
+Answer: Mischung
+Author: Clown
+
+Category: Chemie
+Question: Wenn sich ein Stoff in einer Flüssigkeit völlständig löst, spricht man von einer ...?
+Answer: Loesung
+Author: Clown
+
+Category: Chemie
+Question: Wie heißt der Wirkstoff, der sowohl in Haschisch als auch spurenweise in Schokolade vorkommt (Kurzform)?
+Answer: THC
+Author: Joint
+
+Category: Chemie
+Question: Wie nennt man den Vorgang, wenn bestimmte Stoffe (z.B. Iod) direkt vom festen in den gasfoermigen Zustand (oder umgekehrt) wechseln?
+Answer: Sublimation
+Regexp: sublim(ation|ieren)
+Author: Micheee
+Level: hard
+
+Category: Chemie
+Question: Wie wird Eisenoxidhydrad klassisch genannt?
+Answer: Rost
+Author: Clown
+
+Category: Chemie
+Question: Wieviel Ruhemasse hat ein Photon? (ausschreiben!)
+Answer: null
+Regexp: (null|keine)
+Author: HenB
+
+Category: Chemie
+Question: Wofür steht H2O2?
+Answer: Wasserstoffperoxid
+Regexp: wasserstoff(per|super)oxid
+Author: Angel_HH
+
+Category: Chemie
+Question: Woraus bestehen Diamanten?
+Answer: Kohlenstoff
+Author: Homer
+
+Category: Chemie
+Question: Woraus bestehen Muschelperlen?
+Answer: Calciumcarbonat
+Regexp: [ck]al[cz]ium[ck]arbonat
+Author: Julika
+Level: hard
+
+Category: Comic & Cartoon
+Question: Clever & ...
+Answer: Smart
+Author: Stimpy
+Level: easy
+
+Category: Comic & Cartoon
+Question: Der Schoepfer von Garfield? (Vor- und Nachname!)
+Answer: Jim Davis
+Author: Moxon
+Level: hard
+
+Category: Comic & Cartoon
+Question: Fix und ...?
+Answer: Foxi
+Author: Micheee
+Level: easy
+
+Category: Comic & Cartoon
+Question: Homers Bierversorger?
+Answer: Moe
+Author: Stimpy
+
+Category: Comic & Cartoon
+Question: Mal ne (leichte) Simpsons-Frage: Wie heisst der Clown bei den Simpsons?
+Answer: Krusty
+Regexp: [ck]rusty
+Author: Micheee
+
+Category: Comic & Cartoon
+Question: Mit welchem Kraut kochen die Schluempfe?
+Answer: Schlumpfkraut
+Regexp: schlumpf[- ]?kraut
+Author: Micheee
+Level: easy
+
+Category: Comic & Cartoon
+Question: Snoopy ist ein Hund aus ...?
+Answer: Peanuts
+Author: ComPoti
+
+Category: Comic & Cartoon
+Question: Tim und ...?
+Answer: Struppi
+Regexp: strupp?[iy]
+Author: Micheee
+Level: easy
+
+Category: Comic & Cartoon
+Question: Und was ist Popeye, damit er gross und kraeftig wird?
+Answer: Spinat
+Author: Micheee
+Level: easy
+
+Category: Comic & Cartoon
+Question: Und wie heisst das Pferd von Lucky Luke?
+Answer: Jolly Jumper
+Regexp: joll?(ie|y) jumper
+Author: Micheee
+
+Category: Comic & Cartoon
+Question: Und wie heisst die schnellste Maus von Mexiko?
+Answer: Speedy Gonzales
+Regexp: speed(ie?|y) gonzales
+Author: Micheee
+Level: easy
+
+Category: Comic & Cartoon
+Question: Was hat Linus aus den "Peanuts" immer bei sich?
+Answer: seine #Schmusedecke#
+Regexp: (kuschel|schmuse)decke
+Author: Micheee
+
+Category: Comic & Cartoon
+Question: Was ist Garfields Lieblingsessen?
+Answer: Lasagne
+Author: Homer
+
+Category: Comic & Cartoon
+Question: Was trinkt der Comic-Held Werner ausser Boelkstoff noch?
+Answer: Kaffee oder Zucker-Ei
+Regexp: (kaffee|zucker[- ]?ei)
+Author: Angel_HH
+Tip: K....e oder Z....r-..
+Tip: .a.... oder .u....-E.
+Tip: ..f... oder ..c...-.i
+Tip: ...f.. oder ...k..-..
+Tip: ....e. oder ....e.-..
+
+Category: Comic & Cartoon
+Question: Welchen Beruf hat Daniel Duesentrieb?
+Answer: Erfinder
+Author: Micheee
+
+Category: Comic & Cartoon
+Question: Welcher Kater ist der Feind von Tweety?
+Answer: Sylvester
+Author: Micheee
+Regexp: s[iy]lvester
+
+Category: Comic & Cartoon
+Question: Welcher Pfadfindergruppe gehoeren die Neffen von Donald Duck an?
+Answer: Faehnlein Fieselschweif
+Author: Micheee
+Level: hard
+
+Category: Comic & Cartoon
+Question: Wer erfand viele der Figuren Entenhausens?
+Answer: Carl #Barks#
+Regexp: bar[ck]s
+Author: Moxon
+Level: hard
+
+Category: Comic & Cartoon
+Question: Wer hat so grosse Angst davor, dass ihm der Himmel auf den Kopf faellt?
+Answer: Majestix
+Author: Micheee
+Level: easy
+
+Category: Comic & Cartoon
+Question: Wer textete Asterix & Obelix?
+Answer: Goscinny
+Regexp: goscinn?[iy]
+Author: Moxon
+Level: hard
+
+Category: Comic & Cartoon
+Question: Wer zeichnet Asterix & Obelix?
+Answer: Uderzo
+Regexp: uder[sz]o
+Author: Moxon
+Level: hard
+
+Category: Comic & Cartoon
+Question: Wie heisst "verdammt" bei den Schluempfen?
+Answer: verschlumpft
+Author: Micheee
+Level: easy
+
+Category: Comic & Cartoon
+Question: Wie heisst Snoopys Sekretaer?
+Answer: Woodstock
+Author: Micheee
+
+Category: Comic & Cartoon
+Question: Wie heisst der Erfinder der Peanuts(tm)?
+Answer: Charles M. #Schultz#
+Regexp: schult?z
+Author: Homer
+Level: hard
+
+Category: Comic & Cartoon
+Question: Wie heisst der Erfinder der Simpsons?
+Answer: Matt #Groening#
+Author: Micheee
+Level: hard
+
+Category: Comic & Cartoon
+Question: Wie heisst der Mafiaboss bei "Die Simpsons"?
+Answer: Fat Tony
+Regexp: Fat Ton[iy]
+Author: Joint
+Level: hard
+
+Category: Comic & Cartoon
+Question: Wie heisst der beste Freund von Fred Feuerstein?
+Answer: #Barney# Geroellheimer
+Author: Micheee
+Level: easy
+
+Category: Comic & Cartoon
+Question: Wie heisst die Freundin von Donald Duck?
+Answer: Daisy
+Author: Angel_HH
+Level: easy
+
+Category: Comic & Cartoon
+Question: Wie heisst in den "Peanuts" die Schwester von Linus?
+Answer: Lucy
+Author: Micheee
+Level: hard
+
+Category: Comic & Cartoon
+Question: Wie heißt der Hund von Micky Maus?
+Answer: Pluto
+Author: [ZSF]Duke
+Level: easy
+
+Category: Comic & Cartoon
+Question: Wie heißt die Grossmutter von Fix und Foxi?
+Answer: Oma #Eusebia#
+Author: Julika
+Level: hard
+
+Category: Comic & Cartoon
+Question: Wieviele Finger haben die Simpsons? (ausschreiben!)
+Answer: drei
+Author: Homer
+
+Category: Comic & Cartoon
+Question: Zeichner von Käpt'n Blaubär?
+Answer: Walter #Moers#
+Author: Homer
+
+Category: Computer
+Question: "BIT" ausgeschrieben!
+Answer: Binary Digit
+Author: [ZSF]Nukem
+Level: hard
+
+Category: Computer
+Question: AMD steht für ...
+Answer: Advanced Micro Devices
+Author: PREDATOR
+Level: hard
+
+Category: Computer
+Question: Auf welchem Betriebssystem basiert Windows98?
+Answer: MS-#DOS#
+Author: DrFraggle
+
+Category: Computer
+Question: Bekannter TV-Karten Hersteller
+Answer: Hauppauge
+Regexp: haupp?auge
+Author: Simon
+
+Category: Computer
+Question: Bekanntes Gebiet nahe San Francisco
+Answer: Silicon Valley
+Regexp: sill?icon valley
+Author: [UA]Bold2504
+
+Category: Computer
+Question: Canon Tintenstrahldrucker arbeiten mit der BubbleJet-Technik - Epson setzt auf ein anderes Verfahren. Wie heißt es?
+Answer: Piezo
+Author: Clown
+
+Category: Computer
+Question: Der Nachfolger von Windows98?
+Answer: Windows ME
+Regexp: windows( ?me| mill?enn?ium edition)
+Author: Micheee
+Level: easy
+
+Category: Computer
+Question: Deutsch fuer "Backup"
+Answer: Datensicherung
+Author: Moxon
+Level: easy
+
+Category: Computer
+Question: EDO RAM ausgeschrieben!
+Answer: Extended Data Output Random Access Memory
+Author: [ZSF]Nukem2
+Level: extreme
+Tip: E..e..e. D..a O..p.. R..d.. A..e.. M..o..
+Tip: .x..n..d .a.. .u..u. .a..o. .c..s. .e..r.
+Tip: ..t..d.. ..t. ..t..t ..n..m ..c..s ..m..y
+
+Category: Computer
+Question: Ein Kilobyte hat wieviele Bytes?
+Answer: 1024
+Author: adrenalin
+
+Category: Computer
+Question: Ein Taiwanischer Mainboardhersteller
+Answer: Asus
+Author: Neo
+
+Category: Computer
+Question: Ein Taiwanischer Mainboardhersteller
+Answer: Gigabyte
+Regexp: giga[- ]?byte
+Author: Neo
+
+Category: Computer
+Question: Ein großer Druckerhersteller
+Answer: Hewlett Packard
+Regexp: hewlett?[- ]pac?kard
+Author: Clown
+
+Category: Computer
+Question: Heute heißt es T-Online, davor DatexJ, und davor?
+Answer: BTX
+Author: Clown
+
+Category: Computer
+Question: Ich vermute, ihr wisst nicht was "MPEG" bedeutet?
+Answer: Moving Pictures Experts Group
+Author: Neo
+Level: hard
+
+Category: Computer
+Question: In welcher Einheit wird die sichtbare Fläche eines Monitors gemessen?
+Answer: Zoll
+Regexp: (inch|zoll)
+Author: [ZSF]Duke
+Level: easy
+
+Category: Computer
+Question: Linux: Kernel-Guru? (Vor- und Nachname!)
+Answer: Alan Cox
+Author: Homer
+Level: hard
+
+Category: Computer
+Question: Neuester Grafik-Chip von Matrox? (Juli 2000)
+Answer: G450
+Author: Homer
+Level: hard
+
+Category: Computer
+Question: Präsident von Microsoft? (2000)
+Answer: Steve #Ballmer#
+Regexp: ball?mer
+Author: Micheee
+Level: hard
+
+Category: Computer
+Question: The One, The True OS.
+Answer: Linux
+Author: Moxon
+
+Category: Computer
+Question: Und was heisst "DVD"?
+Answer: Digital Versatile Disc
+Regexp: digital[- ]vers[ae]tile[- ]dis[ck]
+Author: Micheee
+
+Category: Computer
+Question: Und welcher Verlag bringt die "grossen" Computerbücher heraus?
+Answer: Data Becker
+Author: Neo
+
+Category: Computer
+Question: Von welchem Verlag stammt die Zeitschrift c't?
+Answer: Heinz #Heise#-Verlag
+Author: Homer
+Level: hard
+
+Category: Computer
+Question: Vorgang des Fehler-Entfernens beim Programmieren?
+Answer: Debugging
+Author: Neo
+
+Category: Computer
+Question: Was bedeutet "ADSL"?
+Answer: Asymmetric Digital Subscriber Line
+Regexp: asymm?etric[- ]digital[- ]subscriber[- ]line
+Author: Homer
+
+Category: Computer
+Question: Was bedeutet "DFN"?
+Answer: Deutsches Forschungsnetzwerk
+Regexp: deutsches forschungs-?netzwerk
+Author: Homer
+Level: hard
+
+Category: Computer
+Question: Was bedeutet "HTML"?
+Answer: Hypertext Markup Language
+Regexp: hyper[- ]?text[- ]markup[- ]language
+Author: Micheee
+Level: hard
+Tip: H...r...t M...u. L...u...
+Tip: .y...t... .a...p .a...a..
+Tip: ..p...e.. ..r... ..n...g.
+Tip: ...e...x. ...k.. ...g...e
+
+Category: Computer
+Question: Was bedeutet "HTTP"?
+Answer: Hypertext Transfer Protocol
+Regexp: hyper[- ]?text[- ]transfer[- ]protocol
+Author: m6k
+Level: hard
+Tip: H...r...t T...s... P...o...
+Tip: .y...t... .r...f.. .r...c..
+Tip: ..p...e.. ..a...e. ..o...o.
+Tip: ...e...x. ...n...r ...t...l
+
+Category: Computer
+Question: Was bedeutet IDE?
+Answer: Integrated Drive Electronics
+Regexp: integrated[- ]drive[- ]electronics?
+Author: Gizzi
+Level: hard
+
+Category: Computer
+Question: Was bedeutet bei q-Basic das "q"?
+Answer: quick
+Author: [ZSF]Duke
+Level: hard
+
+Category: Computer
+Question: Was bedeutet der Name des Verschluesselungsprogrammes "PGP" ausgeschrieben?
+Answer: Pretty Good Privacy
+Regexp: pretty[- ]good[- ]privacy
+Author: Homer
+
+Category: Computer
+Question: Was bedeutet die Abkürzung "ASCII"?
+Answer: American Standard Code for Information Interchange
+Author: Julika
+Level: hard
+
+Category: Computer
+Question: Was fuern eine Art "Virus" war der Loveletter?
+Answer: Wurm
+Regexp: w[ou]rm
+Author: Micheee
+Level: hard
+
+Category: Computer
+Question: Was heisst das "ME" in Windows ME?
+Answer: Millennium Edition
+Regexp: mill?enn?ium edition
+Author: Joint
+
+Category: Computer
+Question: Was heist BASIC ausgeschrieben?
+Answer: Beginners All Purpose Symbolic Instruction Code
+Author: Moxon
+Level: extreme
+Score: 2
+Tip: Beginners A.l P..p.s. S..b..i. I..t.u.t.o. C.d.
+Tip: B........ .l. Purpose S.m..l.. I.s.r.c...n ...e
+Tip: B........ A.. P...... Symbolic .n......i.. .o..
+Tip: B........ A.. P...... S....... Instruction C...
+
+Category: Computer
+Question: Was heißt POP3 ausgeschrieben?
+Answer: Postoffice Protocol 3
+Regexp: post[- ]?office[- ]?protocol
+Author: aldor
+Level: hard
+
+Category: Computer
+Question: Was heißt SuSE?
+Answer: Software- und Systementwicklung
+Regexp: software-? und system[- ]?entwicklung
+Author: HenB
+Tip: S....a... u.. .y....e....c....g
+Tip: Software- .n. ..s....n....k....
+Tip: ..f....e. und ...t....t....l...
+Tip: ...t....- ... System...w....u..
+Tip: ....w.... ... S....mentwicklung
+
+Category: Computer
+Question: Was heißt eigentlich "CD-ROM"?
+Answer: Compact Disc - Read Only Memory
+Regexp: compact ?dis[ck].*read only memory
+Author: TBA
+Level: easy
+
+Category: Computer
+Question: Was heißt eigentlich "DOS"?
+Answer: Disk Operating System
+Regexp: dis[ck] operating system
+Author: TBA
+
+Category: Computer
+Question: Was heißt eigentlich "MIDI"?
+Answer: Musical Instrument Digital Interface
+Author: TBA
+Level: hard
+Score: 2
+Tip: M...c.. I...r...n. D...t.. I...r...e
+Tip: .u...a. .n...u...t .i...a. .n...f...
+Tip: ..s...l ..s...m... ..g...l ..t...a..
+Tip: ...i... ...t...e.. ...i... ...e...c.
+
+Category: Computer
+Question: Was ist der "EMU10K1"?
+Answer: Soundchip
+Regexp: sound[- ]?chip
+Author: Homer
+Level: hard
+
+Category: Computer
+Question: Was ist der härteste Linux Konkurrent?
+Answer: Windows 2000
+Author: Neo
+Level: easy
+
+Category: Computer
+Question: Was ist eine "NIC"?
+Answer: Network Interface Card
+Regexp: network[- ]interface[- ]card
+Author: Homer
+Level: hard
+
+Category: Computer
+Question: Was meinen viele Leute, wenn sie das Wort "Benzium" benutzen?
+Answer: Pentium
+Author: Micheee
+Level: easy
+
+Category: Computer
+Question: Welche Programmiersparche kann vom Namen her im Meer schwimmen?
+Answer: Delphi
+Author: LunaticPandora
+Level: hard
+
+Category: Computer
+Question: Welches Bildformat wurde damals vom Online Anbieter CompuServe ins Leben gerufen?
+Answer: GIF
+Author: Neo
+
+Category: Computer
+Question: Welches deutsche Institut hat die MP3-Komprimierung erfunden?
+Answer: #Fraunhofer# Institut
+Regexp: fraue?nhofer
+Author: Clown
+Level: hard
+
+Category: Computer
+Question: Wer fertigt die Aldi-PC's?
+Answer: Medion
+Author: Homer
+
+Category: Computer
+Question: Wie heisst der neue Celeron-Konkurrent von AMD?
+Answer: Duron
+Author: Homer
+
+Category: Computer
+Question: Wie heisst die Firma, die zusammen mit Linus Torvalds den Cruesoe-Prozessor entwickelt hat?
+Answer: Transmeta
+Author: Homer
+Level: hard
+
+Category: Computer
+Question: Wie heißt das Office-Paket, welches von einer Fa. in Hamburg entwickelt wurde, und nun zu SUN gehört?
+Answer: StarOffice
+Author: Clown
+
+Category: Computer
+Question: Wie hiess die erste grafische Oberfläche (bzw. der Befehl zum eingeben) für MS-DOS?
+Answer: Dosshell
+Regexp: dos[- ]?shell
+Author: CiferAlmesy
+Level: hard
+
+Category: Computer
+Question: Wie nennt man Programme, die die Aktivität von Programmen (Zugriffen) auf dem eigenen Rechner überwachen, und ggf. einschränken?
+Answer: Sandbox
+Author: Clown
+Level: hard
+
+Category: Computer
+Question: Wie nennt man Programme, die die Ports des Rechners überwachen, und ggf. einen Connect verhindern?
+Answer: Firewall
+Author: Clown
+
+Category: Computer
+Question: Wie nennt man den Superuser (Administrator) unter Linux?
+Answer: root
+Author: Clown
+
+Category: Computer
+Question: Wie nennt man die vollstaendig am Computer erzeugten, animierten Hampelmaenner (z.B. Robert T. Online), die den Menschen nachempfunden sind?
+Answer: #Avatar#e
+Author: Micheee
+
+Category: Computer
+Question: Wie wird der neueste Prozessor (Codename: Willamette) von Intel heissen? (Stand: Juni 2000)
+Answer: Pentium IV
+Regexp: Pentium ?(iv|4)
+Author: Micheee
+
+Category: Computer
+Question: Wieviel MB passen auf eine 74-Minuten CD?
+Answer: #650# MB
+Author: Micheee
+Level: easy
+
+Category: Computer
+Question: Wieviel Speicherkapazität (in MB) besitzt eine überlange Compact Disc?
+Answer: #700# MB
+Author: Jason
+
+Category: Computer
+Question: Wiviele Minuten kannste auf einer 650MB-CD brennen?
+Answer: #74# Minuten
+Author: Angel_HH
+Level: easy
+
+Category: Computer
+Question: Wofür steht "ICQ"?
+Answer: I Seek You
+Author: Homer
+Level: hard
+
+Category: Computer
+Question: Wofür steht die Abkürzung "DFÜ"?
+Answer: Datenfernübertragung
+Regexp: daten[- ]?fern[- ]?uebertragung
+Author: TBA
+
+Category: Computer
+Question: Wofür steht die Abkürzung FAT?
+Answer: File Allocation Table
+Author: TheMegaMario
+Level: hard
+
+Category: Computerspiele
+Question: Das meistgespielte Game in deutschen Büros? (2000)
+Answer: #Moorhuhn#jagd
+Author: Andee
+
+Category: Computerspiele
+Question: Ehemals Präsident von Trilobyte, jetzt bei id-Software? (Vor- und Nachname!)
+Answer: Graeme Devine
+Author: Homer
+Level: hard
+
+Category: Computerspiele
+Question: In welchem Kult-Game (natürlich von LucasArts) musste man seine Gegner mit schrägen Sprüchen übertrumpfen?
+Answer: Monkey Island
+Author: CiferAlmesy
+Level: hard
+Tip: Obwohl der urspruengliche Entwickler nicht mehr bei LucasArts ist, wird bereits am 4. Teil dieses Adventures gearbeitet (August 2000)
+Tip: Der Held hoert auf den Namen: Guybrush Threepwood
+Tip: Auf Deutsch: Affen Insel
+
+Category: Computerspiele
+Question: In welchem Kult-Game von LucasArts gibts eine Kettensäge ohne Benzin?
+Answer: Maniac Mansion
+Regexp: maniac[- ]?mansion
+Author: CiferAlmesy
+Level: hard
+Tip: Der Nachfolger dieses Spiels hatte den Untertitel: Day of the Tentacle
+Tip: Auf Deutsch: Tollhaus oder verruecktes Haus
+Tip: M.n.a. M.n.i.n
+Tip: .a.i.c .a.s.o.
+
+Category: Computerspiele
+Question: In welchem Kult-Game von LucasArts musste man am Ende einen Becher auswählen, um zu gewinnen?
+Answer: Indiana Jones
+Author: CiferAlmesy
+Level: hard
+Tip: Es gibt einen gleichnamigen Film mit dem Untertitel: The last Crusade
+Tip: Der Nachfolger dieses Spiels hatte den Untertitel: The Fate of Atlantis (einen Film gab's nicht dazu)
+Tip: I.d.a.a J.n.s
+Tip: .n.i.n. .o.e.
+
+Category: Computerspiele
+Question: In welchem Kult-Game von LucasArts wollte Guybrush Threepwood unbedingt Pirat werden?
+Answer: Monkey Island
+Author: Neo
+
+Category: Computerspiele
+Question: Welchen Teil der Larry-Serie gab es NICHT? (ausschreiben!)
+Answer: vier
+Author: Homer
+
+Category: Computerspiele
+Question: Welches Computerspiel erregte soviel Aufsehen, dass es dieses Jahr in HH einen nationalen Wettkampf dafür gab?
+Answer: #Moorhuhn#jagd
+Author: Dreamteam
+
+Category: Computerspiele
+Question: Wer entwarf die Kultfigur "Leisure Suit Larry" ? (Vor- und Nachname!)
+Answer: Al Lowe
+Author: Homer
+Level: hard
+
+Category: Computerspiele
+Question: Wer entwickelte Quake3 Arena?
+Answer: id Software
+Regexp: id[- ]software
+Author: [UA]Bold2504
+Level: hard
+
+Category: Computerspiele
+Question: Wie heisst das kultige Spiel von LucasArts, bei dem man ein Ei in einer Mikrowelle explodieren lassen muss?
+Answer: Zak McKracken
+Regexp: za[ck] ?ma?c ?[ck]ra(c|ck|k)en
+Author: Micheee
+Level: hard
+
+Category: Computerspiele
+Question: Wie heisst der Held, der in einer bekannten Spiele-Serie um das Überleben Britanniens kämpft?
+Answer: Avatar
+Author: Neo
+Level: hard
+
+Category: Computerspiele
+Question: Wie heisst der Nachfolger von Anno 1602?
+Answer: Anno 1503
+Author: Neo
+Level: hard
+
+Category: Computerspiele
+Question: Wie heist der (fast schon) Kult-Mapper bei Epic Games?
+Answer: Cliff #Bleszinski#
+Regexp: bles[cz]inski
+Author: Homer
+Level: hard
+
+Category: Computerspiele
+Question: Wie heißt der Freßsack aus dem wohl beliebtesten Elektronikspiel der Welt?
+Answer: Pac-Man
+Regexp: pac[- ]?man
+Author: [ZSF]Duke
+
+Category: Computerspiele
+Question: Wie ist der vollständige Titel des dritten Teils von Quake?
+Answer: Quake3 Arena
+Regexp: quake ?(3|iii) arena
+Author: [ZSF]Duke
+
+Category: Film & Fernsehen
+Question:  Star Trek: Was bedeutet das Akronym "TOS"?
+Answer: The Original Series
+Author: Moxon
+Tip: Na, die Serie mit dem Langohr und Pille
+Tip: The ........ ......
+Tip: ... Original ......
+Tip: ... ........ Series
+
+Category: Film & Fernsehen
+Question:  Welcher Musiker, Serienstar und Schauspieler rettet in Independence Day die Welt? (Vor- und Nachname)
+Answer: Will Smith
+Author: Moxon
+Level: easy
+
+Category: Film & Fernsehen
+Question: "Nachfolger" der Simpsons?
+Answer: Futurama
+Author: adasd
+
+Category: Film & Fernsehen
+Question: ... ..., Party Time, Excellent!
+Answer: Wayne's World
+Regexp: wayne.?s world
+Author: Neo
+
+Category: Film & Fernsehen
+Question: Astrid Lindgren: Wir Kinder aus ...?
+Answer: Bullerbue
+Author: Micheee
+
+Category: Film & Fernsehen
+Question: Aus welchem Film stammt der Begriff Fluxkompensator?
+Answer: Zurueck in die Zukunft
+Author: Simon
+Level: hard
+
+Category: Film & Fernsehen
+Question: DIE Partnerin von Neo
+Answer: Trinity
+Author: Neo
+
+Category: Film & Fernsehen
+Question: Der neueste Film von Mel Gibson? (2000)
+Answer: Der #Patriot#
+Author: Moxon
+
+Category: Film & Fernsehen
+Question: Der wievielte Sinn entwickelte sich zum Dauerbrenner in der ARD?
+Answer: Der #siebte# Sinn
+Regexp: (sieb[en]te|7\.)
+Author: Julika
+Level: easy
+
+Category: Film & Fernsehen
+Question: Der witzige Ostfriese. (Vor- und Nachname!)
+Answer: Otto Waalkes
+Regexp: otto waa?lkes
+Author: Tobac
+Level: easy
+
+Category: Film & Fernsehen
+Question: Ein bekannter Sprecher der Tagesthemen auf ARD
+Answer: Ulrich #Wickert#
+Regexp: wic?ker[dt]
+Author: Tobac
+
+Category: Film & Fernsehen
+Question: Ene mene miste, es ... ... ... ...
+Answer: rappelt in der Kiste
+Author: Angel_HH
+Level: baby
+
+Category: Film & Fernsehen
+Question: Ergaenze: Der die das, wer wie was, wieso weshalb warum, ... ... ..., ... ...
+Answer: wer nicht fragt, bleibt dumm
+Regexp: wer nicht fragt,? bleibt dumm
+Author: Micheee
+Level: easy
+
+Category: Film & Fernsehen
+Question: Hauptdarsteller im Kinofilm "The Rock" ? (Vor- und Nachname!)
+Answer: Sean Connery
+Regexp: [js]ean connery
+Author: Angel_HH
+
+Category: Film & Fernsehen
+Question: Hauptdarsteller und Regisseur von "Stargate"?
+Answer: Richard Dean #Anderson#
+Author: Julika
+Level: hard
+
+Category: Film & Fernsehen
+Question: Hauptdarsteller von "Blade" ? (Vor- und Nachname!)
+Answer: Wesley Snipes
+Author: Angel_HH
+
+Category: Film & Fernsehen
+Question: Hauptdarsteller von 'From Dusk Till Dawn'?
+Answer: George #Clooney#
+Regexp: cloo?ney
+Author: Homer
+Level: hard
+
+Category: Film & Fernsehen
+Question: Hauptdarstellerin bei "Jenseits von Afrika"?
+Answer: Meryl #Streep#
+Author: Julika
+Level: hard
+
+Category: Film & Fernsehen
+Question: Hauptdarstellerin in der Alien-Filmen? (Name im Film)
+Answer: Allen #Ripley#
+Author: LunaticPandora
+
+Category: Film & Fernsehen
+Question: In welchem Antikriegsfilm hatte Harrison Ford das Vergnuegen, mit Superstars wie Marlon Brando und Martin Sheen zusammen zu spielen?
+Answer: Apocalypse now
+Author: Dreamteam
+Level: hard
+
+Category: Film & Fernsehen
+Question: In welchem Film hat Robert de Niro die Aufgabe, über das Leiden von Jason Patric und Brad Pitt Stillschweigen zu bewahren?
+Answer: Sleepers
+Author: Dreamteam
+
+Category: Film & Fernsehen
+Question: In welchem Film spielte Leonardo di Caprio die Charakterrolle eines behinderten Jungen?
+Answer: Gilbert Grape
+Author: Dreamteam
+Level: hard
+
+Category: Film & Fernsehen
+Question: In welchem Land wurde Bruce Willis geboren?
+Answer: Deutschland
+Author: Joint
+
+Category: Film & Fernsehen
+Question: In welchen Film spielte Nicolas Cage mit Meg Ryan zusammen?
+Answer: City of Angels
+Author: LunaticPandora
+Level: hard
+
+Category: Film & Fernsehen
+Question: In welcher Sportart ist Chuck Norris mehrfacher Meister?
+Answer: Karate
+Author: Thomas_HH
+
+Category: Film & Fernsehen
+Question: Indy's Lieblings-"Waffe"?
+Answer: Peitsche
+Author: Tobac
+Level: easy
+
+Category: Film & Fernsehen
+Question: Moderator von Knoff-Hoff?
+Answer: Joachim #Bublath#
+Regexp: bublath?
+Author: HenB
+
+Category: Film & Fernsehen
+Question: Regisseur von 'Spaceballs' ? (Vor- und Nachname!)
+Answer: Mel Brooks
+Author: Homer
+Level: hard
+
+Category: Film & Fernsehen
+Question: Star Trek: Was bedeutet das Akronym "TNG"?
+Answer: The Next Generation
+Author: Moxon
+
+Category: Film & Fernsehen
+Question: Star Wars: Der Name des Imperators?
+Answer: Palpatine
+Regexp: palpatine?
+Author: Micheee
+Level: hard
+
+Category: Film & Fernsehen
+Question: Star Wars: Die Fuehrerin der Rebellen-Allianz?
+Answer: Mon Mothma
+Regexp: mon moth?ma
+Author: Micheee
+Level: hard
+
+Category: Film & Fernsehen
+Question: Star Wars: Welcher Rasse gehoert Admiral Ackbar an?
+Answer: Mon #Calamari#
+Author: Micheee
+Level: hard
+
+Category: Film & Fernsehen
+Question: Star Wars: Wer spielte den jungen Obi-Wan Kenobi in Episode 1?
+Answer: Ewan #McGregor#
+Author: Homer
+Level: hard
+
+Category: Film & Fernsehen
+Question: Star Wars: Wer war im US-Original die Synchronstimme von Darth Vader? (voller Name!)
+Answer: James Earl Jones
+Author: Homer
+Level: hard
+
+Category: Film & Fernsehen
+Question: Star Wars: Wie heisst Darth Vader wirklich? (voller Name!)
+Answer: Anakin Skywalker
+Regexp: anar?kin skywalker
+Author: Micheee
+
+Category: Film & Fernsehen
+Question: Star Wars: Wofür steht die Abkuerzung der imperialen Raumjaeger "TIE"?
+Answer: Twin Ion Engine
+Regexp: twin[- ]ion[- ]engine
+Author: Micheee
+Level: hard
+
+Category: Film & Fernsehen
+Question: Unter welchem Namen waren Stan Laurel und Oliver Hardy bekannt?
+Answer: Dick und Doof
+Author: Micheee
+
+Category: Film & Fernsehen
+Question: Versicherungs-Fuzzi aus der Werbung?
+Answer: Herr Kaiser
+Author: Homer
+Level: easy
+
+Category: Film & Fernsehen
+Question: Von welchem Planeten kommt Mr. Spock?
+Answer: Vulkan
+Author: Micheee
+Level: easy
+
+Category: Film & Fernsehen
+Question: Von welchem deutschen Schauspieler ist die Stimme vom Pumuckl? (Vor- und Nachname!)
+Answer: Hans Clarin
+Regexp: hans [ck]larin
+Author: Julika
+
+Category: Film & Fernsehen
+Question: Von wem ist die Verfilmung von "MOMO" ? (Vor- und Nachname!)
+Answer: Michael Ende
+Author: Angel_HH
+
+Category: Film & Fernsehen
+Question: Von wem stammt der Film "Der grosse Diktator"?
+Answer: Charly Chaplin
+Regexp: charl(es|ie|y) chaplin
+Author: Micheee
+
+Category: Film & Fernsehen
+Question: Welche Figur aus der Sesamstrasse lebt im Muelleimer?
+Answer: Oscar
+Regexp: os[ck]ar
+Author: Micheee
+
+Category: Film & Fernsehen
+Question: Welche Kult-Serie wurde am 8. September 1966 das erste mal im NBS ausgestrahlt?
+Answer: Star Trek
+Regexp: (TOS|Star Trek)
+Author: Moxon
+
+Category: Film & Fernsehen
+Question: Welche renommierte Gemeinsamkeit verbindet die Star Trek-Darsteller Brent Spinner, Jonathan Frakes und Patrick Stewart?
+Answer: Royal Shakespeare Company
+Author: Dreamteam
+Level: hard
+
+Category: Film & Fernsehen
+Question: Welchem Film diente das Buch "Do Androids Dream Of Electric Sheep?" als Vorlage?
+Answer: Blade Runner
+Regexp: blade[- ]?runner
+Author: Micheee
+Level: hard
+
+Category: Film & Fernsehen
+Question: Welchen Job hat Uhura in Raumschiff Enterprise?
+Answer: Kommunikationsoffizier
+Author: Julika
+
+Category: Film & Fernsehen
+Question: Welcher "schnelle Raumkreuzer" verfügt über eine "schlummernde Reserve"?
+Answer: Orion
+Author: Micheee
+Level: hard
+
+Category: Film & Fernsehen
+Question: Welcher "witzige" Latzhosenträger führt durch die Sendung Löwenzahn?
+Answer: Peter Lustig
+Author: Neo
+
+Category: Film & Fernsehen
+Question: Welcher Fernsehkanal wurde als deutsch-franzoesische Kooperation gestartet?
+Answer: Arte
+Author: Julika
+
+Category: Film & Fernsehen
+Question: Welcher Film machte Regisseur Ridley Scott und Schauspielerin Sigourney Weaver zu Superstars?
+Answer: Alien
+Author: Dreamteam
+
+Category: Film & Fernsehen
+Question: Welcher Marx-Brother hat einen angemalten Schnurrbart, runde Brille und riesige Zigarre?
+Answer: Groucho
+Author: Micheee
+Level: hard
+
+Category: Film & Fernsehen
+Question: Welcher Marx-Brother ist stumm und spielt Harfe?
+Answer: Harpo
+Author: Micheee
+Level: hard
+
+Category: Film & Fernsehen
+Question: Welcher Musiker spielte in dem Kult-Film "Das Boot" mit? (Vor- und Nachname!)
+Answer: Herbert Groenemeyer
+Regexp: herbert groeneme[iy]er
+Author: Angel_HH
+
+Category: Film & Fernsehen
+Question: Welcher Regisseur trat fast immer am Anfang seiner Filme selber auf?
+Answer: Alfred #Hitchcock#
+Author: Micheee
+
+Category: Film & Fernsehen
+Category: Fernsehen
+Question: Welcher Schauspieler flog übers Kuckucksnest? (Vor- und Nachname!)
+Answer: Jack Nicholson
+Regexp: Jack Nichols[eo]n
+Author: Dreamteam
+
+Category: Film & Fernsehen
+Question: Welcher Schauspieler spielt in dem Film "Fight Club" an der Seite von Brad Pitt? (Vor- und Nachname!)
+Answer: Edward Norton
+Author: Julika
+Level: hard
+
+Category: Film & Fernsehen
+Question: Welcher Schauspieler uebernimmt die Nachfolge des Paten, gespielt von Marlon Brando? (voller Name)
+Answer: Al Pacino
+Author: Moxon
+Tip: A. P..i..
+Tip: .l .a..n.
+Tip: .. ..c..o
+
+Category: Film & Fernsehen
+Question: Welcher Star Trek-Darsteller spielt im Film "X-Men" mit?
+Answer: Patrick #Stewart#
+Author: i11usion
+Level: hard
+
+Category: Film & Fernsehen
+Question: Welcher britische Musiker legt sich mit einer eigentlich schon toten Krähe an?
+Answer: Iggy Pop
+Author: Dreamteam
+Level: hard
+Tip: I... P..
+Tip: .g.. .o.
+Tip: ..g. ..p
+Tip: ...y ...
+
+Category: Film & Fernsehen
+Question: Welcher deutsche Komiker ist an seinem Nachnamen gestorben? (Vor- und Nachname)
+Answer: Dieter Krebs
+Author: Tobac
+
+Category: Film & Fernsehen
+Question: Welcher englische Popstar versuchte sich als Schauspieler in dem Film "Dune"?
+Answer: Sting
+Author: Dreamteam
+Level: hard
+
+Category: Film & Fernsehen
+Question: Welches Glücksspiel beherrschte Cincinnati Kid?
+Answer: Poker
+Author: Julika
+
+Category: Film & Fernsehen
+Question: Welches Koerperorgan von E. T. leuchtet, wenn sich der kleine Ausserirdische zu sehr aufregen muss?
+Answer: Herz
+Author: Julika
+
+Category: Film & Fernsehen
+Question: Welches Monty Python Mitgiled war Amerikaner?
+Answer: Terry #Giliam#
+Regexp: gill?iam
+Author: Homer
+Level: hard
+
+Category: Film & Fernsehen
+Question: Welches amerikanische Pferd muss zu allem seinen Kommentar geben?
+Answer: Mr. Ed
+Regexp: (Mr\.?|Mister) Ed
+Author: Dreamteam
+
+Category: Film & Fernsehen
+Question: Wer drehte den Kult-Film 'Blade Runner'?
+Answer: Ridley #Scott#
+Author: Homer
+Level: hard
+Tip: Der hat auch 'Alien' gemacht
+Tip: R..l.. S..t.
+Tip: .i..e. .c..t
+Tip: ..d..y ..o..
+
+Category: Film & Fernsehen
+Question: Wer führte Regie in "Frankenstein Junior" ? (Vor- und Nachname!)
+Answer: Mel Brooks
+Author: [ZSF]Duke
+
+Category: Film & Fernsehen
+Question: Wer hat den längsten der Welt (laut Presse)?
+Answer: Long Dong Silver
+Author: aldor
+
+Category: Film & Fernsehen
+Question: Wer lebt am 39. Stein des Canyon Way?
+Answer: Familie Feuerstein
+Regexp: (feuerstein|flintstone)
+Author: Micheee
+Tip: spielt in der Steinzeit
+Tip: und ist ein Cartoon
+Tip: yabbaa dabaa dooooo
+
+Category: Film & Fernsehen
+Question: Wer spielt FBI Agent Mulder?
+Answer: David #Duchovny#
+Author: Moxon
+Level: hard
+
+Category: Film & Fernsehen
+Question: Wer spielt FBI Agentin Scully?
+Answer: Gillian #Anderson#
+Author: Moxon
+Level: hard
+
+Category: Film & Fernsehen
+Question: Wer spielt in der Soap GZSZ den bösen? (Serienname)
+Answer: Joe Gerner
+Author: Angel_HH
+Level: hard
+
+Category: Film & Fernsehen
+Question: Wer spielte "Lawrence von Arabien" ? (voller Name)
+Answer: Peter O'Toole
+Author: Moxon
+Level: hard
+Tip: P...r O'...l.
+Tip: .e... ..T...e
+Tip: ..t.. ...o...
+Tip: ...e. ....o..
+
+Category: Film & Fernsehen
+Question: Wer spielte "Pille" in Star Trek?
+Answer: DeForest #Kelley#
+Author: Moxon
+
+Category: Film & Fernsehen
+Question: Wer spielte Charlie Allnut in African Queen? (vollstaendiger Name)
+Answer: Humphrey Bogart
+Author: Moxon
+Level: hard
+Tip: Schau mir in die Augen, Kleines
+Tip: H..p..e. B..a..
+Tip: .u..h..y .o..r.
+Tip: ..m..r.. ..g..t
+
+Category: Film & Fernsehen
+Question: Wer spielte Ike Turner in der Verfilmung von Tina Turners Leben?
+Answer: Lawrence #Fishburne#
+Author: TheMegaMario
+Level: hard
+
+Category: Film & Fernsehen
+Question: Wer spielte Mr. Spock in Star Trek?
+Answer: Leonard #Nimoy#
+Author: Moxon
+Level: hard
+
+Category: Film & Fernsehen
+Question: Wer spielte Scheich Ali in "Lawrence von Arabien" ? (voller Name)
+Answer: Omar Sharif
+Author: Moxon
+Tip: Kommt aus Aegypten.  Seine Frau weigerte sich mit nach Hollywood umzuziehen.
+Tip: O... S...i.
+Tip: .m.. .h...f
+Tip: ..a. ..a...
+Tip: ...r ...r..
+
+Category: Film & Fernsehen
+Question: Wer spielte den Rick im Film Casablanca? (Vor- und Nachname!)
+Answer: Humphrey Bogart
+Regexp: humphrey bogar[dt]
+Author: Micheee
+Tip: H...h... B...r.
+Tip: .u...r.. .o...t
+Tip: ..m...e. ..g...
+Tip: ...p...y ...a..
+
+Category: Film & Fernsehen
+Question: Wer spielte den kleineren Zwilling in dem Kinoerfolg "Twins" - Zwillinge? (voller Name!)
+Answer: Danny de Vito
+Author: Julika
+
+Category: Film & Fernsehen
+Question: Wer spielte die Missionarin Rosie in African Queen (vollstaendiger Name)
+Answer: Katharine Hepburn
+Author: Moxon
+Level: hard
+Tip: Die "Partnerin" von Humphrey Bogart?
+Tip: K..h..i.. H..b..n
+Tip: .a..a..n. .e..u..
+Tip: ..t..r..e ..p..r.
+
+Category: Film & Fernsehen
+Question: Wer will nach Hause telefonieren?
+Answer: E.T.
+Regexp: e\. ?t\.
+Author: Moxon
+Level: easy
+
+Category: Film & Fernsehen
+Question: Wer wurde mit "Jenseits von Eden" beruehmt? (voller Name)
+Answer: James Dean
+Author: Moxon
+Tip: J...s D...
+Tip: .a... .e..
+Tip: ..m.. ..a.
+Tip: ...e. ...n
+
+Category: Film & Fernsehen
+Question: Werbung: "Ich will Kuehe!"
+Answer: Tui
+Author: Micheee
+
+Category: Film & Fernsehen
+Question: Werbung: Eine Katzenfutter-Marke
+Answer: Sheba
+Regexp: sc?heba
+Author: Tobac
+
+Category: Film & Fernsehen
+Question: Werbung: Wer ist der "Haribo-Mann" ? (Vor- und Nachname!)
+Answer: Thomas Gottschalk
+Regexp: thomas gottschalc?k
+Author: Angel_HH
+Level: easy
+
+Category: Film & Fernsehen
+Question: Werbung: Wie heisst die quadratisch, praktisch, gute Schokolade?
+Answer: Ritter sport
+Regexp: ritter[- ]?sport
+Author: Neo
+Level: easy
+
+Category: Film & Fernsehen
+Question: Wie heisst das Haus, in dem Pippi Langstrumpf wohnt?
+Answer: Villa Kunterbunt
+Author: Julika
+
+Category: Film & Fernsehen
+Question: Wie heisst das schoene Segelschiff aus der Beck's Reklame?
+Answer: Alexander von Humboldt
+Regexp: alexander.*humboldt?
+Author: Andee
+Level: hard
+
+Category: Film & Fernsehen
+Question: Wie heisst der Butler von Batman?
+Answer: Alfred
+Author: Micheee
+
+Category: Film & Fernsehen
+Question: Wie heisst der Frosch bei den Muppets?
+Answer: Kermit
+Author: Micheee
+
+Category: Film & Fernsehen
+Question: Wie heisst der begehrte internationale Filmpreis von Cannes?
+Answer: Goldene Palme
+Author: Micheee
+
+Category: Film & Fernsehen
+Question: Wie heisst der wohl beruehmteste Film mit John Belushi?
+Answer: Blues Brothers
+Author: Thomas_HH
+
+Category: Film & Fernsehen
+Question: Wie heisst die "Frau", die für die Wa(h)re Liebe auf VOX zustaendig ist? (Vor- und Nachname!)
+Answer: Lilo Wanders
+Author: Tobac
+Level: hard
+
+Category: Film & Fernsehen
+Question: Wie heisst die Special Effects-Firma, die George Lucas aufgrund seines Erfolges mit Star Wars gegründet hat?
+Answer: Industrial Light and Magic
+Author: Dreamteam
+Level: hard
+Tip: I...s...a. L...t a.. M...c
+Tip: .n...t...l .i... .n. .a...
+Tip: ..d...r... ..g.. ..d ..g..
+Tip: ...u...i.. ...h. ... ...i.
+
+Category: Film & Fernsehen
+Question: Wie heisst die Stadt in der Batman lebt?
+Answer: Gotham City
+Author: Micheee
+
+Category: Film & Fernsehen
+Question: Wie heißt der Moderator von Hobbythek?
+Answer: Jean #Puetz#
+Author: HenB
+
+Category: Film & Fernsehen
+Question: Wie heißt der Moderator von Quarks&Co?
+Answer: Ranga #Yogeshwar#
+Author: HenB
+Level: hard
+
+Category: Film & Fernsehen
+Question: Wie heißt der beruehmteste Klingone?
+Answer: Worf
+Author: Simon
+
+Category: Film & Fernsehen
+Question: Wie heißt die Parodie auf 'Star Wars'?
+Answer: Spaceballs
+Regexp: space[- ]?balls
+Author: HenB
+Level: hard
+
+Category: Film & Fernsehen
+Question: Wie nannte Will Smith die Zigarre im Film "Independence Day"?
+Answer: Fat Lady
+Author: Angel_HH
+
+Category: Film & Fernsehen
+Question: Wo rammt John Travolta im Film Pulp Fiction die Adrenalin Spritze rein?
+Answer: Herz
+Author: LunaticPandora
+
+Category: Film & Fernsehen
+Question: Woher hat Indiana Jones seinen Spitznamen "Indy"?
+Answer: Vom #Hund#
+Author: LunaticPandora
+
+Category: Film & Fernsehen
+Question: Zu welchem Ball wird Pocahontas (Teil 2) vom König aus eingeladen?
+Answer: Jaegerball
+Author: Angel_HH
+Level: hard
+
+Category: Film & Fernsehen
+Question: Zu welcher Produktionsfirma schlossen sich Spielberg, Katzman und Geffen zusammen?
+Answer: Dreamworks
+Author: Dreamteam
+Level: hard
+
+Category: Film & Fernsehen
+Question: Zweiter Vorname von Cpt. Kirk?
+Answer: Tiberius
+Author: Moxon
+
+Category: Film
+Question: Welcher Sohn einer Englaenderin und eines Inders spielte unter anderem die Hauptrolle in dem Monumentalfilm "Gandhi"?
+Answer: Ben Kingsley
+Regexp: kingsle?y
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: An welchem Fluss liegt Innsbruck?
+Answer: Inn
+Author: Micheee
+Tip: Der Name der Stadt sagt doch alles!
+Tip: Jetzt macht mich nicht schwach!
+Tip: Nein, die Bruck ist es nicht!
+Tip: Bleibt nur noch der Inn, oder?
+Level: baby
+
+Category: Geographie
+Question: An welchem Platz Venedigs liegt der Dogenpalast?
+Answer: Markusplatz
+Regexp: mar[ck]us[- ]?platz
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: An welchem russischen Fluss siedelte sich das Reiter- und Bauernvolk der Kosaken an?
+Answer: Don
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Auf welcher italienischen Insel besichtigt man die "Blaue Grotte"?
+Answer: Capri
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Der "gelbe Fluss" heisst?
+Answer: Jangtsekiang
+Regexp: [jy]ang[- ]?tse[- ]?kiang
+Author: Andee
+Level: hard
+
+Category: Geographie
+Question: Deutscher Bundesstaat?
+Answer: Bayern
+Author: Joint
+
+Category: Geographie
+Question: Deutscher Bundesstaat?
+Answer: Schleswig Holstein
+Regexp: schleswig[- ]holstein
+Author: Joint
+
+Category: Geographie
+Question: Die Skyline welcher Stadt wird vom Zuckerhut dominiert?
+Answer: #Rio# de Janeiro
+Author: Micheee
+
+Category: Geographie
+Question: Eine sehr bekannte Stadt im Nordwesten von Amerika
+Answer: Seattle
+Author: [UA]Bold2504
+
+Category: Geographie
+Question: Geometrische Figur in der Sargasso See?
+Answer: Bermuda Dreieck
+Regexp: bermuda[- ]?dreieck
+Author: Micheee
+
+Category: Geographie
+Question: Groesster niederlaendische Badeort?
+Answer: Scheveningen
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Grosse Insel südöstlich von Afrika
+Answer: Madagaskar
+Author: Stimpy
+
+Category: Geographie
+Question: Haupstadt von Taiwan?
+Answer: Tai Peh
+Regexp: tai[- ]?peh
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Haupstadt von Tibet?
+Answer: Lhasa
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Hauptstadt der Mongolei?
+Answer: Ulaan Baator
+Regexp: ulaa?n baa?tor
+Author: Julika
+Comment: in meinen Lexikas steht's mit je einem "a" *shrug*
+
+Category: Geographie
+Question: Hauptstadt von Arkansas (USA)?
+Answer: Little Rock
+Regexp: little[- ]?rock
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Hauptstadt von California (USA)?
+Answer: Sacramento
+Regexp: sa[ck]ramento
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Hauptstadt von Hawaii?
+Answer: Honolulu
+Regexp: honoll?ull?u
+Author: Micheee
+
+Category: Geographie
+Question: Hauptstadt von Indiana (USA)?
+Answer: Indianapolis
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Hauptstadt von Mecklenburg-Vorpommern?
+Answer: Schwerin
+Author: i11usion
+
+Category: Geographie
+Question: Hauptstadt von New Mexico (USA)?
+Answer: Santa Fe
+Regexp: santa[- ]?fe
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Hauptstadt von Nordkorea?
+Answer: Pyongyang
+Regexp: p[jy]oe?ng[jy]ang
+Author: HenB
+Level: hard
+
+Category: Geographie
+Question: Hauptstadt von North Dakota (USA)?
+Answer: Bismarck
+Regexp: bismarc?k
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Hauptstadt von Senegal
+Answer: Dakar
+Author: Stimpy
+Level: hard
+
+Category: Geographie
+Question: Hauptstadt von Sri Lanka?
+Answer: Colombo
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Hauptstadt von Texas (USA)?
+Answer: Austin
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Hauptstadt von Uruguay?
+Answer: Monte Video
+Regexp: monte[- ]?video
+Author: Micheee
+
+Category: Geographie
+Question: Hauptstadt von Utah (USA)?
+Answer: Salt Lake City
+Regexp: salt[- ]?lake[- ]?city
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: In welchem Bundesland liegt Bad Oldesloe?
+Answer: Schleswig-Holstein
+Regexp: schleswig[- ]holstein
+Author: Angel_HH
+
+Category: Geographie
+Question: In welchem Gebirge liegt das Fuerstentum Andorra?
+Answer: Pyrenaeen
+Author: Micheee
+
+Category: Geographie
+Question: In welchem Land liegt die Inselt Java?
+Answer: Indonesien
+Author: Micheee
+
+Category: Geographie
+Question: In welchem Schweizer Kanton entsteht der Rhein?
+Answer: Graubünden
+Author: Angel_HH
+Level: hard
+
+Category: Geographie
+Question: In welcher dt. Stadt ist die "Strasse der Menschenrechte"?
+Answer: Nuernberg
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: In welches Land muss man reisen, um Machu Picchu zu sehen?
+Answer: Peru
+Author: Micheee
+
+Category: Geographie
+Question: In welches Meer faehrt man vom Atlantik durch die Strasse von Gibraltar?
+Answer: Mittelmeer
+Author: Micheee
+Level: easy
+
+Category: Geographie
+Question: Inoffizielles Bundesland von Deutschland. Schöner Strand teilweise dort.
+Answer: Mallorca
+Author: Tobac
+Level: easy
+
+Category: Geographie
+Question: Landeshauptstadt von Rheinland-Pfalz?
+Answer: Mainz
+Author: [ZSF]Duke
+
+Category: Geographie
+Question: Name eines waldreichen Gebirges im oestl. Nordamerika?
+Answer: Appalachen
+Regexp: app?alachen
+Author: Micheee
+
+Category: Geographie
+Question: Naturschutzgebiet in Florida?
+Answer: Everglades
+Author: Andee
+
+Category: Geographie
+Question: Prov. Hauptstadt von Israel bis 1949?
+Answer: Tel Aviv
+Author: Micheee
+
+Category: Geographie
+Question: Staat der USA
+Answer: Arkansas
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Staat der USA
+Answer: Delaware
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Staat der USA
+Answer: Hawaii
+Regexp: hawaii?
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Staat der USA
+Answer: Massachusetts
+Regexp: mass?achuss?ett?s
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Staat der USA
+Answer: Mississippi
+Regexp: miss?iss?ipp?i
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Staat der USA
+Answer: New Hampshire
+Regexp: new[- ]?hampshire
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Staat der USA
+Answer: Rhode Island
+Regexp: rh?ode[- ]?island
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Staat der USA
+Answer: Wyoming
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Unter welchem Namen ist Ost-Pakistan weitaus bekannter?
+Answer: Bangladesch
+Regexp: bangladesc?h
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Ursprünglicher Name für Südsee-Bewohner
+Answer: Kanaken
+Regexp: kar?nac?ken
+Author: Micheee
+
+Category: Geographie
+Question: Was fliesst vom Schwarzwald ins Schwarze Meer?
+Answer: Donau
+Author: Julika
+Level: easy
+
+Category: Geographie
+Question: Was ist die Hauptstadt des oesterreichischen Bundeslandes Vorarlberg?
+Answer: Bregenz
+Author: Julika
+
+Category: Geographie
+Question: Was ist die Landes-Hauptstadt von Schleswig-Holstein?
+Answer: Kiel
+Author: Sonnja
+
+Category: Geographie
+Question: Welche Insel liegt vor der Spitze von Feuerland?
+Answer: Staaten Island
+Author: Angel_HH
+Level: hard
+
+Category: Geographie
+Question: Welche Sprache wird neben maltesisch auf Malta noch gesprochen?
+Answer: Englisch
+Author: Julika
+
+Category: Geographie
+Question: Welche deutsche Insel Wird die "Blumeninsel" genannt?
+Answer: Mainau
+Author: [ZSF]Duke
+
+Category: Geographie
+Question: Welche deutsche Landeshauptstadt existiert dem Namen nach noch 68mal auf der Welt?
+Answer: Hannover
+Author: Julika
+
+Category: Geographie
+Question: Welche griechische Insel bildet das Zentrum der minoischen Kultur?
+Answer: Kreta
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Welche japanische Stadt hieß früher "Edo"?
+Answer: Tokio
+Regexp: Tok[iy]o
+Author: Julika
+
+Category: Geographie
+Question: Welche suedamerikanische Hauptstadt wurde ab 1957 ganz auf dem Reissbrett entworfen?
+Answer: Brasilia
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Welchen Fluss staut der Assuan-Staudamm in Aegypten?
+Answer: Nil
+Author: Micheee
+Level: easy
+
+Category: Geographie
+Question: Welchen Namen trägt der höchste Berg in Alaska (6193m)?
+Answer: Mount #McKinley#
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Welcher Bergname setzt sich aus einem Buchstaben und einer Zahl zusammen?
+Answer: K2
+Regexp: k[- ]?2
+Author: Julika
+Level: hard
+Tip: befindet sich in Kaschmir
+Tip: zweithoechster Berg der Erde
+Tip: K.
+Tip: .2
+
+Category: Geographie
+Question: Welcher Fluss durchbricht die Porta Westfalica?
+Answer: Weser
+Author: Micheee
+
+Category: Geographie
+Question: Welcher Fluss fliesst durch Prag?
+Answer: Die #Moldau#
+Author: Julika
+
+Category: Geographie
+Question: Welcher Fluss trennt Buda von Pest?
+Answer: Donau
+Author: Micheee
+
+Category: Geographie
+Question: Welcher Landstrich liegt um eine gleichnamige Stadt in der suedlichen Kuestenebene von Palaestina?
+Answer: #Gaza#streifen
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Welcher Ozean nimmt das Wasser des Sambesi auf?
+Answer: #Indische# Ozean
+Author: Andee
+Level: hard
+
+Category: Geographie
+Question: Welches Land hat den groessten Anteil an der Sahara?
+Answer: Algerien
+Author: Micheee
+
+Category: Geographie
+Question: Welches Land hat eine schlichte gruene Flagge?
+Answer: Libyen
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Welches asiatische Land heisst seit 1989 offiziell Myanmar?
+Answer: Burma
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Welches ist das groesste Land der Erde, das keine einzige Kueste besitzt?
+Answer: Mongolei
+Author: Angel_HH
+
+Category: Geographie
+Question: Welches ist das grösste Land Afrikas?
+Answer: Sudan
+Author: Julika
+
+Category: Geographie
+Question: Welches ist der aelteste Nationalpark der Erde?
+Answer: #Yellowstone#park
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Welches ist der kleinste Staat Asiens?
+Answer: Die #Malediven#
+Author: Julika
+
+Category: Geographie
+Question: Welches ist der wasserreichste Strom der Erde?
+Answer: Amazonas
+Author: Micheee
+
+Category: Geographie
+Question: Welches ist die noerdlichste Gross-Stadt der USA?
+Answer: Anchorage
+Regexp: anch?orage
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Wer entdeckte die Aleuten?
+Answer: V. J. #Bering#
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Wie heissen die Einwohner von Madagaskar?
+Answer: Madagassen
+Author: Micheee
+
+Category: Geographie
+Question: Wie heisst der Fluß in der Hansestadt Hamburg?
+Answer: Alster
+Author: Angel_HH
+
+Category: Geographie
+Question: Wie heisst der Marinestuetzpunkt auf Hawaii?
+Answer: Pearl Harbor
+Regexp: pea?rl[- ]?harbor
+Author: Micheee
+
+Category: Geographie
+Question: Wie heisst der hoechste noch taetige Vulkan Europas?
+Answer: Aetna
+Author: Micheee
+
+Category: Geographie
+Question: Wie heisst der hvchste Gipfel Oesterreichs?
+Answer: Grossglockner
+Regexp: gross[- ]?glockner
+Author: Moxon
+
+Category: Geographie
+Question: Wie heisst der südlich gelegene Teil des 37. Breitengrades der USA?
+Answer: Sonnengürtel
+Author: [UA]Bold2504
+Level: hard
+
+Category: Geographie
+Question: Wie heisst die Ruhmeshalle bei Donaustauf unterhalb von Regensburg, die im Auftrag Ludwigs I. erbaut wurde?
+Answer: Walhalla
+Regexp: wall?hall?a
+Author: Micheee
+
+Category: Geographie
+Question: Wie heisst die noerdlichste Stadt Europas?
+Answer: Hammerfest
+Author: Micheee
+Level: hard
+
+Category: Geographie
+Question: Wie heißt das einzige Land in Südostasien, das rundherum von anderen Staaten eingegrenzt wird?
+Answer: Laos
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Wie heißt das größte Korallenriff der Welt? (Australien)
+Answer: Barrier Reef
+Author: Clown
+Level: hard
+
+Category: Geographie
+Question: Wie heißt der suedlichste Ort Deutschlands?
+Answer: Obersdorf
+Level: hard
+Author: HenB
+
+Category: Geographie
+Question: Wie heißt die Haupstadt von Albanien?
+Answer: Tirana
+Author: Juli
+Level: hard
+
+Category: Geographie
+Question: Wie heißt die Hauptstadt des Inselstaates Malta?
+Answer: Valletta
+Regexp: vall?etta
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Wie heißt die Hauptstadt von Nordirland?
+Answer: Belfast
+Author: Julika
+
+Category: Geographie
+Question: Wie heißt die Hauptstadt von Pennsylvania (USA)?
+Answer: Harrisburg
+Author: Andee
+Level: hard
+
+Category: Geographie
+Question: Wie heißt die hoechstgelegenste Hauptstadt der Welt?
+Answer: La Paz
+Author: Julika
+Level: hard
+Tip: liegt in Suedamerika
+Tip: klingt recht FRIEDlich :-)
+Tip: L. P..
+Tip: .a .a.
+Tip: .. ..z
+
+Category: Geographie
+Question: Wie heißt die von den Portugiesen entdeckte Ilha Formosa (zu deutsch: Schöne Insel) heute?
+Answer: Taiwan
+Author: Julika
+Level: hard
+Tip: befindet sich in Asien
+Tip: südlich von china
+Tip: T..w..
+Tip: .a..a.
+Tip: ..i..n
+
+Category: Geographie
+Question: Wie heißt eine Hansestadt in NRW, die nicht am Wasser liegt?
+Answer: Soest
+Author: Clown
+
+Category: Geographie
+Question: Wie lange ist der Aequator? (in km)
+Answer: 40.000km
+Regexp: 40\.?000
+Author: Stimpy
+
+Category: Geographie
+Question: Wie nennen die Australier ihr Hinterland?
+Answer: Outback
+Author: Clown
+
+Category: Geographie
+Question: Wieviel mal ist Australien größer als die BRD (ca.)?
+Answer: #21# mal
+Author: Clown
+
+Category: Geographie
+Question: Wieviele Bundeslaender gibt es in Oesterreich? (ausschreiben!)
+Answer: neun
+Author: Julika
+
+Category: Geographie
+Question: Wieviele Schleusen verschließen den Suezkanal? (ausschreiben!)
+Answer: null
+Regexp: (null|keine)
+Author: Julika
+
+Category: Geographie
+Question: Wo findet man die "Weihnachtsinseln"?
+Answer: Indischer Ozean
+Regexp: indische(r|n)? ozean
+Author: Andee
+Level: hard
+
+Category: Geographie
+Question: Wo gibt es ein Gebiet, das "Neuschwabenland" genannt wird?
+Answer: Antarktis
+Regexp: (antarktis|suedpol)
+Author: Julika
+Level: hard
+
+Category: Geographie
+Question: Zu welchem Land gehört Grönland (politisch)?
+Answer: Daenemark
+Author: Julika
+
+Category: Geographie
+Question: Zweitgroesste Stadt in Mexico?
+Answer: Guadalajara
+Regexp: Guad[ea]la(j|ch)ara
+Author: HenB
+Level: extreme
+Score: 2
+
+Category: Geschichte
+Question: 1. amerikanische Praesident? (von 1789-1797)
+Answer: George #Washington#
+Author: Micheee
+
+Category: Geschichte
+Question: 2. amerikanische Praesident? (von 1797-1801)
+Answer: John #Adams#
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: 3. amerikanische Praesident? (von 1801-1809)
+Answer: Thomas #Jefferson#
+Regexp: jeff?erson
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: An der Universitaet welcher Stadt bildete die "Weisse Rose" eine studentische Widerstandsgruppe gegen Hitler?
+Answer: Muenchen
+Author: Micheee
+
+Category: Geschichte
+Question: Angeblicher Wundertaeter und Moench am russischen Zarenhof?
+Answer: Rasputin
+Author: Micheee
+Level: hard
+Tip: angeblich Geliebter der russischen Zarin
+Tip: soll die Bluterkrankheit geheilt haben
+Tip: gibt einen Song von Boney M. über ihn :-)
+
+Category: Geschichte
+Question: Auf welchem Platz löste das chinesische Militär im Sommer 1989 eine friedliche Demonstration brutal auf?
+Answer: Platz des himmlischen Friedens
+Author: Julika
+Tip: P...z d.. h...l...h.. F...d...
+Tip: .l... .e. .i...i...e. .r...e..
+Tip: ..a.. ..s ..m...s...n ..i...n.
+Tip: ...t. ... ...m...c... ...e...s
+
+Category: Geschichte
+Question: Auf welcher Halbinsel lag der Konferenzort Jalta, bei der sich Churchill, Roosevelt und Stalin 1945 trafen?
+Answer: Krim
+Author: Julika
+Comment: von Truman auf Roosevelt geaendert laut Lexikon
+
+Category: Geschichte
+Question: Bei welchem Unglück, das weltweit im Fernsehen übertragen wurde, starben am 28.01.1986 sieben Menschen?
+Answer: Challenger
+Regexp: chall[ae]nger
+Author: Micheee
+
+Category: Geschichte
+Question: Der Philosoph Sokrates wurde zum Tode verurteilt. Er starb durch den ...?
+Answer: #Schierling#sbecher
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Die Athener verurteilen Sokrates zu Tode. Dabei wurde ihm Gotteslaesterung vorgeworfen. Was noch?
+Answer: die Jugend zu verfuehren
+Regexp: jugend (zu verfuehren|verfuehrt)
+Author: Moxon
+Level: hard
+Tip: Er soll jemanden verfuehrte haben
+Tip: nicht die Alten, sondern die ...
+
+Category: Geschichte
+Question: Die Junkers Ju87 wurde waehrend des WWII eingesetzt, wie war ihr Beiname?
+Answer: Stuka
+Author: Micheee
+Tip: Heisst ausgeschrieben "Sturzkampfbomber"
+Tip: S...a
+Tip: ..u..
+Tip: .t.k.
+
+Category: Geschichte
+Question: Ein Ueberraschungsangriff auf welchen Flottenstuetzpunkt loeste 1941 den Krieg zwischen Japan und den USA aus?
+Answer: Pearl Harbor
+Regexp: pea?rl harbor
+Author: Micheee
+
+Category: Geschichte
+Question: Florence ... half Armen, Kranken und Verwahrlosten.
+Answer: Nightingale
+Author: Micheee
+
+Category: Geschichte
+Question: Fuer was wurde Australien verwendet, als es von England "erobert" wurde?
+Answer: Strafkolonie
+Author: Clown
+
+Category: Geschichte
+Question: Fuer welche Revolution wurde in China die Viererbande verantwortlich gemacht?
+Answer: Kulturrevolution
+Regexp: kultur[- ]?revolution
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: In welchem Jahr ging die Titanic unter?
+Answer: 1912
+Author: Micheee
+
+Category: Geschichte
+Question: In welchem Land waren die Mau-Mau-Guerillas aktiv?
+Answer: Kenia
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: In welchem Monat fand die russische Oktoberrevolution von 1917 tatsaechlich statt?
+Answer: November
+Author: Micheee
+
+Category: Geschichte
+Question: In welchem Reich bildeten die Janitscharen bis 1826 eine militaerische Eliteeinheit?
+Answer: Osmanisches Reich
+Regexp: osman(en|ische)
+Author: Micheee
+Level: hard
+Tip: O...n...h.. R...h
+Tip: .s...i...e. .e...
+Tip: ..m...s...s ..i..
+Tip: ...a...c... ...c.
+
+Category: Geschichte
+Question: In welchem europäischen Land wurde 1792 die erste Republik ausgerufen?
+Answer: Frankreich
+Author: Julika
+
+Category: Geschichte
+Question: In welcher Hafenstadt laeutete der Matrosenaufstand vom 4.11.1918 das Ende des Kaiserreichs ein?
+Answer: Kiel
+Author: Angel_HH
+Level: hard
+
+Category: Geschichte
+Question: In welcher Stadt gab es 1940 die letzte Pestepidemie in Europa?
+Answer: Paris
+Author: Julika
+
+Category: Geschichte
+Question: In welcher Stadt hat Albert Einstein im Patentamt gearbeitet?
+Answer: Bern
+Author: HenB
+
+Category: Geschichte
+Question: In welcher Stadt regierte der legendaere Kalif Harun al Raschid (um 763-809)?
+Answer: Bagdad
+Author: Micheee
+
+Category: Geschichte
+Question: In welcher amerikanischen Stadt trieb Al Capone sein Unwesen?
+Answer: Chicago
+Author: Micheee
+
+Category: Geschichte
+Question: The ... has landed!
+Answer: Eagle
+Author: Micheee
+
+Category: Geschichte
+Question: Von Gorbatschow verwendetes Schlagwort fuer seine Reform des Staats- und Wirtschaftssystems der UdSSR.
+Answer: Perestrojka
+Regexp: perestro[ij]ka
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Von wem ist das beruehmte Wachsfiguren-Kabinett in London?
+Answer: Madame #Tussaud#
+Author: Micheee
+Regexp: to?uss?aud
+
+Category: Geschichte
+Question: Vor welchem berüchtigten Gericht widerrief Galileo Galilei 1633 seine wissenschaftliche Überzeugung?
+Answer: Vor dem #Inquisition#sgericht
+Author: Julika
+
+Category: Geschichte
+Question: Wann erhielt Indien seine Unabhängigkeit von Gross-Britannien? (welches Jahr)
+Answer: 15.08.#1947#
+Author: Julika
+
+Category: Geschichte
+Question: Wann wurde Rom gegruendet?
+Answer: 753 v. Chr.
+Regexp: 753 v(\.|or) chr(\.|istus)
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Wann wurde das Deutsche Reich gegründet?
+Answer: 1871
+Author: mk575
+Level: hard
+
+Category: Geschichte
+Question: Was bedeutet der Name des roemischen Kaisers "Caligula" uebersetzt?
+Answer: Stiefelchen
+Regexp: (stiefelchen|kleiner stiefel)
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Was hielt Mahatma Gandhi in der rechten Hand, als er seinen "Feldzug der Gehorsamsverweigerung" startete?
+Answer: Spazierstock
+Regexp: stock
+Author: Julika
+
+Category: Geschichte
+Question: Was wurde 1956 in Deutschland (wieder) eingeführt?
+Answer: allgemeine Wehrpflicht
+Regexp: wehr(pflicht|dienst)
+Author: Andee
+
+Category: Geschichte
+Question: Welche Armee belagerte 1683 zum zweiten Male Wien?
+Answer: Die #osmanische# Armee
+Regexp: (osmanische|osmanen)
+Author: Julika
+Level: hard
+Tip: sie kamen aus dem Suedosten
+Tip: sie waren Muslime
+Tip: sie fuehrten einen heiligen Krieg
+Tip: sie kamen, um zu missionieren
+
+Category: Geschichte
+Question: Welche Fracht transportierte der "Adler" auf seiner ersten Fahrt von Nuernberg nach Fuerth?
+Answer: zwei Faesser #Bier#
+Author: Micheee
+Level: hard
+Tip: Der Adler war die erste Eisenbahn in Deutschland
+Tip: Die Fracht wurde in Faessern transportiert...
+Tip: ...und gilt in Bayern als Grundnahrungsmittel!
+
+Category: Geschichte
+Question: Welche Hauptstadt wurde im Zweiten Weltkrieg als letzte von den deutschen Besatzern befreit?
+Answer: Prag
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Welche Nonne hat den Nobelpreis erhalten?
+Answer: Mutter Theresa
+Author: Micheee
+
+Category: Geschichte
+Question: Welche Truppen zogen am 27. Februar 1991 als erste ins befreite Kuwait-City ein?
+Answer: #Kuwaitische# Truppen
+Regexp: kuw[ae]itische
+Author: Julika
+
+Category: Geschichte
+Question: Welche paepstliche Enzyklika traegt ausnahmsweise einen deutschen Titel?
+Answer: In brennender Sorge
+Regexp: brennender? sorge
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Welchem Land gehoerte die Kolonie Kamerun vor dem ersten Weltkrieg?
+Answer: Deutschland
+Author: [ZSF]Duke
+
+Category: Geschichte
+Question: Welchen Beinamen traegt der Hunnenkoenig Attila in der dt. Heldensage?
+Answer: Etzel
+Author: Micheee
+
+Category: Geschichte
+Question: Welchen amerikanischen Bundesstaat haben die Mormonen 1847 gegruendet?
+Answer: Utah
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Welcher Deutsche wurde 1987 in Moskau wegen Verletzung des Luftraums zu vier Jahren Arbeitslager verurteilt?
+Answer: Mathias #Rust#
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Welcher Endtecker nannte sich auch Cristoval Colon?
+Answer: Christoph #Columbus#
+Regexp: [ck]olumbus
+Author: Angel_HH
+Level: easy
+
+Category: Geschichte
+Question: Welcher Ex-Beatle wurde 1980 ermordet? (Vor- und Nachname!)
+Answer: John Lennon
+Author: Micheee
+Level: easy
+
+Category: Geschichte
+Question: Welcher Indianerhäuptling führte die Sioux in der Schlacht am Little Big Horn?
+Answer: Sitting Bull
+Regexp: sitting[- ]?bull
+Author: Micheee
+
+Category: Geschichte
+Question: Welcher Kaiser herrschte, als Jesus zur Welt kam?
+Answer: Augustus
+Author: Julika
+
+Category: Geschichte
+Question: Welcher Präsident wurde von zwei Journalisten aufgrund einer Abhöraffaire zur Amtsniederlegung gezwungen?
+Answer: Richard #Nixon#
+Author: Dreamteam
+
+Category: Geschichte
+Question: Welcher Seefahrer gab dem heutigen Hawaii den Namen "The Sandwich Islands"? (Vor- und Nachname)
+Answer: James Cook
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Welcher Sowjetpolitiker klopfte waehrend einer UN-Sitzung mit dem Schuh aufs Pult?
+Answer: Nikita #Chruschtschow#
+Regexp: Ch?rus?chts?cho[vw]
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Welcher US-Präsident mußte aufgrund der Watergate-Affaere von seinem Amt zuruecktreten? (Vor- und Nachname!)
+Answer: Richard Nixon
+Author: ComPoti
+
+Category: Geschichte
+Question: Welcher Vulkan am Golf von Neapel zerstoerte 79 n. Chr. Pompei und Herculaneum?
+Answer: Vesuv
+Author: Micheee
+
+Category: Geschichte
+Question: Welcher beruehmte Pirat lief noch gekoepft weiter?
+Answer: Klaus #Stoertebecker#
+Author: Micheee
+Regexp: stoer[dt]ebec?ker
+Level: hard
+
+Category: Geschichte
+Question: Welcher deutsche Bundespraesident sagte einst "Equal goes it loose", und meinte damit: "Gleich geht es los"?
+Answer: Heinrich #Luebke#
+Regexp: luebc?ke
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Welcher deutsche Grossadmiral forderte im 1. Weltkrieg den uneingeschraenkten U-Boot-Krieg?
+Answer: Alfred von #Tirpitz#
+Regexp: tirpit?z
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Welcher deutsche Wissenschaftler gilt als der Entdecker der Kernspaltung?
+Answer: Otto #Hahn#
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Welcher schwedische Ministerpraesident fiel im Februar 1986 einem Attentat zum Opfer?
+Answer: Olof #Palme#
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Welcher sowjetische Physiker gründete 1970 ein Komitee für Menschenrechte?
+Answer: Andrej #Sacharow#
+Regexp: sacharo[vw]
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Welcher spanische Feldherr unterwarf die Azteken?
+Answer: Ferdinand #Cortez#
+Regexp: Corte[sz]
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Welches Staatsoberhaupt wurde 1984 von zwei Mitgliedern der eigenen Leibwache erschossen?
+Answer: Indira #Gandhi#
+Author: Julika
+
+Category: Geschichte
+Question: Welches Volk fuehrte die Phalanx als erfolgreiche Schlachtordnung ein?
+Answer: Spartaner
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Welches aufgelöste Verteidigungsheer war unter der Abkürzung "NVA" bekannt?
+Answer: Nationale Volksarmee
+Regexp: nationale volks[- ]?armee
+Author: Julika
+
+Category: Geschichte
+Question: Welches damals bewegende Ereignis schob sich 1835 von Nürnberg nach Fürth?
+Answer: Die erste #Eisenbahn# in Deutschland
+Author: Julika
+
+Category: Geschichte
+Question: Welches gefaehrliche Umweltgift verursachte im Juli 1976 die "Seveso-Katastrophe"?
+Answer: Dioxin
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Welches revolutionäre Ereignis fand am 14. Juli 1789 in Paris statt?
+Answer: Sturm auf die Bastille
+Author: Julika
+Level: hard
+Tip: S...m a.. d.. B...i...
+Tip: .t... .u. .i. .a...l..
+Tip: ..u.. ..f ..e ..s...l.
+Tip: ...r. ... ... ...t...e
+
+Category: Geschichte
+Question: Wer druckte die erste Bibel?
+Answer: Johannes #Gutenberg#
+Author: [ZSF]Duke
+Level: hard
+
+Category: Geschichte
+Question: Wer erfand den Buchdruck?
+Answer: Johannes #Gutenberg#
+Author: Micheee
+
+Category: Geschichte
+Question: Wer gruendete 1919 die "Komintern"?
+Answer: Lenin
+Author: Micheee
+
+Category: Geschichte
+Question: Wer hatte das Kommando über das Expeditionsschiff Endeavour?
+Answer: James Cook
+Author: Angel_HH
+Level: hard
+
+Category: Geschichte
+Question: Wer oder was war der Grund für den trojanischen Krieg?
+Answer: Helena von Sparta
+Regexp: helena.*sparta
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Wer praegte den Ausdruck "Eiserner Vorhang"?
+Answer: Winston #Churchill#
+Author: Micheee
+Regexp: churchill?
+
+Category: Geschichte
+Question: Wer trat 1980 als Gegenkandidat zum amtierenden Bundeskanzler Helmut Schmidt an? (voller Name!)
+Answer: Franz-Josef Strauss
+Regexp: franz[- ]jose(f|ph) strauss
+Author: Julika
+Level: hard
+Tip: F...z-J...f S...u..
+Tip: .r...-.o... .t...s.
+Tip: ..a..-..s.. ..r...s
+Tip: ...n.-...e. ...a...
+
+Category: Geschichte
+Question: Wer ueberquerte erstmals den Atlantik mit dem Flugzeug?
+Answer: Charles August #Lindbergh#
+Regexp: lindbergh?
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Wer verfaßte die amerikanische Unabhängigkeitserklärung?
+Answer: Thomas #Jefferson#
+Author: Julika
+
+Category: Geschichte
+Question: Wer war Nachfolger des 1966 zurückgetretenen Bundeskanzlers Ludwig Erhard?
+Answer: Kurt-Georg #Kiesinger#
+Author: Julika
+
+Category: Geschichte
+Question: Wer war der Erbauer der Dresdner Oper?
+Answer: Gottfried #Semper#
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Wer war der Friedensnobelpreistraeger von 1964, der sich in den USA fuer eine friedliche Rassenintegration einsetzte? (voller Name!)
+Answer: Martin Luther King
+Regexp: martin[- ]luther king
+Author: Micheee
+
+Category: Geschichte
+Question: Wer war der Fuehrer der 1980 in Danzig gegruendeten Gewerkschaft "Solidaritaet"?
+Answer: Lech #Walesa#
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Wer war der erste roemische Kaiser?
+Answer: Augustus
+Author: Micheee
+
+Category: Geschichte
+Question: Wer übernahm am 1. Oktober 1936 offiziell im spanischen Burgois "alle Gewalten des neuen Staates"?
+Answer: Franco Bahamonde
+Regexp: (fran[ck]o|bahamonde)
+Author: Julika
+
+Category: Geschichte
+Question: Wessen Denkmal steht am Trafalgar Square in London?
+Answer: Admiral #Nelson#s
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Wie heisst die belgische Gemeinde, bei der Napoleon gegen Bluecher und Wellington verlor?
+Answer: Waterloo
+Author: Micheee
+
+Category: Geschichte
+Question: Wie hiess Hitlers Leib-Architekt (spaeter Ruestungsminister)?
+Answer: Albert #Speer#
+Author: Micheee
+
+Category: Geschichte
+Question: Wie hiess Ho-Chi-Minh-Stadt frueher?
+Answer: Saigon
+Author: Micheee
+
+Category: Geschichte
+Question: Wie hiess das Luftschiff, welches am 6. Mai 1937 in Lakehurst explodierte?
+Answer: Hindenburg
+Author: Micheee
+
+Category: Geschichte
+Question: Wie hiess das Schiff, mit dem die "Pilgrim Fathers" 1620 nach Nordamerika reisten?
+Answer: Mayflower
+Author: Micheee
+
+Category: Geschichte
+Question: Wie hiess der Vorgaenger von Erich Honecker?
+Answer: Walter #Ulbricht#
+Regexp: ull?bricht
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Wie hiess die erste Frau von Sokrates?
+Answer: Xanthippe
+Regexp: xanth?ipp?e
+Author: Moxon
+Level: hard
+
+Category: Geschichte
+Question: Wie hieß der berühmte Lehrer des griechischen Naturforschers Aristoteles?
+Answer: Plato
+Author: Julika
+
+Category: Geschichte
+Question: Wie hieß der britisch-chinesische Krieg, der 1842 durch den Frieden von Nanking beendet wurde?
+Answer: Opiumkrieg
+Regexp: opium[- ]?krieg
+Author: Julika
+Level: hard
+
+Category: Geschichte
+Question: Wie hieß der deutsche Reichspräsident, der 1927 seinen 80. Geburtstag feierte?
+Answer: Paul von #Hindenburg#
+Author: Julika
+
+Category: Geschichte
+Question: Wie hieß die Frau des argentinischen Staats-Präsidenten Juan Peron?
+Answer: Evita
+Regexp: (evita|eva maria)
+Author: Julika
+
+Category: Geschichte
+Question: Wie nannte man Friedrich der Große noch?
+Answer: Der alte Fritz
+Regexp: alte.? fritz
+Author: Julika
+
+Category: Geschichte
+Question: Wie nannte man die zwischen 1957-75 in Suedvietnam operierenden Guerillas?
+Answer: Viet-Cong
+Regexp: viet[- ]?[ck]ong
+Author: Micheee
+
+Category: Geschichte
+Question: Wie nannte man einen sich selbst regierenden, nur noch durch die Krone mit dem Mutterland verbundenen Staat des British Commonwealth of Nations frueher?
+Answer: Dominion
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Wie nennt man die Taktik, mit deren Hilfe die Deutschen am Anfang des 2. WK grosse Erfolge erzielen konnten?
+Answer: Blitzkrieg
+Author: Micheee
+
+Category: Geschichte
+Question: Wie wurde der amerikanische Bürgerkrieg genannt, der zwischen 1861 und 1865 wütete?
+Answer: Sezessionskrieg
+Author: Julika
+
+Category: Geschichte
+Question: Wie wurde der unzugaengliche Landstrich entlang der innerdeutschen Grenze genannt?
+Answer: Todesstreifen
+Author: Julika
+Tip: auf der einen seite die Mauer, auf der anderen Zaeune, Stacheldraehte, Kontrolltuerme
+Tip: mit Tretminen untergraben
+Tip: Grenzpatroullien, die die Erlaubnis/den Befehl hatten, zu (er-)schiessen
+Tip: viele Fluechtige aus der ehemaligen DDR sind daran gescheitert ...
+
+Category: Geschichte
+Question: Wie wurde die Abschottung des Ostblocks gegenueber des Westens genannt?
+Answer: Eiserner Vorhang
+Author: Julika
+Level: easy
+
+Category: Geschichte
+Question: Wieviel Sterne funkelten auf der früheren Flagge der UdSSR? (ausschreiben!)
+Answer: einer
+Author: Julika
+
+Category: Geschichte
+Question: Wo landete das unbemannte amerikansche Raumschiff Viking?
+Answer: Mars
+Author: [ZSF]Duke
+
+Category: Geschichte
+Question: Wodurch starb Kleopatra?
+Answer: #Schlange#nbiss
+Author: Micheee
+Level: hard
+
+Category: Geschichte
+Question: Wofuer steht "UdSSR"?
+Answer: Union der Sozialistischen Sowjet-Republiken
+Regexp: union der sozialistischen sowjet[- ]?republik
+Author: Micheee
+Tip: Union d.. S..i...s....c.. S..j..-R...b..k..
+Tip: U.... .e. Sozialistischen .o...t-..p...i...
+Tip: U.... ..r S.............. Sowjet-.e...l...n
+Tip: U.... der S.............. S.....-Republiken
+
+Category: Geschichte
+Question: Zu seiner Frau Xanthippe, die ihn mal beschimpfte, und dann noch mit Wasser uebergoss, bemerkte Sokrates: Hab ich nicht immer gesagt, dass Xanthippe, wenn sie donnert, ... ... ...?
+Answer: auch Regen bringt
+Regexp: regen bringt
+Author: Moxon
+Level: hard
+Tip: a... R...n b...g.
+Tip: .u.. .e... .r...t
+Tip: ..c. ..g.. ..i...
+Tip: ...h ...e. ...n..
+
+Category: Kunst
+Question: Aus welchem Land stammte der Maler Marc Chagall (1887 - 1985)?
+Answer: Russland
+Author: Micheee
+
+Category: Kunst
+Question: Aus welcher italienischen Stadt stammte der Maler Tizian?
+Answer: Venedig
+Author: Micheee
+
+Category: Kunst
+Question: Was ist der Augenpunkt eines perspektivisch gemalten Gemaeldes?
+Answer: Fluchtpunkt
+Author: Micheee
+Level: hard
+
+Category: Kunst
+Question: Was trägt die Frau auf Peter Paul Rubens Gemälde "Das Pelzchen" unter dem Pelzchen?
+Answer: nichts
+Author: Julika
+
+Category: Kunst
+Question: Welche Kopfbedeckung trug Joseph Beuys wegen einer alten Kopfverletzung?
+Answer: Filzhut
+Author: Julika
+Level: hard
+
+Category: Kunst
+Question: Welchem Kunststil wird der Maler Renoir zugeordnet?
+Answer: Impressionismus
+Author: Julika
+
+Category: Kunst
+Question: Welchen starken Mann verewigte Albrecht Dürer nackt in einem berühmten Kupferstich?
+Answer: Herkules
+Regexp: her([ck]u|a[ck])les
+Author: Julika
+Level: hard
+
+Category: Kunst
+Question: Welcher Maler liebte die Polynesischen Frauen?
+Answer: Paul #Gauguin#
+Author: Angel_HH
+Level: hard
+
+Category: Kunst
+Question: Welcher dt. Aktionskuenstler und Professor an der Duesseldorfer Kunstakademie schuf Objekte aus Honig, Fett und Filz?
+Answer: Joseph #Beuys#
+Author: Micheee
+Level: hard
+
+Category: Kunst
+Question: Welcher irische Maler würde auf deutsch Franz Speck heißen? (Vor- und Nachname!)
+Answer: Francis Bacon
+Regexp: francis ba[ck]on
+Author: Julika
+Level: hard
+
+Category: Kunst
+Question: Welches Motiv beeindruckte Rembrandt so sehr, dass er es in 64 Bildern verewigte?
+Answer: Er selbst
+Regexp: (er|sich|ihn|rembrandt)
+Author: [ZSF]Duke
+
+Category: Kunst
+Question: Wer gilt als der bedeutendste Landschaftsmaler der deutschen Romantik?
+Answer: Caspar David #Friedrich#
+Author: Micheee
+Level: hard
+
+Category: Kunst
+Question: Wer gilt als der bedeutendste Vertreter der deutschen Renaissancemalerei?
+Answer: Albrecht #Duerer#
+Author: Micheee
+Level: hard
+
+Category: Kunst
+Question: Wer malte die nackte Venus von Urbino?
+Answer: Tizian
+Author: Angel_HH
+
+Category: Kunst
+Question: Wer schuf die Deckengemaelde und das "Juengste Gericht" in der Sixtinischen Kapelle?
+Answer: Michelangelo
+Author: Micheee
+Level: hard
+
+Category: Kunst
+Question: Wie bezeichnet man einen Malstil, den Laien sich im Selbststudium angeeignet haben?
+Answer: Naive Malerei
+Author: Julika
+Level: hard
+Tip: anderes Wort für kindlich malen
+Tip: N..v. M..e..i
+Tip: .a..e .a..r..
+Tip: ..i.. ..l..e.
+
+Category: Literatur
+Question: "Die Saeulen der Erde" verfasste?
+Answer: Ken #Follett#
+Regexp: foll?ett?
+Author: Moxon
+Level: hard
+
+Category: Literatur
+Question: "Fahrenheit 451" - von wem?
+Answer: Ray #Bradbury#
+Author: Moxon
+Level: hard
+
+Category: Literatur
+Question: "Nun steh ich hier, ich armer Tor, und bin so klug als wie zuvor" - wer sagte das?
+Answer: Faust
+Author: Julika
+
+Category: Literatur
+Question: Bestseller-Roman von Frank Herbert
+Answer: Dune - Der Wuestenplanet
+Author: Micheee
+Regexp: (dune|wuestenplanet)
+Tip: wurde bereits verfilmt und ist auch schon als Computerspiel erschienen
+Tip: da geht's um Sandwuermer und Fremen
+Tip: D..e
+Tip: .u..
+Tip: ..n.
+
+Category: Literatur
+Question: Das "Kuckucksei" ist ein Buch von?
+Answer: Clifford #Stoll#
+Author: Moxon
+Level: hard
+
+Category: Literatur
+Question: Der Author von "Der Shamane" (voller Name)?
+Answer: Noah Gordon
+Author: Stimpy
+
+Category: Literatur
+Question: Der Autor von "Iphigenie auf Tauris" ? (voller Name!)
+Answer: Johann Wolfgang von Goethe
+Regexp: johann wolfgang( von)? goethe
+Author: Moxon
+
+Category: Literatur
+Question: Der Autor von "Maria Stuart"?
+Answer: Friedrich #Schiller#
+Author: Moxon
+
+Category: Literatur
+Question: Der Autor von "Nathan der Weise"?
+Answer: G. E. #Lessing#
+Author: Moxon
+
+Category: Literatur
+Question: Der Autor von "Viel Laerm um nichts" ist?
+Answer: William #Shakespeare#
+Regexp: shakespe[ae]re?
+Author: Moxon
+Level: hard
+
+Category: Literatur
+Question: Die Antwort auf die ultimative Frage über "Life, the Universe and Everything" ist ...?
+Answer: 42
+Author: Micheee
+Level: hard
+
+Category: Literatur
+Question: Für Tolkien-Fans: Wem diente Sauron (aus "Der Herr der Ringe") einst? (Elbenname!)
+Answer: Morgoth
+Author: Micheee
+Level: hard
+
+Category: Literatur
+Question: In welchem Buch steht: "Alle Tiere sind gleich, nur einige Tiere sind gleicher als die anderen!"?
+Answer: Farm der Tiere
+Regexp: (farm der tiere|animal farm)
+Author: Julika
+
+Category: Literatur
+Question: In welcher Stadt spielte die tragische Liebesgeschichte "Romeo und Julia"?
+Answer: Verona
+Author: Julika
+
+Category: Literatur
+Question: Laut Douglas Adams das wichtigste Utensil fuer einen "Hitchhiker".
+Answer: Handtuch
+Regexp: (handtuch|towel)
+Author: Micheee
+Level: hard
+
+Category: Literatur
+Question: Mit welchem Fachbegriff wird die Unterhaltungsliteratur bezeichnet?
+Answer: Belletristik
+Author: Julika
+Tip: B...e...s...
+Tip: .e...t...t..
+Tip: ..l...r...i.
+Tip: ...l...i...k
+
+Category: Literatur
+Question: Was steht in grosser, freundlicher Schrift auf dem "Hitchhiker's Guide" ? (auf englisch)
+Answer: Don't Panic
+Regexp: don'?t panic
+Author: Micheee
+Level: hard
+
+Category: Literatur
+Question: Welchen Beruf uebte Heinrich Hoffmann aus, der u.a. das Kinderbuch "Der Struwwelpeter" verfasste?
+Answer: Arzt
+Author: Julika
+
+Category: Literatur
+Question: Welcher Dichter schrieb: "Musik wird oft nicht schön gefunden, weil sie stets mit Geräusch verbunden"?
+Answer: Wilhelm #Busch#
+Author: Julika
+Level: hard
+
+Category: Literatur
+Question: Welcher Literaturkritiker wurde 1993 auf einem Spiegel-Titel als reißender Hund karikiert?
+Answer: Marcel #Reich-Ranicki#
+Regexp: reich[- ]rani[cz]ki
+Author: Julika
+
+Category: Literatur
+Question: Welcher beruehmte Spassmacher hielt den Leuten den Spiegel vor und hat daher seinen Namen?
+Answer: Till #Eulenspiegel#
+Author: Micheee
+Level: easy
+
+Category: Literatur
+Question: Welcher englische Schriftsteller diente bis 1927 bei der indischen Polizei in Burma?
+Answer: George #Orwell#
+Author: Julika
+Level: hard
+
+Category: Literatur
+Question: Welcher französische Schriftsteller stammte aus Algerien und war Mitglied der Résistance (schrieb unter anderem "Der Fremde" und " Die Pest")?
+Answer: Albert #Camus#
+Author: Julika
+Level: hard
+
+Category: Literatur
+Question: Welcher schweizer Dichter schrieb die Romanvorlage zu Hans W. Geissendoerfers Kinofilm "Justiz"?
+Answer: Friedrich #Duerrenmatt#
+Author: Julika
+Level: hard
+
+Category: Literatur
+Question: Wenn du zum Weibe gehst, vergiss die Peitsche nicht! - Von wem stammt der Ausspruch?
+Answer: Friedrich #Nietzsche#
+Regexp: nie(tz|t|z)sche
+Author: Julika
+Level: hard
+
+Category: Literatur
+Question: Wer ist der "Herr der Ringe"?
+Answer: Sauron
+Author: Micheee
+
+Category: Literatur
+Question: Wer sagte: "Wer an die Quelle gelangen will, muss gegen den Strom schwimmen"?
+Answer: Hermann #Hesse#
+Author: Moxon
+Regexp: Hesse
+Level: hard
+
+Category: Literatur
+Question: Wer schrieb "1984"?
+Answer: George #Orwell#
+Author: Micheee
+
+Category: Literatur
+Question: Wer schrieb "Der Misanthrop"?
+Answer: Molière
+Regexp: moliere
+Author: Julika
+
+Category: Literatur
+Question: Wer schrieb "Der kleine Prinz"?
+Answer: Antoine de #Saint-Exupéry#
+Regexp: saint[- ]exupery
+Author: Julika
+Level: hard
+
+Category: Literatur
+Question: Wer schrieb "Die Entdeckung der Langsamkeit"?
+Answer: Sten #Nadolny#
+Author: Micheee
+Level: hard
+
+Category: Literatur
+Question: Wer schrieb "Die Physiker"?
+Answer: Friedrich #Duerrenmatt#
+Regexp: duerr?enmatt?
+Author: Homer
+Level: hard
+
+Category: Literatur
+Question: Wer schrieb "Geliebter Roboter"?
+Answer: Isaac #Asimov#
+Regexp: asimo[vw]
+Author: Moxon
+Level: hard
+
+Category: Literatur
+Question: Wer schrieb "Karlsson vom Dach" ? (Vor- und Nachname!)
+Answer: Astrid Lindgren
+Author: pot
+
+Category: Literatur
+Question: Wer schrieb "Stiller" ? (Vor- und Nachname!)
+Answer: Max Frisch
+Author: Moxon
+
+Category: Literatur
+Question: Wer schrieb "Unzeitgemaesse Betrachtungen"?
+Answer: Friedrich #Nietzsche#
+Author: Moxon
+Level: hard
+
+Category: Literatur
+Question: Wer schrieb "Utopia"?
+Answer: Sir Thomas #Morus#
+Regexp: mor(e|us)
+Author: Micheee
+Level: hard
+
+Category: Literatur
+Question: Wer schrieb 1963 den Roman "Ansichten eines Clowns"?
+Answer: Heinrich #Boell#
+Author: Micheee
+
+Category: Literatur
+Question: Wer schrieb das Gedicht "Die Eisenbahn"?
+Answer: Johann Wolfgang von #Goethe#
+Author: [ZSF]Duke
+
+Category: Literatur
+Question: Wer schrieb den Lensmen-Zyklus?
+Answer: E. E. #Smith#
+Author: pot
+Level: hard
+
+Category: Literatur
+Question: Wer schrieb den Roman "Der Medicus"?
+Answer: Noah #Gordon#
+Author: Julika
+Level: hard
+
+Category: Literatur
+Question: Wer schrieb den Utopie-Roman "Schöne neue Welt"?
+Answer: Aldous #Huxley#
+Author: Julika
+Level: hard
+
+Category: Literatur
+Question: Wer schrieb die Ilias?
+Answer: Homer
+Author: Moxon
+
+Category: Literatur
+Question: Wer schrieb die Romanvorlagen zu 'Jagd auf Roter Oktober' und 'Stunde der Patrioten'?
+Answer: Tom #Clancy#
+Author: Homer
+
+Category: Literatur
+Question: Wer schrieb vo ca. zweieinhalb-tausend Jahren: "Die Kunst des Krieges"?
+Answer: Sunzi
+Author: Moxon
+
+Category: Literatur
+Question: Wer schrieb: "Kulturgeschichte der Neuzeit"?
+Answer: Egon #Friedel#
+Author: Moxon
+Level: hard
+
+Category: Literatur
+Question: Wer verfaßte die Werke "Dantons Tod" und "Woyzeck"?
+Answer: Georg #Buechner#
+Author: Julika
+
+Category: Literatur
+Question: Wie heisst "Streicher" aus J.R.R. Tolkiens "Herr der Ringe" mit richtigem Namen?
+Answer: Aragorn
+Regexp: aragor?n
+Author: Micheee
+Level: hard
+
+Category: Literatur
+Question: Wie heisst das Buch von George Orwell, welches dem Film "Big Brother is watching you" als Vorlage diente?
+Answer: 1984
+Author: Micheee
+
+Category: Literatur
+Question: Wie heisst das geklaute Raumschiff in "Per Anhalter durch die Galaxis"?
+Answer: Heart Of Gold
+Author: Homer
+Level: hard
+
+Category: Literatur
+Question: Wie heisst der grch. Epos Homers vom Trojanischen Krieg?
+Answer: Ilias
+Author: Micheee
+
+Category: Literatur
+Question: Wie heisst die altindische Literatursprache, die als Gelehrtensprache und -schrift bis heute noch gebraeuchlich ist und uebersetzt "heilige Schrift" bedeutet?
+Answer: Sanskrit
+Author: Julika
+Level: hard
+
+Category: Literatur
+Question: Wie heisst die zweiköpfige Gestalt in "Per Anhalter durch die Galaxis"?
+Answer: Zaphod Beeblebrox
+Regexp: (zaphod|beeblebrox)
+Author: Homer
+Level: hard
+
+Category: Literatur
+Question: Wie heißt das Werk Friedrich Schillers, das sich mit Menschen ausserhalb des Gesetzes beschaeftigt?
+Answer: Die #Raeuber#
+Author: Julika
+
+Category: Literatur
+Question: Wie hiess der beste Freund von Tom Sawyer?
+Answer: Huckleberry Finn
+Regexp: huck(e?l|le)berry finn
+Author: Micheee
+
+Category: Literatur
+Question: Wie hieß das Pferd von Don Quichotte?
+Answer: Rosinante
+Author: Julika
+Level: hard
+
+Category: Literatur
+Question: Wie ist der Name des notorisch unzufriedenen und an Minderwertigkeitskomplexen leidenden Roboters aus dem "Hitchhiker's Guide"?
+Answer: Marvin
+Author: Micheee
+Level: hard
+
+Category: Literatur
+Question: Wie lange lebte Robinson Crusoe auf seiner Insel?
+Answer: 28 Jahre
+Author: Micheee
+
+Category: Literatur
+Question: Wofür ist das Friedensministerium in George Orwells "1984" zuständig?
+Answer: Krieg
+Author: Julika
+
+Category: Maerchen
+Question: Ali Baba und die ... Raeuber.
+Answer: vierzig
+Regexp: (40|vierzig)
+Author: Micheee
+
+Category: Maerchen
+Question: Gluecksmarie und Pechmarie kamen zu Frau Holle durch den ...?
+Answer: Brunnen
+Author: Micheee
+Level: hard
+
+Category: Maerchen
+Question: Was brachte MOMO den Menschen zurueck?
+Answer: Die gestohlene #Zeit#
+Author: Micheee
+
+Category: Maerchen
+Question: Was isst Witwe Bolte am liebsten aufgewaermt?
+Answer: Sauerkraut
+Author: Micheee
+Level: hard
+
+Category: Maerchen
+Question: Was ist gefaehrlich fuer kleine Wassermaenner?
+Answer: trockene Fuesse
+Author: Micheee
+Level: hard
+
+Category: Maerchen
+Question: Wen nennt man den Luegenbaron?
+Answer: Freiherr von #Muenchhausen#
+Author: Micheee
+Level: easy
+
+Category: Maerchen
+Question: Wer beschloss, das er niemals gross werden wollte?
+Answer: Peter Pan
+Author: Micheee
+
+Category: Maerchen
+Question: Wer musste ein Vogel bleiben, weil er das Zauberwort vergass?
+Answer: Kalif Storch
+Author: Micheee
+Level: hard
+Tip: ein Kalif
+Tip: Kalif S..r..
+Tip: Kalif .t..c.
+Tip: Kalif ..o..h
+
+Category: Maerchen
+Question: Wer sagt: "Meines Lebens schoenster Traum haengt an diesem Apfelbaum"?
+Answer: Witwe Bolte
+Author: Micheee
+Tip: aus Max & Moritz
+Tip: die Witwe
+Tip: Witwe Bol..
+Tip: Witwe ...te
+
+Category: Maerchen
+Question: Wer sagte: "Nein, meine Suppe ess' ich nicht!"?
+Answer: Der #Suppenkasper#
+Regexp: suppen[ck]asp[ae]r
+Author: Micheee
+Level: easy
+
+Category: Maerchen
+Question: Wer sollte sein Haar herunterlassen?
+Answer: Rapunzel
+Author: Angel_HH
+Level: easy
+
+Category: Maerchen
+Question: Wie heisst das Waldgebiet, in dem Robin Hood lebte?
+Answer: Sherwood Forest
+Author: Micheee
+
+Category: Maerchen
+Question: Wie heisst der Wolf als Widersacher von Reineke Fuchs im gleichnamigen mittelalterlichen Tierepos?
+Answer: Isegrimm
+Regexp: isegrimm?
+Author: Micheee
+
+Category: Maerchen
+Question: Wie heisst der kleine Junge im Dschungelbuch?
+Answer: Mowgli
+Regexp: mow?gli
+Author: Micheee
+
+Category: Maerchen
+Question: Wie viele Reisen hat Sindbad unternommen? (ausschreiben!)
+Answer: sieben
+Author: Micheee
+
+Category: Maerchen
+Question: Wo hat sich das juengste Geisslein versteckt, als der Wolf kam?
+Answer: im #Uhrenkasten#
+Regexp: uhr(en)?kasten
+Author: Micheee
+
+Category: Mathe
+Question: 2+4+4+5+9+6-8=
+Answer: 22
+Author: Angel_HH
+Level: baby
+
+Category: Mathe
+Question: Regel fuer das Differenzieren
+Answer: Kettenregel
+Regexp: ketten-?regel
+Author: Micheee
+Level: hard
+
+Category: Mathe
+Question: Regel fuer das Differenzieren
+Answer: Produktregel
+Regexp: produkt-?regel
+Author: Micheee
+Level: hard
+
+Category: Mathe
+Question: Teilgebiet der Mathematik, das sich mit Wahrscheinlichkeitsrechnung und Statistik befasst.
+Answer: Stochastik
+Author: Micheee
+Level: hard
+
+Category: Mathe
+Question: Teilgebiet der Mathematik, das sich mit den Anordnungsmoeglichkeiten gegebener Elemente in Gruppen und deren Anzahl befasst.
+Answer: Kombinatorik
+Regexp: kombinat(ionslehre|orik)
+Author: Micheee
+Level: hard
+
+Category: Mathe
+Question: Was ist ein Limes?
+Answer: Grenzwert
+Author: Homer
+
+Category: Mathe
+Question: Welche Zahl bildet Die Grundeinheit des Duodezimal-Systems?
+Answer: 12
+Regexp: (12|zwoelf)
+Author: [ZSF]Duke
+Level: easy
+
+Category: Mathe
+Question: Welche beiden Wissenschaftler entwickelten unabhängig voneinander die Differenzialrechnung?
+Answer: Newton und Leibniz
+Regexp: (newton.* lei[bp]nit?z|lei[bp]nit?z.* newton)
+Author: Julika
+Level: hard
+
+Category: Mathe
+Question: Wie lautet die Kubikwurzel aus 27 ? (ausschreiben!)
+Answer: drei
+Author: Jason
+Level: easy
+
+Category: Mathe
+Question: Wie nennt man eine Zahl, die nur durch 1 und sich selbst teilbar ist?
+Answer: Primzahl
+Author: Micheee
+Level: easy
+
+Category: Mathe
+Question: Wieviel ist anderthalb Drittel von 100?
+Answer: 50
+Author: [ZSF]Duke
+
+Category: Medizin
+Question: An welchem Teil des menschlichen Koerpers setzt Neurodermitis als Erkrankung an?
+Answer: Haut
+Author: Micheee
+
+Category: Medizin
+Question: Die Krankheit Mumps wird auch noch bezeichnet als ...?
+Answer: Ziegenpeter
+Author: Clown
+
+Category: Medizin
+Question: Sauerstoffarmes Blut fuehrende Adern heissen?
+Answer: #Vene#n
+Author: Moxon
+
+Category: Medizin
+Question: Steigerungsform von Kopfschmerzen
+Answer: Migraene
+Author: Angel_HH
+
+Category: Medizin
+Question: Wann entdeckte Alexander Fleming das Penicillin?
+Answer: 1928
+Author: Julika
+Tip: 19..
+Tip: ..2.
+Tip: ...8
+Level: hard
+
+Category: Medizin
+Question: Was hat man verloren, wenn man an Amnesie leidet?
+Answer: Gedaechtnis
+Author: Tobac
+
+Category: Medizin
+Question: Was heisst Menigokokkenmenigitissepsis (Krankheit) übersetzt?
+Answer: Gehirnhautentzündung
+Regexp: hirnhaut[- ]?entzuendung
+Author: Angel_HH
+Level: hard
+
+Category: Medizin
+Question: Was kann ein bösartiger Tumor bilden, was ein Gutartiger nicht kann?
+Answer: Metastasen
+Author: Joint
+
+Category: Medizin
+Question: Welche Koerperteile werden durch Osteoporose geschwaecht?
+Answer: Knochen
+Author: Micheee
+
+Category: Medizin
+Question: Welches Organ verbraucht allein 25% des gesammten Sauerstoffs, den wir einatmen?
+Answer: Gehirn
+Author: [ZSF]Duke
+
+Category: Medizin
+Question: Wie nennt man die Trisomie 21 noch?
+Answer: Down-Syndrom
+Regexp: down[- ]syndrom
+Author: Netjet
+Level: hard
+
+Category: Medizin
+Question: Wirkstoff, der andere Mikroorganismen im Wachstum hemmt oder abtoetet?
+Answer: Antibiotika
+Author: HenB
+
+Category: Medizin
+Question: Wofür steht die Abkürzung "AIDS"?
+Answer: Acquired Immune Deficiency Syndrome
+Author: Julika
+Level: extreme
+Tip: A...i... I...n. D...c...c. S...r...
+Tip: .c...r.. .m...e .e...i...y .y...o..
+Tip: ..q...e. ..m... ..f...e... ..n...m.
+Tip: ...u...d ...u.. ...i...n.. ...d...e
+
+Category: Musik
+Question: "Brown Girl in the Ring" von wem?
+Answer: Boney M.
+Regexp: boney[- ]m
+Author: Micheee
+
+Category: Musik
+Question: Anderes Wort für den Dudelsack?
+Answer: Sackpfeife
+Author: Micheee
+Level: hard
+
+Category: Musik
+Question: Bei welcher Band sang "DORO" damals?
+Answer: Warlock
+Author: Angel_HH
+Level: hard
+
+Category: Musik
+Question: Blinder amerikanischer Musiker? (Vor- und Nachname!)
+Answer: Stevie Wonder
+Regexp: stev(ie|y) wonder
+Author: Micheee
+Tip: S...i. W...e.
+Tip: .t...e .o...r
+Tip: ..e... ..n...
+Tip: ...v.. ...d..
+
+Category: Musik
+Question: Diese Sängerin bedankte sich bei allen musikalisch und weiß, was Ironie ist.
+Answer: Alanis #Morissette#
+Regexp: moriss?ett?e?
+Author: Tobac
+
+Category: Musik
+Question: Eine deutsche Schlagersängerin, die sich mit Luftballons "rumgetrieben" hat
+Answer: Nena
+Author: Clown
+Level: easy
+
+Category: Musik
+Question: Einer der "Sänger" von Modern Talking (Vor- und Nachname!)
+Answer: Dieter Bohlen
+Author: ich
+
+Category: Musik
+Question: Er hat ein knall... ...
+Answer: rotes Gummiboot
+Regexp: rotes gummi-?boot
+Author: Micheee
+Level: easy
+
+Category: Musik
+Question: In welchem Jahr starb Frank Zappa?
+Answer: 1993
+Author: Homer
+Level: hard
+Comment: von 94 auf 93 geaendert, starb an krebs
+
+Category: Musik
+Question: In welchem Stadion gab die Rockgruppe Queen ihr letztes Konzert?
+Answer: Wembley
+Author: Neo
+
+Category: Musik
+Question: Mit welchem 1975 geschriebenen Lied erzielte die britische Rockband Queen einen ihrer grössten Hits?
+Answer: Bohemian Rhapsody
+Author: Neo
+
+Category: Musik
+Question: Mit welchem Lied gewann Udo Jürgens 1966 den Grand Prix?
+Answer: Merci Cheri
+Author: Angel_HH
+
+Category: Musik
+Question: Mit welchem Song wurde "Offspring" bekannt?
+Answer: self esteem
+Regexp: self ?este[ae]m
+Author: Micheee
+Level: hard
+
+Category: Musik
+Question: Olli Dietrich und Wigald Boning sind die ...?
+Answer: Doofen
+Author: LunaticPandora
+
+Category: Musik
+Question: Und Anton kommt aus ...?
+Answer: Tirol
+Author: Micheee
+Level: easy
+
+Category: Musik
+Question: Von welcher Band stammt der Song "Bohemian Rhapsody"?
+Answer: Queen
+Author: Micheee
+
+Category: Musik
+Question: Von welcher Band stammt der Song "Tell me why I don't like mondays"?
+Answer: Boomtown Rats
+Author: Julika
+Level: hard
+
+Category: Musik
+Question: Von wem ist "Verdammt lang her"?
+Answer: BAP
+Author: DrFraggle
+
+Category: Musik
+Question: Von wem stammt das Album "The Wall"?
+Answer: Pink Floyd
+Author: Angel_HH
+
+Category: Musik
+Question: Von wem stammt das Album 'Pocket Full Of Kryptonite'?
+Answer: Spin Doctors
+Author: Homer
+
+Category: Musik
+Question: Von wem stammt urspruenglich der George Michael-Hit 'Papa was a rolling stone'?
+Answer: The #Temptations#
+Author: Homer
+Level: hard
+
+Category: Musik
+Question: Was bedeutet die musikalische Ausdrucksbezeichnung "da capo"?
+Answer: von Anfang
+Author: Micheee
+
+Category: Musik
+Question: Was hat Adolphe Sax erfunden?
+Answer: Saxophon
+Author: omitter
+
+Category: Musik
+Question: Welche Band aus Hannover bringt am liebsten populäre Pferde zum Abdecker?
+Answer: Fury in the Slaughterhouse
+Author: Dreamteam
+
+Category: Musik
+Question: Welche Band singt ein Lied ueber "zu stark ausgeleuchtete Autobahnen" ? ;o)
+Answer: AC/DC
+Regexp: ac[-/ ]?dc
+Author: Micheee
+Tip: die singen auch was ueber "hochbrisanten Sprengstoff" und "Donnerschlaege"
+Tip: engl. Abkuerzung fuer: "Wechselstrom - Gleichstrom"
+Tip: ausgeschrieben: "Alternating Current - Direct Current"
+
+Category: Musik
+Question: Welche Rockband trennte sich offiziell 1983 und reformierte sich 1985 für das Live-Aid-Concert?
+Answer: The #Who#
+Author: Julika
+
+Category: Musik
+Question: Welche bekannte Band aus Seattle beendete ihre Karriere mit dem Selbstmord des Leadsängers?
+Answer: Nirvana
+Author: Dreamteam
+
+Category: Musik
+Question: Welche britische Popgruppe ließ in Konzerten ein Plastikschwein fliegen und eine Mauer einstuerzen?
+Answer: Pink Floyd
+Author: Julika
+
+Category: Musik
+Question: Welche englisch-amerikanische Performance-Gruppe macht mit Haushaltsmüll und -gegenständen Musik?
+Answer: Stomp
+Author: Dreamteam
+
+Category: Musik
+Question: Welcher Schauspieler spricht mit gruseliger Stimme am Schluss von Michael Jacksons Hit "Thriller"?
+Answer: Vincent #Price#
+Author: Julika
+Level: hard
+
+Category: Musik
+Question: Welcher gebuertige Baske komponierte das berühmte Balettwerk "Boléro"?
+Answer: Maurice #Ravel#
+Author: Julika
+Level: hard
+
+Category: Musik
+Question: Welcher geniale Künstler, der mit Polizei nichts am Hut hatte, sang "Shape of my Heart"?
+Answer: Sting
+Author: Julika
+
+Category: Musik
+Question: Welcher oesterreichische Saenger hat ein "Herz wie ein Bergwerk" :-))?
+Answer: Reinhard #Fendrich#
+Author: Julika
+
+Category: Musik
+Question: Welcher spanische Tanz wurde durch das gleichnamige Werk des Komponisten Maurice Ravel bekannt?
+Answer: Bolero
+Author: Micheee
+Level: hard
+
+Category: Musik
+Question: Welcher spätere Sänger wurde 1943 als John Deutschendorf geboren?
+Answer: John Denver
+Author: Julika
+Level: hard
+
+Category: Musik
+Question: Welches Musikgeraet benoetigt der DJ zum "scratchen"?
+Answer: Einen #Plattenspieler#
+Author: Julika
+Level: easy
+
+Category: Musik
+Question: Wer ist der "Panik-Udo"?
+Answer: Udo Lindenberg
+Author: Clown
+
+Category: Musik
+Question: Wer ist seit den 70er Jahren der erfolgreichste Musicalkomponist der Gegenwart?
+Answer: Andrew Lloyd #Webber#
+Author: Micheee
+
+Category: Musik
+Question: Wer malte das Cover zu Bob Dylans LP "Self Portrait"?
+Answer: Bob #Dylan#
+Author: Julika
+
+Category: Musik
+Question: Wer schrieb das Lied "Die Moritat von Meckie Messer"?
+Answer: Bertolt #Brecht#
+Author: Micheee
+
+Category: Musik
+Question: Wer schrieb den Titelsong zu "Lethal Weapon 3"?
+Answer: Sting
+Author: Homer
+Level: hard
+
+Category: Musik
+Question: Wer schrieb die Musik zur Dreigroschenoper?
+Answer: Kurt #Weill#
+Regexp: weill?
+Author: Dreamteam
+Level: hard
+
+Category: Musik
+Question: Wer veroeffentlichte zunaechst die CD "Diva" und danach die CD "Medusa" ? (Vor- und Nachname!)
+Answer: Annie Lennox
+Regexp: Annie? Lenn?ox
+Author: Angel_HH
+
+Category: Musik
+Question: Wer war Hendrik Simons? Alias?
+Answer: Heintje
+Author: Angel_HH
+Level: hard
+
+Category: Musik
+Question: Wer wurde "Spatz von Paris" genannt?
+Answer: Edith #Piaf#
+Author: Micheee
+Regexp: pia[fv]
+Level: hard
+
+Category: Musik
+Question: Wer wurde der "Loewe von Babylon" genannt obwohl er in der Karibik lebte? (Vor- und Nachname)
+Answer: Bob Marley
+Regexp: Bob Marle?y
+Author: Angel_HH
+Tip: Reggae-King
+Tip: mit loewenmaehne
+Tip: ..... and the wailers
+Tip: Nachfolger war Peter Tosh
+
+Category: Musik
+Question: Wie heisst das Album von Carlos Santana, das ihm ein grosses Comeback bescherte?
+Answer: Supernatural
+Author: Homer
+
+Category: Musik
+Question: Wie heisst das Musical mit dem Benny und Björn (ABBA) ihren Erfolg fortsetzen wollten?
+Answer: Chess
+Author: Dreamteam
+Level: hard
+
+Category: Musik
+Question: Wie heißt der Saenger von der Rockgruppe Scorpions, der den Hit "Winds of Change" pfiff?
+Answer: Klaus #Meine#
+Author: Julika
+Level: hard
+
+Category: Musik
+Question: Wie heißt der etwas rüde Tanzstil, der unter Punk-Anhängern beliebt ist?
+Answer: Pogo
+Author: Julika
+
+Category: Musik
+Question: Wie heißt die "PunkLady" (Sängerin) aus der DDR, die über drei Oktaven singen kann? (Vor- und Nachname!)
+Answer: Nina Hagen
+Author: Clown
+
+Category: Musik
+Question: Wie hieß der Popsaenger, der "Amadeus" besang?
+Answer: Falco
+Author: Julika
+Level: easy
+
+Category: Musik
+Question: Wie nennt man Harfe, Laute, Gitarre, Mandoline, Banjo, Zither?
+Answer: Zupfinstrumente
+Regexp: (Zupfinstrumente|Saiteninstrumente)
+Author: HenB
+
+Category: Musik
+Question: Wie nennt man beim Schlagzeug das mit dem Fuß betätigte Beckeninstrument?
+Answer: Hi-Hat
+Regexp: hi[- ]?hat
+Author: Julika
+
+Category: Musik
+Question: Wie nennt man den stilisierten Tonbuchstaben zu Beginn eines Notenliniensystems?
+Answer: Notenschluessel
+Author: Angel_HH
+
+Category: Musik
+Question: Wie wurde die Hi-Hat früher genannt?
+Answer: Charleston-Maschine
+Author: Julika
+Level: hard
+
+Category: Musik
+Question: Wieviele SCHWARZE Tasten hat ein Klavier?
+Answer: 36
+Author: Homer
+Level: hard
+Comment: aenderung von 40 auf 36 (auf ReapeRs wunsch hin)
+
+Category: Musik
+Question: Zu welcher Instrumentengattung gehört das Saxophon?
+Answer: Holzblasinstrumente
+Regexp: holz[- ]?blas[- ]?instrumente?
+Author: Homer
+
+Category: Mythologie
+Question: Donnerstag ist abgeleitet von?
+Answer: Thors Tag
+Regexp: (donar|thor)s[- ]?tag
+Author: Nightwing
+Tip: T...s T..
+Tip: .h... .a.
+Tip: ..o.. ..g
+Tip: ...r. ...
+
+Category: Mythologie
+Question: Germanischer Gott des Feuers / Softwarefirma die Spiele für Linux konvertiert
+Answer: Loki
+Author: Micheee/Nightwing
+Level: hard
+
+Category: Mythologie
+Question: Griech. König - tötete unwissentlich seinen Vater und heiratete seine Mutter.
+Answer: Oedipus
+Author: Thorn
+
+Category: Mythologie
+Question: Griechische Goettin der Fruchtbarkeit?
+Answer: Demeter
+Author: Micheee
+Level: hard
+
+Category: Mythologie
+Question: In was verwandelte Circe die Maenner Odysseus?
+Answer: Schweine
+Author: Julika
+
+Category: Mythologie
+Question: In welchem Teil seines Koerpers lag das Geheimnis der uebermenschlichen Staerke Samsons?
+Answer: Haar
+Author: Micheee
+
+Category: Mythologie
+Question: Medusa hatte die Angewohnheit, alles in Stein zu verwandeln, was sie anschaute. Mit welchem Mittel wurde sie von Odysseus besiegt?
+Answer: Spiegel
+Regexp: (spiegel|schild)
+Author: Julika
+
+Category: Mythologie
+Question: Mit Hilfe welcher Tiere entkamen Odysseus und seine Leute aus der Hoehle des Zyklopen?
+Answer: Schafe
+Author: Micheee
+
+Category: Mythologie
+Question: Unter welchem griechischen Gott lebten die Menschen im "Goldenen Zeitalter"?
+Answer: Kronos
+Regexp: [ck]ronos
+Level: hard
+Author: Micheee
+
+Category: Mythologie
+Question: Welchem Gott war die griechische Kultstätte Delphi geweiht?
+Answer: Apoll
+Author: Julika
+Level: hard
+
+Category: Mythologie
+Question: Welcher griechische Held wird auch "der Listige" genannt?
+Answer: Odysseus
+Author: Micheee
+
+Category: Mythologie
+Question: Welcher nordische Gott strafte Brunhilde mit tiefem Schlaf?
+Answer: Odin
+Regexp: (odin|woth?an)
+Author: Micheee
+
+Category: Mythologie
+Question: Wen heiratete Kriemhild nach dem Tod Siegfrieds?
+Answer: Koenig Etzel
+Regexp: (etzel|attila)
+Author: Micheee
+Level: hard
+Tip: den Hunnenkoenig
+
+Category: Mythologie
+Question: Wer hat Koenig Artus den heiligen Becher zurueckgebracht?
+Answer: Parzival
+Regexp: par[csz]ival
+Author: Micheee
+
+Category: Mythologie
+Question: Wer toetete den Minotaurus im Labyrinth?
+Answer: #Theseus# von Theben
+Author: Micheee
+Regexp: th?eseus
+Level: extreme
+
+Category: Mythologie
+Question: Wer war in Koenig Artus Runde der beruehmteste Ritter?
+Answer: Sir #Lancelot#
+Author: Micheee
+
+Category: Mythologie
+Question: Wie heisst das gefluegelte Pferd der griechischen Mythologie?
+Answer: Pegasus
+Author: Micheee
+
+Category: Mythologie
+Question: Wie heisst der altroemische Gott des Schlafes?
+Answer: Somnus
+Author: Julika
+Level: hard
+Tip: Wie nennt man Schlafwandler noch? (Fachbegriff)
+Tip: S...u.
+Tip: .o...s
+Tip: ..m...
+Tip: ...n..
+
+Category: Mythologie
+Question: Wie heisst der griechische Gott des Schlafes?
+Answer: Hypnos
+Author: [ZSF]Duke
+Level: hard
+
+Category: Mythologie
+Question: Wie heisst der griechische Gott des Traumes?
+Answer: Morpheus
+Author: Micheee
+Level: hard
+
+Category: Mythologie
+Question: Wie heisst die Schlange, die sich selber in den Schwanz beisst?
+Answer: #Midgard#schlange
+Author: Nightwing
+Level: hard
+
+Category: Mythologie
+Question: Wie heißt der Wohnsitz der germanischen Götter?
+Answer: Asgard
+Author: Julika
+Level: hard
+
+Category: Mythologie
+Question: Wie hiess der Magier von Koenig Artus?
+Answer: Merlin
+Author: Micheee
+
+Category: Mythologie
+Question: Wie nannten die Griechen den ungeformten Urstoff als ersten Zustand der Welt?
+Answer: Chaos
+Author: Micheee
+
+Category: Mythologie
+Question: Wie nennt man einen kuenstlichen Menschen aus Lehm?
+Answer: Golem
+Author: Micheee
+Level: hard
+
+Category: Mythologie
+Question: Womit wollten die Sirenen Odysseus verfuehren?
+Answer: mit ihrem #Gesang#
+Author: Micheee
+
+Category: Philosophie
+Question: Kant: Kritik der ...-kraft
+Answer: #Urteils#kraft
+Author: Moxon
+
+Category: Philosophie
+Question: Kant: Kritik der reinen ...
+Answer: Vernunft
+Author: Moxon
+
+Category: Philosophie
+Question: Wann war der 100. Todestag von Nietzsche?
+Answer: 25.8.2000
+Regexp: 25.(0?8.| Aug.* )2000
+Author: Moxon
+Level: hard
+
+Category: Philosophie
+Question: Welcher frz. Mathematiker und Philosoph sagte "Ich denke, also bin ich"?
+Answer: René #Descartes#
+Author: Micheee
+Level: hard
+
+Category: Philosophie
+Question: Welcher griechische Philosoph postulierte in seiner Poetik massgebliche Gestaltungsprinzipien der Literatur?
+Answer: Aristoteles
+Author: Micheee
+Level: hard
+
+Category: Philosophie
+Question: Wer kritisierte Vernunft und Urteilskraft?
+Answer: Immanuel #Kant#
+Author: Moxon
+Level: hard
+
+Category: Philosophie
+Question: Wer praegte den Ausdruck "Alles ist im Fluss"?
+Answer: Heraklit
+Regexp: Herakl(it|eitos)
+Author: Moxon
+Level: hard
+
+Category: Philosophie
+Question: Wie heisst der engl. Philosoph, der als wichtiger Vertreter der Aufklaerung und Begruender des engl. Empirismus gilt?
+Answer: John #Locke#
+Author: Micheee
+Level: hard
+
+Category: Physik
+Question: Die erste Ableitung des Weges nach der Zeit heisst?
+Answer: Geschwindigkeit
+Author: Micheee
+Level: hard
+
+Category: Physik
+Question: Ein Koordinatensystem in Raum und Zeit, in dem die Newtonschen Axiome der Mechanik gelten, ohne dass Traegheitskraefte auftreten.
+Answer: Inertialsystem
+Regexp: inertial[- ]?system
+Author: Micheee
+Level: hard
+
+Category: Physik
+Question: Ein Stern fällt in einem Gravitationskollaps in sich zusammen und setzt dabei kurzzeitig enorme Energien frei. Wie nennt man das?
+Answer: Supernova
+Regexp: super[- ]?nova
+Author: Micheee
+
+Category: Physik
+Question: Einheit der Induktivität (Formelzeichen: L)
+Answer: Henry
+Author: Micheee
+
+Category: Physik
+Question: Einheit der el. Kapazitaet eines Kondensators (Formelzeichen: C)
+Answer: Farad
+Author: Micheee
+Level: hard
+
+Category: Physik
+Question: Einheit der el. Ladung (Formelzeichen: Q)
+Answer: Coulomb
+Regexp: Cou?lou?mb
+Author: Micheee
+Level: hard
+
+Category: Physik
+Question: Einheit der magn. Induktion (Formelzeichen: B)
+Answer: Tesla
+Author: Micheee
+Level: hard
+
+Category: Physik
+Question: Einheit des el. Leitwerts (Formelzeichen: G)
+Answer: Siemens
+Author: Micheee
+Level: hard
+
+Category: Physik
+Question: Gegenteil von Zentrifugalkraft?
+Answer: Zentripetalkraft
+Author: Julika
+Level: hard
+
+Category: Physik
+Question: Mega, Giga, Tera, ...
+Answer: Peta
+Author: Julika
+Level: hard
+
+Category: Physik
+Question: Nach welchem oestr. Physiker wurde der Effekt benannt, nach dem sich die Wellenlaenge einer Licht- oder Schallwelle bei einer relativen Bewegung von Quelle und Empfaenger aendert?
+Answer: C. #Doppler#
+Author: Micheee
+
+Category: Physik
+Question: Welche Einheit hat die Lichtstärke (Formelzeichen: cd)?
+Answer: Candela
+Author: Julika
+
+Category: Physik
+Question: Welche Naturerscheinung wird durch Sonnenentladungen in der höheren Atmosphäre verursacht?
+Answer: Polarlicht
+Regexp: (nord|polar)licht
+Author: Julika
+
+Category: Physik
+Question: Welche Windstaerke herrscht im Auge eines Wirbelsturmes?
+Answer: keine
+Author: Micheee
+Level: easy
+
+Category: Physik
+Question: Wie heisst die Verschmelzung zweier kleiner Atome unter Energiefreisetzung zu einem groesseren?
+Answer: Kernfusion
+Regexp: kern-?fusion
+Author: Micheee
+
+Category: Physik
+Question: Wie heißt die Kraft, die zwischen den Molekülen wirkt?
+Answer: Kohaesion
+Regexp: [ck]ohaesion
+Author: Julika
+Level: hard
+
+Category: Physik
+Question: Wie heißt die Schnur mit einem daran befestigten Gewicht, die im Bauhandwerk benutzt wird?
+Answer: Lot
+Author: Julika
+
+Category: Physik
+Question: Wie heißt ein Kabel, bei dem eine Leitung den Kern bildet und die zweite isoliert darum gewickelt ist?
+Answer: Koaxialkabel
+Regexp: [ck]oaxial[- ]?kabel
+Author: Julika
+Level: hard
+
+Category: Physik
+Question: Wie nennt man die Wissenschaft von den Bewegungsgesetzen der Gase und Flüssigkeiten?
+Answer: Stroemungslehre
+Author: Micheee
+
+Category: Physik
+Question: Wie nennt man elektr. geladene Atome bzw. Molekuele allgemein?
+Answer: Ionen
+Author: Clown
+
+Category: Physik
+Question: Wie wird die Farblehre auch genannt?
+Answer: Chromatik
+Author: Tobac
+Level: hard
+
+Category: Physik
+Question: Wieviel kg sind 1 dz?
+Answer: #100# kg
+Author: Micheee
+Tip: dz = Doppelzentner
+Tip: 1 Zentner = 50kg
+Tip: 2x50 = 100 =p
+
+Category: Physik
+Question: Wieviele Anschlusspole hat ein Transistor? (ausschreiben!)
+Answer: drei
+Author: Julika
+
+Category: Physik
+Question: Wo gibt es keine Gravitationskräfte?
+Answer: Nirgendwo
+Regexp: (garnicht|nirgend(s|wo))
+Author: HenB
+
+Category: Physik
+Question: actio gleich ...
+Answer: reactio
+Author: Micheee
+Level: hard
+
+Category: Physik
+Question: milli, micro, nano, pico, ...
+Answer: femto
+Author: Julika
+Level: hard
+
+Category: Politik
+Question: Auf welcher Insel liegen Tamilen und Singhalesen in erbittertem Streit?
+Answer: Sri Lanka
+Regexp: sri lan[ck]a
+Author: Micheee
+
+Category: Politik
+Question: Auf wieviel Jahre wird in Deutschland der Bundespraesident gewaehlt? (ausschreiben!)
+Answer: fuenf
+Author: Micheee
+
+Category: Politik
+Question: Seit 1989 Praesident der Tschechoslowakei
+Answer: Vaclav #Havel#
+Regexp: ha[vw]el
+Author: Micheee
+
+Category: Politik
+Question: Welche drei Buchstaben kürzen den Namen der verbotenen Arbeiterpartei Kurdistans ab?
+Answer: PKK
+Author: Julika
+
+Category: Politik
+Question: Wen wählt die Bundesversammlung?
+Answer: Bundespraesident
+Author: pot
+
+Category: Politik
+Question: Wie heisst der oesterreichische Bundespraesident? (2000)
+Answer: Thomas #Klestil#
+Author: Julika
+Level: hard
+
+Category: Politik
+Question: Wie ist die Abkuerzung fuer die palaestinensische Freiheitsbewegung?
+Answer: PLO
+Author: Micheee
+Comment: Palestine Liberation Organization
+
+Category: Politik
+Question: Wie werden die "Aufwandsentschaedigungen der Parlamentarier" genannt?
+Answer: Diaeten
+Author: Micheee
+Level: easy
+
+Category: Psychologie
+Question: Wie nennt man jene Menschen die unter Neurosen leiden?
+Answer: Neurotiker
+Author: Angel_HH
+Level: easy
+Comment: Von Psychopathen auf Neurotiker geaendert, da Psychopathen ein allgemeiner Ausdruck für psychische Erkrankte ist, veraltet und heute ungebraeuchlich bzw. diskriminierend
+
+Category: Religion
+Question: Geistlicher Würdenträger
+Answer: Vikar
+Author: Sonnja
+Level: hard
+
+Category: Religion
+Question: In welchem Behältnis wird in einer kath. Kirche eine geweihte Hostie aufbewahrt?
+Answer: Monstranz
+Author: Micheee
+Level: hard
+
+Category: Religion
+Question: In welcher Religion gelten Thora und Talmud als die wichtigsten Schriften?
+Answer: Judentum
+Author: Micheee
+Level: easy
+
+Category: Religion
+Question: Messbuch der römisch-katholischen Kirche?
+Answer: Missale
+Author: aaliyah
+Level: hard
+
+Category: Religion
+Question: Mit welchem Instrument wurden die Stadtmauern von Jericho zum Einsturz gebracht?
+Answer: #Trompete#n
+Regexp: (trompete|posaune)
+Author: Micheee
+
+Category: Religion
+Question: Mit welchem tuerkischem Ausdruck wird im Islam das von Gott vorbestimmte Schicksal bezeichnet?
+Answer: Kismet
+Author: Micheee
+
+Category: Religion
+Question: Unter welchem Ehrenname ist der indische Prinz Siddharta Gautama (ca. 560-480 . Chr.) bekannt?
+Answer: Buddha
+Author: Micheee
+
+Category: Religion
+Question: Wann ist der Tag der Heiligen Drei Könige?
+Answer: 6. Januar
+Regexp: 0?6.(0?1.| ?jan.*)
+Author: Diddel
+
+Category: Religion
+Question: Welcher biblische Prophet geriet in den Bauch eines Wals?
+Answer: Jonas
+Author: Micheee
+
+Category: Religion
+Question: Wer bezwang den Riesen Goliath mit Hilfe einer Steinschleuder?
+Answer: David
+Author: Micheee
+Level: easy
+
+Category: Religion
+Question: Wer sah als erste den auferstandenen Jesus? (voller Name)
+Answer: Maria Magdalena
+Author: Angel_HH
+
+Category: Religion
+Question: Wer war bereit, auf Gottes Befehl hin sogar seinen Sohn zu opfern?
+Answer: Abraham
+Author: Micheee
+
+Category: Religion
+Question: Wie heisst das juedische Versoehnungsfest?
+Answer: Jom Kippur
+Regexp: jom kipp?ur
+Author: Micheee
+Level: hard
+
+Category: Religion
+Question: Wie heisst die Suenderin, die Jesus vor der Steinigung bewahrte? (Vor- und Nachname!)
+Answer: Maria Magdalena
+Author: Micheee
+
+Category: Religion
+Question: Wie hieß der Statthalter, der das Todesurteil über Jesus aussprach?
+Answer: Pontius #Pilatus#
+Author: Julika
+
+Category: Religion
+Question: Wie hieß der aeltere Bruder von Moses?
+Answer: Aaron
+Author: Julika
+Level: hard
+
+Category: Scherzfrage
+Question: Alles hat ein Ende nur die ... hat zwei
+Answer: Wurst
+Author: Clown
+
+Category: Scherzfrage
+Question: Anderes Wort fuer Schnelltippen?
+Answer: Tastaturkarate
+Regexp: tastatur[- ]?karate
+Author: Moxon
+Tip: Keyboard + jap. Kampfsport
+Tip: Tastatur......
+Tip: ........ka..te
+Tip: ..........ra..
+
+Category: Scherzfrage
+Question: Was bekommt man, wenn man einen Regenwurm mit einem Igel kreuzt?
+Answer: Stacheldraht
+Author: Homer
+
+Category: Scherzfrage
+Question: Was hat Flügel und kann nicht Fliegen, einen Rücken und kann nicht darauf liegen, nur ein Bein und kann doch laufen?
+Answer: Nase
+Author: [ZSF]Duke
+
+Category: Scherzfrage
+Question: Was läuft morgens auf vier Beinen, mittags auf zwei Beinen, und abends auf drei Beinen?
+Answer: Der #Mensch#
+Author: aldor
+
+Category: Scherzfrage
+Question: Was macht abhaengig?
+Answer: quizzen
+Author: Moxon
+
+Category: Scherzfrage
+Question: Was war am 6.12.1933?
+Answer: Nikolaus
+Author: PREDATOR
+Tip: War auch am 6.12.1945 und 6.12.1999
+Tip: Ist eigentlich jedes Jahr so
+Tip: Also der Osterhasi kommt da nicht...
+
+Category: Scherzfrage
+Question: Welche Bahn ist Hamburg's teuerstes Verkehrsmittel?
+Answer: Reeperbahn
+Author: [ZSF]Duke
+
+Category: Scherzfrage
+Question: Welchen Planeten kann man auch essen?
+Answer: Mars
+Author: Tobac
+Level: baby
+
+Category: Scherzfrage
+Question: Welches Wesen hat Scheinbedarf?
+Answer: Student
+Author: Moxon
+Level: hard
+
+Category: Scherzfrage
+Question: Welches Land hat die meisten Messing-Minen?
+Answer: keines
+Author: Micheee
+
+Category: Scherzfrage
+Question: Wer hat einen kurzen in der Hose? ;-)
+Answer: Elektriker
+Author: Neo
+
+Category: Scherzfrage
+Question: Wer ist der beste Koch?
+Answer: Der #Hunger#
+Author: Micheee
+
+Category: Scherzfrage
+Question: Wo findet man noch Berliner, wenn nicht in Berlin?
+Answer: #Baecker#ei
+Author: Clown
+
+Category: Scherzfrage
+Question: Womit sollte man nicht ins Haus fallen?
+Answer: Tuer
+Author: Dreamteam
+
+Category: Sport & Spiel
+Question: Anderer Name fuer Tischtennis
+Answer: Pingpong
+Regexp: ping[- ]?pong
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Auf welchem Fluss findet das Ruderrennen "Oxford gegen Cambridge" statt?
+Answer: Themse
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Auf welchem Kurs gab Schumi sein F1 Debüt 1991?
+Answer: Spa
+Author: Angel_HH
+
+Category: Sport & Spiel
+Question: Auf welcher Rennstrecke verunglückte Niki Lauda am 1. August 1976?
+Answer: Nuerburgring
+Author: Julika
+
+Category: Sport & Spiel
+Question: Aus welchem Land kommt der Aikido-Sport?
+Answer: Japan
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Aus welchen US-Bundesstaat kommt der "Tour de France" Sieger von 1999 Lance Armstrong?
+Answer: #Texas# (Austin)
+Author: Micheee
+Level: hard
+
+Category: Sport & Spiel
+Question: Aus wieviel Spielern besteht eine Volleyball-Mannschaft? (ausschreiben!)
+Answer: sechs
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Bei welcher Sportart spricht man vom "Wedeln"?
+Answer: #Ski#-Sport
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Bis zu wieviel Runden hat ein Weltmeisterschaftskampf im Profi-Boxen?
+Answer: 15
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Der "Pflicht" im Eiskunstlauf entspricht die ... im Pferdesport.
+Answer: Dressur
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Deutscher Sportler des Jahres 1982 (Vor- und Nachname!)
+Answer: Michael Gross
+Author: Micheee
+Level: hard
+Tip: ein Wassersportler
+Tip: Michael G....
+Tip: ....... Gross
+
+Category: Sport & Spiel
+Question: Erfolgreichster deutscher Boxer in den 30er und 40er Jahren?
+Answer: Max #Schmeling#
+Author: Micheee
+Level: hard
+
+Category: Sport & Spiel
+Question: Fuer welches Ballspiel braucht man keinen Boden?
+Answer: Wasserball
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Für welchen Sport ist Bondi Beach (Australien) bekannt?
+Answer: Surfen
+Author: Clown
+
+Category: Sport & Spiel
+Question: Gegen welche Nationalelf wurde Deutschland 1974 Fussballweltmeister?
+Answer: Niederlande
+Author: Micheee
+Level: hard
+
+Category: Sport & Spiel
+Question: Großer Sportartikelhersteller aus Herzogenaurach (D)?
+Answer: adidas
+Author: Joint
+
+Category: Sport & Spiel
+Question: Im Fussball heisst der Strafstoss "Elfmeter". Wie heisst er im Handball?
+Answer: Siebenmeter
+Author: Micheee
+
+Category: Sport & Spiel
+Question: In welchem Sport spricht man vom "Bodycheck"?
+Answer: Eishockey
+Author: Micheee
+
+Category: Sport & Spiel
+Question: In welcher Sportart heisst es zum Schluss: "Spiel, Satz, Sieg"?
+Answer: Tennis
+Author: Micheee
+
+Category: Sport & Spiel
+Question: In welcher Sportart kann man einen Lutz und einen Axel erleben, auch wenn kein Mann zugegen ist?
+Answer: Im #Eiskunstlauf#
+Author: Julika
+Level: hard
+
+Category: Sport & Spiel
+Question: In welcher Sportart spricht man vom "Schultersieg"?
+Answer: Ringen
+Author: Micheee
+Level: hard
+
+Category: Sport & Spiel
+Question: In welcher Sportart spricht man vom Fosbury-Flop?
+Answer: Hochsprung
+Author: Micheee
+
+Category: Sport & Spiel
+Question: In welcher Sportart verwendet man die Begriffe "Double In", "Double Bull" und "Check"?
+Answer: Dart
+Author: Dreamteam
+
+Category: Sport & Spiel
+Question: Jugendsportgerät mit hoher Verletzungsgefahr?
+Answer: Skateboard
+Author: Stimpy
+
+Category: Sport & Spiel
+Question: Leichtathletischer Langstreckenlauf quer durch Wald- oder Huegelgelaende.
+Answer: Querfeldeinlauf
+Regexp: querfeldein[- ]?lauf
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Mit welchem Begriff wird beim Golf die Spielstaerke angegeben?
+Answer: Handicap
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Mit welchen Figuren macht man beim Schach eine Rochade?
+Answer: Koenig und Turm
+Regexp: (koenig.* turm|turm.* koenig)
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Seit welchem Jahr finden die Olympischen Winterspiele in zweijaehrigem Wechsel mit den Sommerspielen statt?
+Answer: 1994
+Author: Micheee
+Level: hard
+Tip: 19..
+Tip: ..9.
+Tip: ...4
+
+Category: Sport & Spiel
+Question: Was heißt "SEGA"?
+Answer: Service Games
+Author: Joint
+Level: hard
+
+Category: Sport & Spiel
+Question: Was ist Kendo?
+Answer: fernoestliche #Kampfsport#art
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Was ist der Strafstoss beim Fussball?
+Answer: Elfmeter
+Author: Tobac
+
+Category: Sport & Spiel
+Question: Was ist ein Freistilkaempfer?
+Answer: Ringer
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Was schleppt ein Biathlet mit über die Runden?
+Answer: Gewehr
+Author: Julika
+
+Category: Sport & Spiel
+Question: Was sind "Prix de l'Arc de Triomphe" und "Grand National"?
+Answer: Pferderennen
+Author: Micheee
+Level: hard
+
+Category: Sport & Spiel
+Question: Welche Disziplin des alpinen Skilaufs wurde 1982 neu eingefuehrt?
+Answer: Super G
+Regexp: super[- ]?(g|ski)
+Author: Micheee
+Level: hard
+
+Category: Sport & Spiel
+Question: Welche Sportler geraten in Rückstand, wenn sie einen Pudel werfen?
+Answer: Kegler
+Author: Julika
+
+Category: Sport & Spiel
+Question: Welche Sportler müssen sich mit einer Eskimorolle vor einer möglichen Disqualifikation retten?
+Answer: Kanuslalomfahrer
+Regexp: kanu[- ]?slalom[- ]?fahrer
+Author: Julika
+Level: hard
+
+Category: Sport & Spiel
+Question: Welche Wettkaempfer tragen lediglich einen knappen Lendenschurz? (Mehrzahl)
+Answer: Sumoris
+Regexp: (sumoris|sumo[- ]?ringer)
+Author: Angel_HH
+
+Category: Sport & Spiel
+Question: Welche Zahl auf der Dartscheibe steht bei "3 Uhr" ? (ausschreiben!)
+Answer: sechs
+Author: Dreamteam
+
+Category: Sport & Spiel
+Question: Welche Zahl liegt auf einer Dartscheibe genau gegenüber der 20 ? (ausschreiben!)
+Answer: drei
+Author: Julika
+
+Category: Sport & Spiel
+Question: Welche ist mit vier Weltmeistertiteln bis jetzt (2000) die erfolgreichste Fussballnation der Welt?
+Answer: Brasilien
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Welchem Boxer wurde der Weltmeistertitel aberkannt weil er den Kriegsdienst verweigerte?
+Answer: Muhammad Ali
+Regexp: muhamm?[ae]d ali
+Author: Angel_HH
+
+Category: Sport & Spiel
+Question: Welchen Partner benoetigt ein moderner Fuenfkaempfer für eine Disziplin?
+Answer: Ein #Pferd#
+Author: Julika
+Level: hard
+
+Category: Sport & Spiel
+Question: Welcher Bube sticht beim Skat am hoechsten?
+Answer: Kreuz Bube
+Author: Julika
+
+Category: Sport & Spiel
+Question: Welcher Spielball ist nicht rund?
+Answer: #Rugby#-Ball
+Author: Micheee
+Tip: wird wegen der Form oft "Ei" genannt
+Tip: R...y-B...
+Tip: .u...-.a..
+Tip: ..g..-..l.
+Tip: ...b.-...l
+
+Category: Sport & Spiel
+Question: Welcher Sportler trainieren mit einem Kopfballpendel?
+Answer: Fussballer
+Author: Angel_HH
+
+Category: Sport & Spiel
+Question: Welcher bekannte Autorennfahrer erlitt 1976 auf dem Nuerburgring einen schweren Unfall? (Vor- und Nachname!)
+Answer: Niki Lauda
+Regexp: nic?k(i|ie|y) lauda
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Welches Ballspiel wurde angeblich von Haeftlingen eines Londoner Gefaengnisses erfunden?
+Answer: Squash
+Author: Julika
+
+Category: Sport & Spiel
+Question: Welches ist der schnellste Schwimmstil?
+Answer: Kraul
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Welches leichtathletische Wurfgeraet sieht gar nicht so aus, wie es heißt?
+Answer: Hammer
+Author: Julika
+Level: baby
+
+Category: Sport & Spiel
+Question: Welches pulvrige Hilfsmittel duerfen Freeclimber benutzen?
+Answer: Magnesium
+Regexp: (magnesium|magnesia)
+Author: Julika
+
+Category: Sport & Spiel
+Question: Wer hat 1996 die Goldmedaille in der Disziplin Springreiten erhalten?
+Answer: Ludger #Beerbaum#
+Author: HenB
+Level: hard
+
+Category: Sport & Spiel
+Question: Wer praegte Begriffe wie Reck und Barren und gilt als "Vater" des deutschen Turnens?
+Answer: Friedrich Ludwig #Jahn#
+Author: Micheee
+Level: hard
+
+Category: Sport & Spiel
+Question: Wer war wohl der berühmteste Ausüber asiatischer Kampfkunst?
+Answer: Bruce Lee
+Author: Stimpy
+Tip: B...e L..
+Tip: .r... .e.
+Tip: ..u.. ..e
+Tip: ...c. ...
+
+Category: Sport & Spiel
+Question: Wie heissen Olympische Spiele fuer Koerperbehinderte?
+Answer: Paralympics
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Wie heisst der Erfinder von Mario?
+Answer: Shigeru #Myiamoto#
+Author: Joint
+Level: hard
+
+Category: Sport & Spiel
+Question: Wie heisst der Motorsportchef von McLaren-Merecedes (Vor- und Zuname)?
+Answer: Norbert Haug
+Author: Homer
+
+Category: Sport & Spiel
+Question: Wie heisst der Ringstil, der Griffe am ganzen Koerper und Beineinsatz erlaubt?
+Answer: Freistil
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Wie heisst der derzeit weltbeste Golfer? (2000)
+Answer: Tiger #Woods#
+Author: Joint
+
+Category: Sport & Spiel
+Question: Wie heisst die Sportart, die aus Skilanglauf und Schiessen besteht?
+Answer: Biathlon
+Author: Micheee
+Level: easy
+
+Category: Sport & Spiel
+Question: Wie heisst die Strecke beim alpinen Skilauf?
+Answer: Piste
+Author: Micheee
+Level: easy
+
+Category: Sport & Spiel
+Question: Wie heisst ein Boxsieg, wenn der Gegner nicht k.o. gegangen ist?
+Answer: Sieg nach Punkten
+Author: Micheee
+Level: easy
+
+Category: Sport & Spiel
+Question: Wie heißt der blaue SEGA-Igel?
+Answer: Sonic
+Author: Joint
+
+Category: Sport & Spiel
+Question: Wie nennt man bei Formel-1-Rennen die profillosen Reifen?
+Answer: Slicks
+Author: Micheee
+Level: easy
+
+Category: Sport & Spiel
+Question: Wie nennt man den Reiter bei einem Pferderennen?
+Answer: Jockey
+Author: Micheee
+Level: easy
+
+Category: Sport & Spiel
+Question: Wie nennt man die Strecke der Skilanglaeufer?
+Answer: Loipe
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Wie viele Sportler braucht man fuer einen Dreisprung? (ausschreiben!)
+Answer: einen
+Author: Micheee
+Level: easy
+
+Category: Sport & Spiel
+Question: Wieviel Kugeln sind für eine Partie Russisches Roulette erforderlich? (ausschreiben!)
+Answer: eine
+Author: Julika
+Level: easy
+
+Category: Sport & Spiel
+Question: Wieviele Bauern hat ein Schachspiel?
+Answer: 16
+Author: adrenalin
+Level: easy
+
+Category: Sport & Spiel
+Question: Wieviele Löcher hat ein Golfparcours?
+Answer: 18
+Author: Homer
+
+Category: Sport & Spiel
+Question: Wieviele Minuten dauert eine Runde beim Boxen? (ausschreiben!)
+Answer: drei
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Wo fanden 1980 die Olympischen Spiele statt?
+Answer: Moskau
+Author: Micheee
+
+Category: Sport & Spiel
+Question: Wo fanden die Olympischen Spiele 1952 statt?
+Answer: Oslo
+Author: Julika
+
+Category: Sport & Spiel
+Question: Wo fanden die olympischen Sommerspiele 2000 statt?
+Answer: Sydney
+Author: Joint
+Level: easy
+
+Category: Sport & Spiel
+Question: Wo hat die erste Fussballweltmeisterschaft stattgefunden?
+Answer: Uruguay
+Author: Micheee
+Level: hard
+
+Category: Sport & Spiel
+Question: Wofür steht die Abkürzung "BMX"?
+Answer: Bicycle Motocross
+Author: Julika
+Level: hard
+Tip: B...c.. M...c...s
+Tip: .i...l. .o...r...
+Tip: ..c...e ..t...o..
+Tip: ...y... ...o...s.
+
+Category: Sport
+Question: Welcher bekannte Tennisspieler läuft nur noch mit Mütze rum, weil er kaum noch Haare auf dem Kopf hat?
+Answer: John #McKenroe#
+Author: Julika
+
+Category: Technik
+Question: Angewandte Lehre von stroemenden Fluessigkeiten
+Answer: Hydraulik
+Author: Micheee
+
+Category: Technik
+Question: Aus welchem zerbrechlichen Material wurden die ersten Schallplatten hergestellt?
+Answer: Schellack
+Author: Julika
+
+Category: Technik
+Question: Ausfall des Kuehlsystems in einem Kernreaktor mit anschließendem Schmelzen des Reaktorkerns und Freiwerden radioaktiver Stoffe? (Kurzwort)
+Answer: GAU
+Author: HenB
+
+Category: Technik
+Question: Ausziehbares Fernrohr mit geknicktem Strahlengang.
+Answer: Periskop
+Author: Micheee
+Level: easy
+
+Category: Technik
+Question: Bauteil, welches die Lasten von Tragwerken aufnimmt; auch zur Aufnahme und Fuehrung von schwingenden und sich drehenden Maschinenteilen.
+Answer: Lager
+Author: Micheee
+
+Category: Technik
+Question: Bezeichnug von Energiezellen, die mit Wasserstoff arbeiten?
+Answer: Brennstoffzellen
+Regexp: (brenn|brennstoff)zellen
+Author: Clown
+
+Category: Technik
+Question: Der Super Transporter "Beluga" ist eines der groessten (und auch haesslichsten) Flugzeuge, die je gebaut worden sind. Von wem wird es gefertigt?
+Answer: Airbus
+Author: Micheee
+
+Category: Technik
+Question: Elektr. Geraet zum Umwandeln von Stromarten.
+Answer: Stromrichter
+Author: Micheee
+Level: hard
+
+Category: Technik
+Question: Früher gab es Nickel-Cadmium Batterien, heute heißen sie?
+Answer: Metall Hydrid
+Regexp: metall[- ]?hydrid
+Author: Clown
+
+Category: Technik
+Question: In welchem Bereich ist die IATA taetig?
+Answer: Luftverkehr
+Regexp: luft-?verkehr
+Author: Micheee
+Level: hard
+
+Category: Technik
+Question: Killerfrage: Wofuer steht die Abkuerzung "LASER"?
+Answer: Light Amplification by Stimulated Emission of Radiation
+Author: Micheee
+Level: extreme
+Score: 2
+Tip: Light A...i...a...n by S...u...e. E...s... of R...a...n
+Tip: L.... Amplification by .t...l...d .m...i.. of .a...t...
+Tip: L.... A............ by Stimulated ..i...o. of ..d...i..
+Tip: L.... A............ by S......... Emission of ...i...o.
+Tip: L.... A............ by S......... E....... of Radiation
+
+Category: Technik
+Question: Mit welchem Kameraobjektiv hat man fast eine 360° Sicht? (Umgangssprachlich)
+Answer: Fischauge
+Author: Dreamteam
+
+Category: Technik
+Question: Reaktortyp, der nicht spaltbares Uran in spaltbares Plutonium fuer Kernkraftwerke umwandelt?
+Answer: Schneller Brueter
+Author: HenB
+Level: hard
+
+Category: Technik
+Question: Sprengkoerper, dessen Explosionsenergie hpts. durch Kernfusion erzeugt wird?
+Answer: Wasserstoffbombe
+Author: HenB
+Level: hard
+
+Category: Technik
+Question: Was bedeutet "BTX"?
+Answer: Bildschirmtext
+Regexp: bildschirm[- ]?text
+Author: [ZSF]Duke
+
+Category: Technik
+Question: Was bedeutet der Funkstandard DECT ausgeschrieben?
+Answer: Digital Enhanced Cordless Telecommunications
+Regexp: digital enhanced cordless tele(communication|phone)
+Author: Neo
+Level: hard
+Tip: D..i..l E..a..e. C..d..s. T..e..m..n..a..o..
+Tip: .i..t.. .n..n..d .o..l..s .e..c..m..i..t..n.
+Tip: ..g..a. ..h..c.. ..r..e.. ..l..o..u..c..i..s
+
+Category: Technik
+Question: Was bedeutet die Abkuerzung "GAU"?
+Answer: Groesstmoeglicher Anzunehmender Unfall
+Regexp: groesst(er|-?moeglicher) anzunehmender unfall
+Author: Julika
+Level: hard
+Tip: G....s....g....e. ..z....m....r ...a..
+Tip: Groesstmoeglicher ...u....e.... ....l.
+Tip: ..o....m....i.... anzunehmender U....l
+Tip: ...e....o....c... a....n....d.. Unfall
+
+Category: Technik
+Question: Was erfand Samuel Colt (1814-1862)?
+Answer: Revolver
+Author: Micheee
+
+Category: Technik
+Question: Was erfand der Norweger Johann Vaalen um 1900 aus einem Stueck Draht?
+Answer: Bueroklammer
+Author: Micheee
+
+Category: Technik
+Question: Was generiert ein Bandgenerator am laufenden Band?
+Answer: Hochspannung
+Author: [ZSF]Duke
+
+Category: Technik
+Question: Was hat das Telex abgelöst, gilt aber nicht als Dokument?
+Answer: Telefax
+Author: Dreamteam
+
+Category: Technik
+Question: Was heisst "TÜV" ausgeschrieben?
+Answer: Technischer Ueberwachungs-Verein
+Regexp: technischer? ueberwachungs[- ]?verein
+Author: Micheee
+
+Category: Technik
+Question: Was heisst "WAP"?
+Answer: Wireless Application Protocol
+Author: adrenalin
+Level: hard
+
+Category: Technik
+Question: Was ist "RDS"?
+Answer: Radio Data System
+Regexp: radio[- ]?data[- ]?system
+Author: LunaticPandora
+Level: hard
+
+Category: Technik
+Question: Was ist ein "Nuernberger Ei"?
+Answer: Taschenuhr
+Regexp: taschen[- ]?uhr
+Author: Micheee
+Tip: wurde im 16. Jh. von Peter Henlein aus Nuernberg gebaut
+Tip: damit es funktionierte, musste man es erst "aufziehen"
+Tip: man kann daran die Zeit ablesen =P
+
+Category: Technik
+Question: Was ist eine "MD"?
+Answer: Minidisk
+Regexp: mini[- ]?dis[ck]
+Author: jason
+
+Category: Technik
+Question: Welche Bremse loeste in PKW's die Trommelbremse ab?
+Answer: Die #Scheibenbremse#
+Author: Julika
+
+Category: Technik
+Question: Welche Erfindung machte der englische Tierarzt John Dunlop 1888?
+Answer: Den pneumatischen #Gummireifen#
+Author: Julika
+
+Category: Technik
+Question: Welche Kabel haben sich hervorragend in der Uebertragungstechnik bewaehrt?
+Answer: Glasfaserkabel
+Regexp: (glasfaser-?kabel|lichtwellen-?leiter)
+Author: Julika
+
+Category: Technik
+Question: Welche Markenhandys werden am meisten verkauft?
+Answer: Nokia
+Author: Angel_HH
+Level: easy
+
+Category: Technik
+Question: Welche Schüssel steht auf vielen Dächern? (Fachwort!)
+Answer: Parabolspiegel
+Regexp: Parabol[- ]?spiegel
+Author: Micheee
+
+Category: Technik
+Question: Welchen (japanischen) Beinamen trägt die Suzuki GSX 1300R? (Ein Motorrad)
+Answer: Hayabusa
+Author: PREDATOR
+
+Category: Technik
+Question: Welcher Strahl ist scharf gebündelt, monochromatisch sowie räumlich und zeitlich kohärent?
+Answer: Laserstrahl
+Regexp: laser[- ]?strahl
+Author: Julika
+
+Category: Technik
+Question: Welches Flugzeug ist der echte Jumbo-Jet?
+Answer: Boeing 747
+Regexp: boe?ing[- ]747
+Author: Micheee
+Level: easy
+
+Category: Technik
+Question: Welches Satelliten Handy-Netz wurde abgeschaltet, weil es Bankrott ging?
+Answer: Iridium
+Author: connect
+Level: hard
+
+Category: Technik
+Question: Welches Sicherheitssystem befindet sich oft im Lenkrad eines Autos?
+Answer: Airbag
+Author: Tobac
+
+Category: Technik
+Question: Welches Videosystem setzte sich trotz seiner Möglichkeit des beidseitigen Bespielens nicht durch?
+Answer: Beta 2000
+Regexp: beta[- ]?2000
+Author: Dreamteam
+Level: hard
+
+Category: Technik
+Question: Wer entwickelte das erste Kraftfahrzeug?
+Answer: Carl #Benz#
+Author: Micheee
+
+Category: Technik
+Question: Wer erfand den Kreiskolbenmotor?
+Answer: Felix #Wankel#
+Author: Micheee
+
+Category: Technik
+Question: Wer erfand den sechseckigen Bleistift?
+Answer: Lothar von #Faber#
+Author: Micheee
+Level: hard
+
+Category: Technik
+Question: Wer erfand mit dem Phonographen den Vorlaeufer des Grammophons?
+Answer: Thomas Alva #Edison#
+Author: Micheee
+Level: hard
+
+Category: Technik
+Question: Widerstand eines Koerpers gegen aeussere Beanspruchung?
+Answer: Festigkeit
+Author: Micheee
+
+Category: Technik
+Question: Widerstand eines Koerpers gegen das Eindringen eines anderen Koerpers?
+Answer: Haerte
+Author: Micheee
+
+Category: Technik
+Question: Wie heisst der größte Deutsche Mobilfunknetz-Betreiber?
+Answer: D2
+Author: connect
+
+Category: Technik
+Question: Wie heißen die beiden Metalle, die (beim Weichloeten) zu einer Loetmasse verschmolzen werden?
+Answer: Zinn und Blei
+Regexp: (blei.* zinn|zinn.* blei)
+Author: Julika
+Comment: geandert von Lot auf Blei
+
+Category: Technik
+Question: Wie hieß das erste Kraftfahrzeug, das von Henry Ford entwickelt wurde?
+Answer: Tin Lizzy
+Author: Julika
+Level: hard
+
+Category: Technik
+Question: Wie hieß der LKW von Opel, der mit Holz- und Kohlenfeuerung fahren konnte? (nach dem Weltkrieg)
+Answer: Opel Blitz
+Author: Clown
+Level: hard
+
+Category: Technik
+Question: Wie hoch ist die max. Datenübertragungsrate im GSM Netz? (in bps)
+Answer: 9600
+Author: connect
+
+Category: Technik
+Question: Wie lautet die Messeinheit der Fluggeschwindigkeit, die nicht mit einer Befehlsform zu verwechseln ist?
+Answer: Mach
+Author: Julika
+
+Category: Technik
+Question: Wie lautet die veraltete Bezeichnung für einen Temperaturregler?
+Answer: Thermostat
+Regexp: Th?ermosth?at
+Author: Julika
+Level: easy
+
+Category: Technik
+Question: Wie nennt man das Druckverfahren, das man vor allem dann anwendet, wenn es um grosse Auflagen geht (z.B. Quelle-Katalog)?
+Answer: #Tiefdruck#-Verfahren
+Regexp: tief-?druck
+Author: Micheee
+
+Category: Technik
+Question: Wie nennt man den Geschw.-bereich, in dem infolge Reibung der Luft so hohe Temperaturen entstehen, dass die Aussenhaut von Flugkoerper angegriffen wird?
+Answer: Hitzemauer
+Author: Micheee
+
+Category: Technik
+Question: Wie nennt man den Heissgas-Kolbenmotor, welcher 1816 von einem schottischen Geistlichen entwickelt wurde und der als besonders umweltfreundlich gilt, aber jedoch nie richtig weiterentwickelt wurde?
+Answer: Stirling-Motor
+Regexp: st[ei]rling[- ]?motor
+Author: Micheee
+Level: hard
+
+Category: Technik
+Question: Wie nennt man eine Vorrichtung zur Kopplung und Umwandlung von Bewegungen und Energien?
+Answer: Getriebe
+Author: Micheee
+
+Category: Technik
+Question: Wie nennt man einen elektrisch betriebenen Heizkörper?
+Answer: Radiator
+Author: Homer
+
+Category: Technik
+Question: Wieviel mm hat ein Inch? (auf drei geltende Stellen)
+Answer: 25,4 mm
+Regexp: 25[\.|,]4
+Author: Micheee
+Level: hard
+
+Category: Technik
+Question: Wieviele Räder hat ein Trike? (ausschreiben!)
+Answer: drei
+Author: Homer
+Level: easy
+
+Category: Technik
+Question: Wissenschaft vom Verhalten der Gase / Teilgebiet der Mechanik
+Answer: Pneumatik
+Author: Micheee
+
+Category: Technik
+Question: Wofuer steht das Kurzwort "Meteosat"?
+Answer: Wettersatellit
+Regexp: wetter[- ]?satt?ell?it
+Author: Micheee
+
+Category: Technik
+Question: Wofür steht "NTBA"?
+Answer: Network Termination Basic Access
+Regexp: network[- ]termination[- ]basic[- ]access
+Author: Homer
+Level: hard
+Tip: N..w..k T..m..a..o. B..i. A..e..
+Tip: .e..o.. .e..i..t..n .a..c .c..s.
+Tip: ..t..r. ..r..n..i.. ..s.. ..c..s
+
+Category: Technik
+Question: Wofür steht "POTS"?
+Answer: Plain Old Telephone System
+Regexp: plain[- ]old[- ]telephone[- ]system
+Author: Homer
+Level: hard
+
+Category: Technik
+Question: Wofür steht "SMS"?
+Answer: Short Message Service
+Regexp: short[- ]message[- ]service
+Author: Jean-Luc
+
+Category: Technik
+Question: Wofür steht die Abkürzung "Telex"?
+Answer: Teleprinter Exchange
+Regexp: teleprinter[- ]?exchange
+Author: Micheee
+Tip: zu Deutsch: Ferndrucker Austausch
+Tip: Telep...... E.......
+Tip: T...printer E.......
+Tip: T...p...... Exchange
+
+Question: "Zum Mittelmeer gehörig" nennt man wie?
+Answer: mediterran
+Author: Julika
+
+Question: ... - We got a problem.
+Answer: Houston
+Author: Micheee
+
+Question: ... statt Plastik
+Answer: Jute
+Author: Clown
+
+Question: Aldi Cola?
+Answer: River Cola
+Regexp: river[- ]?cola
+Author: Angel_HH
+Level: hard
+
+Question: Als was wurde das Tadsch Mahal in Agra (Indien) erbaut?
+Answer: Grabmal
+Author: Micheee
+
+Question: Anderer Begriff für "Freiherr"?
+Answer: Baron
+Author: Julika
+
+Question: Anderes Wort für Geburtshelferin?
+Answer: Hebamme
+Author: Angel_HH
+
+Question: Anderes Wort für Platzangst?
+Answer: Klaustrophobie
+Regexp: (c|k)laustrophobie
+Author: Andee
+
+Question: Auf welcher Insel lebte die griech. Dichterin Sappho (um 600 v. Chr.)?
+Answer: Lesbos
+Author: Micheee
+
+Question: Aus welchem Gemüse macht man Wodka?
+Answer: #Kartoffel#n
+Author: pot
+
+Question: Aus welcher Stadt kommen die Mozartkugeln?
+Answer: Salzburg
+Author: Julika
+
+Question: Bei welchem Amt wird Sozialhilfe beantragt?
+Answer: Sozialamt
+Regexp: sozial[- ]?amt
+Author: Micheee
+
+Question: Bei welchem Gang ruhen die Boegen auf Pfeilern oder Saeulen?
+Answer: bei einer #Arkade#
+Regexp: ar[ck]ade
+Author: Julika
+
+Question: Bekannter weißer Rum?
+Answer: Bacardi
+Regexp: ba[ck]ardi
+Author: Clown
+Level: easy
+
+Question: Bezeichnung fuer das mittelalterliche Lehnswesen
+Answer: Feudalismus
+Regexp: feudal(ismus|[- ]?herrschaft)
+Author: Micheee
+
+Question: Bobby ist schneller als Alfred. Alfred ist langsamer als Charly. Bobby ist langsamer als Charly. Wer ist der schnellste?
+Answer: Charly
+Author: PREDATOR
+
+Question: (BRD) Zum Bund oder ...
+Answer: Zivildienst
+Author: Moxon
+Level: easy
+
+Question: CIA (zentrale Geheimdienstorganisation der USA) ausgeschrieben?
+Answer: Central Intelligence Agency
+Author: Julika
+Tip: C....a. I....l....c. A....y
+Tip: .e....l .n....i....e .g....
+Tip: ..n.... ..t....g.... ..e...
+Tip: ...t... ...e....e... ...n..
+Tip: ....r.. ....l....n.. ....c.
+
+Question: Charly ist langsamer als Bobby. Alfred ist langsamer als Bobby. Charly ist schneller als Alfred. Wer ist der schnellste?
+Answer: Bobby
+Author: PREDATOR
+
+Question: Charly ist schneller als Bobby. Bobby ist langsamer als Alfred. Charly ist langsamer als Alfred. Wer ist der schnellste?
+Answer: Alfred
+Author: PREDATOR
+
+Question: Chef der Deutschen Bahn AG? (2000)
+Answer: Hartmut #Mehdorn#
+Regexp: ma?ehdorn
+Level: hard
+Author: Micheee
+
+Question: Claudia spricht lauter als Nina. Rosi spricht leiser als Karin. Karin spricht genauso laut wie Claudia. Stephanie spricht lauter als Karin. Wer spricht am lautesten?
+Answer: Stephanie
+Author: PREDATOR
+
+Question: Da ist doch der ...  und Malz verloren.
+Answer: Hopfen
+Author: Angel_HH
+Level: easy
+
+Question: Das roemische Zahlenzeichen für 50?
+Answer: L
+Author: Julika
+
+Question: Die meistgesprochenste Sprache der Welt?
+Answer: Chinesisch
+Author: Joint
+
+Question: Diese Stadt ist die letzte im Postleitzahlenbuch, nach Buchstaben geordnet
+Answer: Zwickau
+Author: Tobac
+Tip: Ist im Osten
+Tip: Faengt mit Z an
+
+Question: Do not feed the ...? (Spruch im Usenet)
+Answer: trolls
+Author: Moxon
+Level: hard
+
+Question: Doppelpunktstrichklammerzu
+Answer: :-)
+Author: Nukem
+
+Question: Ein Gefaellsknick, der eine Fluss-Strecke mit hoher Stroemungsgeschwindigkeit zur Folge hat
+Answer: Stromschnelle
+Author: Micheee
+
+Question: Ein Lasttier
+Answer: Esel
+Author: Moxon
+
+Question: Ein Lasttier
+Answer: Kamel
+Author: Sonnja
+
+Question: Eine große Mineralwasser-Firma in der Eifel
+Answer: Gerolsteiner
+Author: Clown
+Level: hard
+
+Question: Eine unerwünschte Person im diplomatischen Sprachgebrauch nennt man eine ... ... ...
+Answer: Persona non grata
+Author: Julika
+Level: hard
+
+Question: Einer der Weisen Athens, Kleobulos verfasste folgendes Raetsel: Einer ist der Vater, der hat zwoelf Kinder, von denen ein jedes seinerseits hat zweimal dreissig von gegensaetzlichem Aussehn; Sind doch die einen hell, die anderen wiederum schwaerzlich.  Und obwohl sie unsterblich, gehn alle doch gaenzlich zugrunde.  Was ist damit gemeint?
+Answer: das #Jahr#
+Author: Moxon
+
+Question: Eines der sieben Weltwunder
+Answer: #Haengenden Gaerten# der Semiramis
+Regexp: haengenden? gaerten
+Author: Micheee
+
+Question: Eines der sieben Weltwunder
+Answer: Aegyptische Pyramiden
+Regexp: (aegyptischen? pyramiden|cheops[- ]pyramide)
+Author: Micheee
+
+Question: Eines der sieben Weltwunder
+Answer: Koloss von Rhodos
+Regexp: koll?oss?.*rh?odos
+Author: Micheee
+
+Question: Eines der sieben Weltwunder
+Answer: Leuchtturm von Alexandria
+Regexp: leuchtturm
+Author: Micheee
+
+Question: Ene mene muh ... ... ... ...?
+Answer: und raus bist du
+Author: HenB
+Level: baby
+
+Question: Ergaenze: Bei Nacht sind alle Katzen ...
+Answer: grau
+Author: Micheee
+
+Question: Ergaenze: ich bin, er ist, sie ...
+Answer: sind
+Author: Micheee
+Level: easy
+
+Question: Ergänze den Satz: Zieh dich aus kleine Maus, ... ... ...
+Answer: mach dich nackig
+Author: Angel_HH
+
+Question: Erster Vorname von Bill Gates?
+Answer: William
+Author: i11usion
+
+Question: Es gibt ein Geschäft, das nennt sich genauso wie ein Planet! Welches Geschäft ist gesucht?
+Answer: Saturn
+Author: m6k
+Level: easy
+
+Question: Essen hat die niedrigste Ortsvorwahl in Deutschland. Wie lautet sie?
+Answer: 0201
+Author: Tobac
+Level: hard
+
+Question: Frage, auf die keine Antwort erwartet wird?
+Answer: Rhetorische Frage
+Author: HenB
+
+Question: Früher typischer Bodenbelag. Unterseite mit Filz und oben ganz glatt (wurde regelmäßig gebohnert)
+Answer: Linoleum
+Author: Clown
+
+Question: Griechisch fuer "Meinung"
+Answer: Dogma
+Author: Moxon
+
+Question: Hass <-> ...?
+Answer: Liebe
+Author: Moxon
+
+Question: Hauptbestandteil von Marzipan?
+Answer: #Mandel#n
+Author: Moxon
+
+Question: Hauptzutat von Bier?
+Answer: Wasser
+Author: Stimpy
+Level: easy
+
+Question: Hier wird nur genagelt und nicht ...!
+Answer: geleimt
+Author: Thomas_HH
+
+Question: In Oesterreich ist es die Semmel, in Deutschland das ...?
+Answer: Broetchen
+Author: Clown
+
+Question: In welchem Bundesland ist Apfelwein das "Nationalgetränk"?
+Answer: Hessen
+Author: DrFraggle
+
+Question: In welchem Land findet einmal im Jahr die größte Computermesse der Welt statt?
+Answer: Deutschland
+Author: Dreamteam
+
+Question: In welchem Spiel steht jede Figur auf dem Kopf?
+Answer: Kartenspiel
+Author: Micheee
+
+Question: In welcher Stadt findet alle vier Jahre die ILA statt?
+Answer: Berlin
+Author: Micheee
+Tip: ILA = Internationale Luft- und Raumfahrt Ausstellung
+Tip: ziemlich grosse Stadt, moechte ich meinen
+Tip: hier in Deutschland
+Tip: sogar die Hauptstadt von Deutschland =)
+
+Question: In welcher Stadt liegt die Firmenzentrale von Coca-Cola Deutschland?
+Answer: Essen
+Author: ich
+
+Question: In welcher Stadt liegt die Welt-Firmenzentrale von Coca-Cola?
+Answer: Atlanta
+Author: i11usion
+
+Question: In welcher argentinischen Stadt entstand der Tango?
+Answer: Buenos Aires
+Author: Micheee
+
+Question: Italienischer Medienmogul
+Answer: Sylvio #Berlusconi#
+Regexp: berlus[ck]oni
+Author: DrFraggle
+
+Question: Jahres-, Wind- und Regenzeit in - vor allem - Südostasien?
+Answer: Monsun
+Author: Julika
+
+Question: Mehrzahl von Atlas
+Answer: Atlanten
+Author: Clown
+Level: easy
+
+Question: Name des groessten Internet-Auktionshauses?
+Answer: ebay
+Author: adrenalin
+
+Question: Nina spricht lauter als Claudia. Karin spricht leiser als Stephanie. Stephanie spricht genauso laut wie Nina. Rosi spricht lauter als Stephanie. Wer spricht am lautesten?
+Answer: Rosi
+Author: PREDATOR
+
+Question: Nokia ist heute bekannt als Elektronikkonzern, doch womit hat die Produktion 1865 begonnen?
+Answer: Papier
+Author: Clown
+Level: hard
+
+Question: Nutze den Tag!
+Answer: Carpe Diem
+Author: Micheee
+
+Question: Oesterreichisches Aequivalent für den deutschen Pfannkuchen?
+Answer: Palatschinken
+Author: Julika
+
+Question: Ruderkriegsschiff des Altertums?
+Answer: Galeere
+Regexp: gall?eere
+Author: Micheee
+
+Question: Science Fiction Autor und Gründer der Scientology-Sekte?
+Answer: L. Ron #Hubbard#
+Author: Micheee
+Level: hard
+
+Question: Sitz der Sonne?
+Answer: Dortmund
+Author: Andee
+
+Question: Susi und Kawa sind ...?
+Answer: Motorraeder
+Regexp: motorrae?d
+Author: Micheee
+Level: easy
+
+Question: Trugwahrnehmung, die ohne reale Ursachen und Mitwirkung der Sinnesorgane zustande kommt.
+Answer: Halluzination
+Author: Micheee
+
+Question: Ueber welchem indischen Gebäude dürfen keine Flugzeuge verkehren?
+Answer: Taj Mahal
+Regexp: ta(j|dsch) mahal
+Author: Julika
+Level: hard
+
+Question: Und aus was wird Sauerkraut gemacht?
+Answer: Kohl
+Author: Andee
+
+Question: Unter welcher (Innlands)Vorwahl wird einem etwas versautes vorgestöhnt?
+Answer: 0190
+Author: Tobac
+Level: easy
+
+Question: Unterhose in Minni-Format
+Answer: Tanga
+Author: Angel_HH
+
+Question: Vokabel-Test: "uebertreiben" auf Englisch
+Answer: to #exaggerate#
+Author: Micheee
+
+Question: Wann wurden in Deutschland die 5-stelligen Postleitzahlen eingefuehrt?
+Answer: 1993
+Author: Andee
+
+Question: Was "gebiert" einen Gletscher, wenn er kalbt?
+Answer: Eisberg
+Author: Micheee
+
+Question: Was bedeutet "pernizioes"?
+Answer: boesartig
+Regexp: (boesartig|gefaehrlich)
+Author: Julika
+Level: hard
+
+Question: Was bedeutet Chow (von Chow-Chow) übersetzt?
+Answer: lecker
+Author: Julika
+Level: hard
+Tip: aus welchem Land stammt der Chow-Chow?
+Tip: und was tun die Chinesen mit den Hunden? *g*
+Tip: sie finden ihn ...? *bg*
+
+Question: Was bedeutet Majoritaet?
+Answer: Mehrheit
+Author: Micheee
+Level: easy
+
+Question: Was bedeutet Minoritaet?
+Answer: Minderheit
+Author: Micheee
+Level: easy
+
+Question: Was bedeutet das griechische Wort "Amazone" auf deutsch?
+Answer: #Brustlos#e
+Author: Micheee
+Level: hard
+
+Question: Was bewacht die Schweizer Garde?
+Answer: Vatikan
+Author: Julika
+
+Question: Was erfand Marvin Chester Stone als er paraffiniertes Manilapapier zusammenrollte?
+Answer: Strohhalm
+Regexp: stroh-?halm
+Author: Angel_HH
+Level: hard
+
+Question: Was für ein Auto schenkte Elvis seiner Mama?
+Answer: Pink Cadillac
+Regexp: pink[- ]cadill?ac
+Author: Homer
+
+Question: Was für ein Malz ist in Malzbier drin?
+Answer: Gerstenmalz
+Author: Angel_HH
+
+Question: Was heisst "GmbH"?
+Answer: Gesellschaft mit beschraenkter Haftung
+Author: LunaticPandora
+Level: easy
+
+Question: Was heisst "OPEC"?
+Answer: Organization of the Petroleum Exporting Countries
+Regexp: organi[sz]ation of .*petroleum exporting countries
+Author: HenB
+Level: hard
+Tipcycle: 4
+
+Question: Was heisst "RAF" ausser Rote-Armee-Fraktion noch?
+Answer: Royal Air Force
+Regexp: royal[- ]?air[- ]?force
+Author: Micheee
+Level: hard
+Tip: so nennt sich die britische Luftwaffe
+Tip: Royal A.. F....
+Tip: R.... Air F....
+Tip: R.... A.. Force
+
+Question: Was heisst "Raumtransporter" auf englisch?
+Answer: Space Shuttle
+Regexp: space shutt?le
+Author: Micheee
+
+Question: Was heisst "Unbekanntes Land" auf Lateinisch?
+Answer: Terra Incognita
+Author: Micheee
+Level: hard
+Tip: T...a I...g...a
+Tip: .e... .n...n...
+Tip: ..r.. ..c...i..
+Tip: ...r. ...o...t.
+
+Question: Was heisst IKK ausgeschrieben?
+Answer: Innungskrankenkasse
+Regexp: innungs[- ]?krankenkasse
+Author: Angel_HH
+Level: hard
+
+Question: Was heisst auf Griechisch: "Mutterstamm"?
+Answer: Matrix
+Author: Dreamteam
+Level: hard
+
+Question: Was heißt "Herbst" auf US-Englisch?
+Answer: fall
+Author: Micheee
+Level: easy
+
+Question: Was heißt "to be on tenterhooks" sinngemaess in's Deutsche uebersetzt?
+Answer: wie auf gluehenden Kohlen sitzen
+Author: ich
+Tip: w.. a.. g...h...e. K...e. s...e.
+Tip: .i. .u. .l...e...n .o...n .i...n
+Tip: ..e ..f ..u...n... ..h... ..t...
+Tip: ... ... ...e...d.. ...l.. ...z..
+
+Question: Was heißt BASF ausgeschrieben?
+Answer: Badische Anilin und Soda Fabrik
+Regexp: badische anill?in und soda[- ]fabrik
+Author: Clown
+Level: extreme
+
+Question: Was heißt HARIBO?
+Answer: Hans Riegel aus Bonn
+Regexp: Hans Riegel( aus)? Bonn
+Author: HenB
+Level: hard
+
+Question: Was hoert sich an wie Braedzl?
+Answer: Brezel
+Author: Moxon
+Level: easy
+
+Question: Was ist Rhetorik?
+Answer: Redekunst
+Author: Micheee
+Level: easy
+
+Question: Was ist das Gegenteil von "konkret"?
+Answer: abstrakt
+Author: Julika
+
+Question: Was ist der Ausloeser fuer einen Fallout?
+Answer: Atomexplosion
+Regexp: atom(are)?[- ]?(bombe|explosion)
+Author: Micheee
+
+Question: Was ist der Gegensatz zu Egoismus?
+Answer: Altruismus
+Author: Micheee
+Level: hard
+
+Question: Was ist der deutsche Ausdruck fuer eine "Felis Domestica"?
+Answer: Hauskatze
+Regexp: haus[- ]?katze
+Author: Micheee
+Level: hard
+Tip: H...k...e (ein Tier)
+Tip: .a...a... (genauer: ein Haustier)
+Tip: ..u...t.. (jagt Maeuse)
+Tip: ...s...z. (macht "miau")
+
+Question: Was ist die Zahl des Illuminatus? - tip: XX
+Answer: 23
+Author: aldor
+Level: hard
+
+Question: Was ist ein "Hasardeur"?
+Answer: Gluecksspieler
+Regexp: gluecks-?spieler
+Author: Micheee
+Level: hard
+Tip: hat was mit Spiele zu tun
+Tip: und ist eine Person
+Tip: gibt's vorallem in Kasinos
+Tip: Gluecks.......
+Tip: .......spieler
+
+Question: Was ist ein Misanthrop?
+Answer: Menschenhasser
+Regexp: menschen(feind|hasser)
+Author: Julika
+Level: hard
+
+Question: Was ist ein Philantrop?
+Answer: Menschenfreund
+Author: Julika
+Level: hard
+
+Question: Was ist ein Schiffskobold?
+Answer: Klabautermann
+Author: Julika
+
+Question: Was ist eine portugiesische Galeere?
+Answer: #Qualle#nart
+Author: Micheee
+Level: hard
+
+Question: Was kommt nach der Physik (Aristoteles)?
+Answer: Metaphysik
+Regexp: meta[- ]?physik
+Author: Moxon
+
+Question: Was macht man mit einem Abakus?
+Answer: rechnen
+Author: [ZSF]Duke
+
+Question: Was sammeln Numismatiker?
+Answer: Muenzen
+Author: [ZSF]Duke
+Level: hard
+
+Question: Was sollte normalerweise auf jeder Zigarettenpackung stehen?
+Answer: Rauchen gefaehrdet die Gesundheit
+Regexp: rauchen gefaehrdet (die|ihre) gesundheit
+Author: Angel_HH
+
+Question: Was untersucht ein Paläontologe?
+Answer: Fossilien
+Author: Julika
+
+Question: Was verliert an Wert im Laufe einer Inflation?
+Answer: Geld
+Author: Micheee
+Level: easy
+
+Question: Was versteht die amerikanische Food and Drug Administration unter "GRAS" bezueglich Gen-Food?
+Answer: generally recognized as safe
+Regexp: generally recogni[sz]ed as sa[fv]e
+Author: Moxon
+Level: hard
+Tip: generally r.c..n..e. a. s.f.
+Tip: g........ recognized .s s...
+Tip: g........ r......... .. safe
+
+Question: Was versteht man unter Kalligraphie?
+Answer: Schoenschreib-Kunst
+Regexp: (schoen-?schrift|schreibe?-?kunst)
+Author: Micheee
+Level: hard
+
+Question: Was wirft keinen Schatten, hat kein Spiegelbild und kann Knoblauch nicht leiden?
+Answer: Vampir
+Author: [ZSF]Duke
+Level: baby
+
+Question: Wegen welchem Buch wurde der Schriftsteller Salman Rushdie vom Ayatollah zum Tode verurteilt?
+Answer: Die Satanischen Verse
+Regexp: satanischen? verse
+Author: Julika
+
+Question: Welche Befugnisse hat der Staat in einer freien Marktwirtschaft?
+Answer: keine
+Author: Micheee
+
+Question: Welche Behörde befasst sich mit Steuerhinterziehung?
+Answer: Steuerfahndung
+Regexp: steuer[- ]?fahndung
+Author: Sonnja
+
+Question: Welche Bogenform ist ein wesentliches Kennzeichen gotischer Baukunst?
+Answer: Spitzbogen
+Author: Micheee
+Level: hard
+
+Question: Welche Farbe hat der Anfängergürtel in Judo?
+Answer: weiss
+Author: Reaper
+Level: easy
+
+Question: Welche Farbe soll einen beruhigenden Eindruck schaffen?
+Answer: gruen
+Author: Clown
+
+Question: Welche Nachrichtenagentur wird mit dem Kuerzel "AFP" bezeichnet?
+Answer: Agence-France-Presse
+Author: Micheee
+Regexp: agence[- ]france[- ]presse?
+Level: hard
+Tip: A..n..-F..n..-P..s..
+Tip: .g..c.-.r..c.-.r..s.
+Tip: ..e..e-..a..e-..e..e
+
+Question: Welche Süssspeise errinnert an ein Lied von Elvis Presley?
+Answer: Milka Tender
+Author: Neo
+Tip: hergestellt von den Leuten mit der lila Kuh
+Tip: M...a T...e.
+Tip: .i... .e...r
+Tip: ..l.. ..n...
+Tip: ...k. ...d..
+
+Question: Welche Waffen werden als sogenannte B-Waffen geführt?
+Answer: #Biologische# Waffen
+Author: Julika
+Level: easy
+
+Question: Welche Zigaretten-Marke ist Blau? HINWEIS: Rauchen gefaehrdet die Gesundheit!
+Answer: Gauloises
+Regexp: Gauloises?
+Author: Nukem
+
+Question: Welche Zigarettenmarke bedeutet übersetzt soviel wie Glückstreffer? (HINWEIS: Rauchen gefaehrdet Ihre Gesundheit!)
+Answer: Lucky Strike
+Author: Neo
+Level: easy
+
+Question: Welche aufdringlichen Typen werden nach der roemischen Wortmischung aus Stechmuecke und Blitzlicht benannt?
+Answer: Paparazzis
+Author: Julika
+Regexp: papp?arazz?i
+Level: hard
+Tip: prominente sind nicht sicher vor denen
+Tip: angeblich eine Ursache für Lady Di's tragischen Unfall
+
+Question: Welche lat. Worte bezeichnen ebenfalls eine Universität?
+Answer: alma mater
+Regexp: alma mat(a|er)
+Author: Julika
+Level: hard
+Comment: geaendert von mata zu mater (laut lexikon)
+Tip: a... m...r
+Tip: .l.. .a...
+Tip: ..m. ..t..
+Tip: ...a ...e.
+
+Question: Welche ursprüngliche Arbeitsbekleidung aus der Goldgräberzeit ist heute noch in Mode?
+Answer: Jeans
+Author: Dreamteam
+
+Question: Welchen Beruf übte Evita Peron aus, ehe sie den argentinischen Staatspräsidenten heiratete?
+Answer: Schauspielerin
+Author: Julika
+
+Question: Welcher Anwalt aus Muenchen hat u.a. durch Internet-Abmahnungen einen eher zweifelhaften Ruhm erlangt? (Voller Name mit Titel)
+Answer: Guenter Freiherr von Gravenreuth
+Regexp: guenth?er freiherr von gra[fv]enreuth
+Author: Micheee
+Tip: G...t.. F...h... v.. G...e...u..
+Tip: .u...e. .r...e.. .o. .r...n...t.
+Tip: ..e...r ..e...r. ..n ..a...r...h
+Tip: ...n... ...i...r ... ...v...e...
+
+Question: Welcher Ball haengt an einer Schlaufe?
+Answer: Schleuderball
+Regexp: schleuder[- ]?ball
+Author: Angel_HH
+
+Question: Welcher Deutsche ist Weltrekordler im patentieren?
+Answer: Artur #Fischer#
+Author: Clown
+Level: hard
+Tip: u.a. Erfinder eines bekannten Duebels
+Tip: hat den selben Nachnamen wie unser derzeitiger Aussenminister (2000)
+Tip: F..c..r
+Tip: .i..h.r
+Tip: ..s..e.
+
+Question: Welcher Hoteltreffpunkt heißt wie eine Interessengruppe, die Parlamentarier in ihrem Sinne beeinflußt?
+Answer: Lobby
+Author: Julika
+
+Question: Welcher Kontinent hat die geringste Bevölkerungsdichte?
+Answer: Antarktis
+Regexp: (antarktis|suedpol)
+Author: [ZSF]Duke
+
+Question: Welcher Vogel ist das Symboltier der Lufthansa?
+Answer: Kranich
+Author: Angel_HH
+
+Question: Welcher frz. Physiker erfand den Schnellkochtopf?
+Answer: Denis #Papin#
+Author: pot
+Level: hard
+
+Question: Welcher italienische Werkstoff heißt übersetzt "Gebrannte Erde"?
+Answer: Terracotta
+Regexp: terra[- ]?[ck]otta
+Author: Julika
+Level: hard
+
+Question: Welches - heute populärstes - Erfrischungsgetränk musste seine Rezeptur ändern, weil es bei seiner ursprünglichen Herstellung eine heute verbotene Droge enthielt?
+Answer: Coca Cola
+Regexp: coca[- ]?cola
+Author: Dreamteam
+
+Question: Welches Bier gibt es jetzt in Plastikflaschen? *würg*
+Answer: Holsten
+Author: pot
+
+Question: Welches Brettspiel wurde vom späteren US-Millionär Charles Barrow erfunden?
+Answer: Monopoly
+Author: Julika
+
+Question: Welches Getraenk wurde von Moenchen im MA urspruenglich als Fastenspeise produziert?
+Answer: Bier
+Author: Micheee
+Level: easy
+
+Question: Welches Gewürz enthält der Aperitif "Pernod"?
+Answer: Anis
+Author: Julika
+Level: hard
+
+Question: Welches Horoskop hat Anfang Juli Geburtstag?
+Answer: Krebs
+Author: Tobac
+
+Question: Welches Land benutzt unsere (noch-) Währung als Namensteil?
+Answer: Daenemark
+Author: Micheee
+Level: easy
+
+Question: Welches Loch bringt auch das größte Schiff zum sinken?
+Answer: Leck
+Author: Julika
+Level: easy
+
+Question: Welches Musikinstrument spielt "Billy Boy" Clinton?
+Answer: Saxophon
+Author: Homer
+
+Question: Welches Tier wird als Glücksbringer angesehen?
+Answer: Marienkäfer
+Author: Sonnja
+
+Question: Welches Zahlenlotto lieben die englischen Hausfrauen?
+Answer: Bingo
+Author: Julika
+
+Question: Welches deutsche Flugzeugwerk (heute MBB) wurde 1923 in Bamberg gegründet?
+Answer: Messerschmitt
+Regexp: messerschmi[dt]t
+Author: Micheee
+
+Question: Welches ist die berühmt-berüchtigtste Strasse Deutschlands?
+Answer: Die #Reeperbahn#
+Author: Julika
+
+Question: Wenn es auf Geschwindigkeit nicht ankommt, auf was dann ?!?
+Answer: Wissen
+Author: Micheee
+Level: easy
+
+Question: Wer ist der Chef der palaestinensischen Freiheitsbewegung PLO ? (2000)
+Answer: Jasir #Arafat#
+Author: Micheee
+
+Question: Wer ist der Schutzpatron fuer verlorene Sachen?
+Answer: der heilige #Antonius#
+Author: Micheee
+
+Question: Wer ist mit "La Gioconda" gemeint?
+Answer: Mona Lisa
+Regexp: mona[- ]?lisa
+Author: Micheee
+Level: hard
+
+Question: Wer weiss was das russische Wort "Wodka" eigentlich in Deutsch bedeutet?
+Answer: kleines Wasser
+Regexp: (kleines wasser|waesserchen)
+Author: Andee
+Level: hard
+
+Question: Wer wird der Koenig der Gangster genannt? (Vor- und Nachname!)
+Answer: Al Capone
+Author: Micheee
+
+Question: Wie bezeichnet ein Winzer das Umfuellen des Weines vom Fass in Flaschen?
+Answer: Abfuellung
+Author: Angel_HH
+Level: easy
+
+Question: Wie heissen die Brötchen in Berlin?
+Answer: Schrippen
+Author: Clown
+
+Question: Wie heissen die Zelte der nordamerikanischen Indianer?
+Answer: Tipi
+Regexp: tipp?i
+Author: Micheee
+
+Question: Wie heisst Fleisch im Fladenbrot besser?
+Answer: Doener
+Author: connect
+
+Question: Wie heisst auf spanisch "der Teufel"?
+Answer: el diablo
+Author: HenB
+Level: easy
+
+Question: Wie heisst das Maskottchen der Expo 2000?
+Answer: Twipsy
+Author: Tobac
+
+Question: Wie heisst das Pfeilgift der Urwald-Indianer?
+Answer: Curare
+Regexp: [ck]urare
+Author: Micheee
+Level: hard
+
+Question: Wie heisst das Space Shuttle, welches als erstes in die Erdumlaufbahn flog?
+Answer: Columbia
+Author: Micheee
+Level: hard
+
+Question: Wie heisst das teuerste und exclusivste Kaufhaus in Grossbritannien?
+Answer: Harrods
+Author: Dreamteam
+Level: hard
+
+Question: Wie heisst der Plattensee auf ungarisch?
+Answer: Balaton
+Author: Julika
+
+Question: Wie heisst die Tastengrundstellung im (dt.) 10-Finger-System?
+Answer: asdf jklö
+Regexp: asdf ?jklö
+Author: HenB
+Level: easy
+
+Question: Wie heißen die kleinen gelben Zettel, die man überall dran klebt und wieder entfernen kann?
+Answer: PostIT
+Author: Clown
+
+Question: Wie heißt Nintendos neue Konsole?
+Answer: GameCube
+Regexp: game[- ]?cube
+Author: Joint
+
+Question: Wie heißt das geistliche Oberhaupt, das 1989 mit dem Nobelpreis geehrt wurde?
+Answer: Dalai Lama
+Regexp: dala[yi] lama
+Author: Julika
+
+Question: Wie heißt das wohl berühmteste fünfeckige Gebäude in den USA?
+Answer: Pentagon
+Author: Clown
+Level: easy
+
+Question: Wie heißt der bekannteste Freizeitpark in Moskau?
+Answer: Gorki Park
+Regexp: Gorki[- ]?Park
+Author: Julika
+
+Question: Wie heißt der grüne Nintendo-Klempner?
+Answer: Luigi
+Author: Joint
+Level: easy
+
+Question: Wie heißt der rote Nintendo-Klempner?
+Answer: Mario
+Author: Joint
+Level: easy
+
+Question: Wie heißt die amerikanische Variante von "17 und 4"?
+Answer: Black Jack
+Regexp: black[- ]?jack
+Author: Julika
+
+Question: Wie hiess das Raumschiff, mit dem Jurij Gagarin den ersten bemannten Raumflug ausführte?
+Answer: #Wostok# I
+Author: Micheee
+Level: hard
+
+Question: Wie hiess das erste (zu Testversuchen gebaute) Space Shuttle?
+Answer: Enterprise
+Author: Micheee
+Level: hard
+
+Question: Wie hiess ein beheizbarer Raum in mittelalterlichen Burgen?
+Answer: Kemenate
+Author: Micheee
+Regexp: kemm?enate
+
+Question: Wie ist der medizinische Ausdruck für Spinnenphobie, also anhaltende Angst vor Spinnen?
+Answer: Arachnophobie
+Author: Julika
+Level: hard
+
+Question: Wie ist die inoffizielle Bezeichnung fuer die amerikanischen Unterseeboot-Streitkraefte?
+Answer: Silent Service
+Regexp: silent[- ]?service
+Author: Micheee
+Level: hard
+Tip: da gab's mal eine exzellente U-Boot-Simulation von Microprose, die so hiess
+Tip: auf deutsch: "lautloser Dienst"
+Tip: Silent S......
+Tip: S..... Service
+
+Question: Wie lang ist die gesetzliche Verjährungsfrist laut BGB?
+Answer: 30 Jahre
+Author: Sonnja
+Level: hard
+
+Question: Wie lautet der Beiname des englischen Königs Richard I.?
+Answer: Richard Löwenherz
+Regexp: (loewenherz|lionheart)
+Author: Julika
+
+Question: Wie lautet die msg, die man MoxQuizz schicken muss, um eine Userfrage zu stellen?
+Answer: !userquest
+Author: Moxon
+
+Question: Wie nennen die Englaender ihre beruehmteste Oma?
+Answer: Queen Mom
+Regexp: Queen M[ou]m
+Author: Moxon
+Level: easy
+
+Question: Wie nennt man Hamburgs beruehmteste Polizei-Wache?
+Answer: David Wache
+Regexp: david[- ]?wache
+Author: Thomas_HH
+Level: hard
+
+Question: Wie nennt man das Füttern mit der Brust auch anders?
+Answer: Stillen
+Author: Angel_HH
+Level: easy
+
+Question: Wie nennt man die Einwohner Monacos?
+Answer: Monegassen
+Author: Julika
+
+Question: Wie nennt man die Lehre der Zeitmessung und Zeiteinteilung?
+Answer: Chronologie
+Author: Julika
+Level: hard
+
+Question: Wie nennt man die Struktur des Holzes?
+Answer: Maserung
+Author: Micheee
+
+Question: Wie nennt man die Woerter "der, die, das, den usw."?
+Answer: bestimmte Artikel
+Author: Micheee
+Level: easy
+Tip: b...i...e A...k..
+Tip: .e...m... .r...e.
+Tip: ..s...m.. ..t...l
+Tip: ...t...t. ...i...
+
+Question: Wie nennt man die jaehrliche Gesamtverzinsung eines angelegten Kapitals?
+Answer: Rendite
+Author: Julika
+
+Question: Wie nennt man die oberste Kante des Daches?
+Answer: Dach-#First#
+Author: Julika
+Level: easy
+
+Question: Wie nennt man ein Wort, das das Gegenteil eines anderen Wortes ist?
+Answer: Antonym
+Author: Micheee
+Level: hard
+
+Question: Wie nennt man ein geschuetteltes Mischgetraenk?
+Answer: Shake
+Author: Julika
+Level: easy
+
+Question: Wie nennt man ein langfristiges Bankdarlehen das über eine Hypothek abgesichert ist und in festen Monatsraten zurückgezahlt wird?
+Answer: Annuitaetendarlehen
+Regexp: annuitaeten[- ]?darlehen
+Author: Neo
+Level: extreme
+
+Question: Wie nennt man ein zylindrisch einseitig geschlossenes Glasroehrchen?
+Answer: Reagenzglas
+Author: Julika
+Level: easy
+
+Question: Wie nennt man einen Lizensierten Funker?
+Answer: Amateur-Funker
+Regexp: amateur[- ]?funker
+Author: Thomas_HH
+
+Question: Wie nennt man in der Wetterkunde die Linien gleichen Luftdrucks?
+Answer: #Isobare#n
+Author: Julika
+Level: hard
+
+Question: Wie uebersetzt man ueblicherweise spiritus (lat.) und pneuma (griech.)?
+Answer: Geist
+Author: Moxon
+
+Question: Wie viele Buchstaben hat das Alphabet?
+Answer: 26
+Author: Micheee
+Level: baby
+
+Question: Wie viele Jahre muss ein Gegenstand mindestens alt sein, um als echte Antiquitaet anerkannt zu werden?
+Answer: #100# Jahre
+Author: Micheee
+
+Question: Wie viele Karten sind in einem normalen Kartenspiel?
+Answer: 32
+Author: Micheee
+
+Question: Wie werden die nackten Kindergestalten der Renaissance genannt?
+Answer: Putten
+Regexp: putt?en
+Author: Julika
+Level: hard
+
+Question: Wie werden die oft grotesk aussehenden Wasserspeier, die man manchmal an alten Gebäuden findet, genannt?
+Answer: Gargoyle
+Author: Andee
+Level: hard
+
+Question: Wieviel DIN A4 Blätter benötigt man für einen m²?
+Answer: 16
+Author: Clown
+
+Question: Wieviel Felder hat ein Schachbrett?
+Answer: 64
+Author: Tobac
+
+Question: Wieviel Goldgehalt gibt das Gewicht 24 Karat an? (in Prozent)
+Answer: #100# Prozent
+Author: Julika
+
+Question: Wieviel Karat hat reines Gold?
+Answer: #24# Karat
+Author: Micheee
+
+Question: Wieviele Cents ergeben einen US-Quarter-Dollar?
+Answer: #25# Cents
+Author: Julika
+
+Question: Wieviele Eckpunkte hat eine Pyramide? (ausschreiben!)
+Answer: fünf
+Author: Julika
+Level: easy
+
+Question: Wieviele Patente (ca.) hat Artur Fischer (Fischerdübel, Fischertechnik) bereits weltweit eingereicht?
+Answer: 5500
+Author: Clown
+Level: hard
+
+Question: Wieviele Silben hat das Wort "Limonadenflasche" ? (ausschreiben!)
+Answer: sechs
+Author: Micheee
+Level: easy
+
+Question: Wieviele Silben hat das Wort "Riesenschildkroete" ? (ausschreiben!)
+Answer: fuenf
+Author: Micheee
+Level: easy
+
+Question: Wieviele Silben hat das Wort "Trockenbeerenauslese" ? (ausschreiben!)
+Answer: sieben
+Author: Micheee
+Level: easy
+
+Question: Wieviele Spielsteine gibt es im Dame-Spiel?
+Answer: 24
+Author: Micheee
+
+Question: Wieviele Sterne hat die Europa-Flagge? (ausschreiben!)
+Answer: zwoelf
+Author: aldor
+
+Question: Wieviele Stunden hat ein Monat mit 30 Tagen?
+Answer: 720
+Author: Homer
+Level: easy
+
+Question: Wieviele Tage liegen zwischen Ostern und Pfingsten?
+Answer: 49
+Author: ComPoti
+
+Question: Wieviele Taschen hat ein Billardtisch? (ausschreiben!)
+Answer: sechs
+Author: Homer
+Level: easy
+
+Question: Wieviele alphabetische Buchstaben stehen einem russischen Dichter zur Verfügung?
+Answer: 31
+Author: Julika
+
+Question: Wievielen Metern entspricht eine Laufstrecke von einer englischen Meile?
+Answer: 1609,3m
+Author: Julika
+Regexp: (1600|1609)
+Level: hard
+
+Question: Wissenschaft von den Vorgaengen in der unbelebten Natur
+Answer: Physik
+Author: Micheee
+
+Question: Wo findet die EXPO 2000 statt?
+Answer: Hannover
+Author: Homer
+Level: easy
+
+Question: Wo hat das Europaeische Parlament seinen Sitz?
+Answer: Strassburg
+Author: Andee
+
+Question: Wo ist der Sitz des bekannten Drogenkartells in Südamerika (Stadt)?
+Answer: Medellin
+Regexp: medell?in
+Author: Julika
+Level: hard
+
+Question: Wo sollte die CeBIT Home 2000 stattfinden?
+Answer: Leipzig
+Author: TBA
+
+Question: Wo wird der Kaiser "Tenno" genannt?
+Answer: Japan
+Author: Micheee
+
+Question: Wo wurde die Fa. Friedr. Bayer & Co. (heute BAYER Leverkusen) gegründet?
+Answer: #Wuppertal# Barmen
+Author: Clown
+Level: hard
+
+Question: Wofür steht die Abkuerzung "APO" ? (Name einer deutschen Bewegung)
+Answer: Ausserparlamentarische Opposition
+Author: Micheee
+
+Question: Womit beschaeftigt sich Heraldik?
+Answer: Wappenkunde
+Author: Julika
+
+Question: Wonach innerhalb einer Zeiteinheit wird der Lohn fuer Akkordarbeit berechnet?
+Answer: Stueckzahl
+Regexp: stueck(einheit|zahl)
+Author: Micheee
+
+Question: Wonach sehnen sich die Frauen heute, womit früher die Wäsche gereinigt wurde?
+Answer: Waschbrett
+Author: Stimpy
+Level: baby
+
+Question: Woraus besteht eine "Eisbombe"?
+Answer: Speiseeis
+Regexp: speise[- ]?eis
+Author: Micheee
+Level: baby
+
+Question: Wortpaar: Frank und ····
+Answer: frei
+Author: Micheee
+Level: easy
