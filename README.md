@@ -6,10 +6,12 @@ database for the Open Philanthropy Calibration app.
 ## Overview of the database
 
 The calibration app is implemented as a CouchDB database, which stores
-JSON documents. The CouchDB database is hosted on Cloudant, a CouchDB
-service provider, at this URL:
+JSON documents. The CouchDB database is hosted on Cloudant (owned by IBM), a CouchDB
+service provider. For account holders, the database can be accessed by logging in at:
 
-https://openphil.cloudant.com/dashboard.html
+https://console.bluemix.net
+
+then choosing "Cloud Foundry", then "Public", then "calibration-app" and finally "Launch". 
 
 Each question set is a separate database, all within the same account.
 Each question set database holds both the questions it pulls from in order
